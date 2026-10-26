@@ -3,13 +3,13 @@
   "source": "https://www.whimsytech.net",
   "requested": [
     "T15 Flat Head Screws",
-    "T15 Flat Head Screws, 0.04” Shoulder",
-    "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
+    "T15 Flat Head Screws, 0.04\u201d Shoulder",
+    "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 001",
     "Aluminum Standoffs",
     "Colored Spacers",
-    "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
-    "T15 Nylon Flat Head Screws, 0.04” Shoulder",
-    "T15 Flat Head Screws, 0.09” Shoulder",
+    "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 002",
+    "T15 Nylon Flat Head Screws, 0.04\u201d Shoulder",
+    "T15 Flat Head Screws, 0.09\u201d Shoulder",
     "White Nylon Washers & Spacers",
     "Black Nylon Hex Standoffs",
     "Pneumatic 4mm Quick Connect T-Fittings",
@@ -270,7 +270,7 @@
     },
     {
       "id": "9086560895235",
-      "title": "T15 Flat Head Screws, 0.04” Shoulder",
+      "title": "T15 Flat Head Screws, 0.04\u201d Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder",
       "category": "Screws",
       "images": [
@@ -517,7 +517,7 @@
     },
     {
       "id": "9205080260867",
-      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
+      "title": "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 001",
       "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts",
       "category": "Nuts",
       "images": [
@@ -693,10 +693,10 @@
             "2.000\"",
             "2.250\"",
             "2.500\"",
-            "3.000”",
-            "4.000”",
-            "5.000”",
-            "6.000”"
+            "3.000\u201d",
+            "4.000\u201d",
+            "5.000\u201d",
+            "6.000\u201d"
           ]
         }
       ],
@@ -799,49 +799,49 @@
         },
         {
           "id": "48328447197443",
-          "title": "Black / 3.000”",
+          "title": "Black / 3.000\u201d",
           "sku": "SFH-BLA0832-03-000-010",
           "price": 13.99,
           "available": true,
           "options": [
             "Black",
-            "3.000”"
+            "3.000\u201d"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447230211",
-          "title": "Black / 4.000”",
+          "title": "Black / 4.000\u201d",
           "sku": "SFH-BLA0832-04-000-010",
           "price": 14.99,
           "available": true,
           "options": [
             "Black",
-            "4.000”"
+            "4.000\u201d"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447262979",
-          "title": "Black / 5.000”",
+          "title": "Black / 5.000\u201d",
           "sku": "SFH-BLA0832-05-000-010",
           "price": 18.99,
           "available": true,
           "options": [
             "Black",
-            "5.000”"
+            "5.000\u201d"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447295747",
-          "title": "Black / 6.000”",
+          "title": "Black / 6.000\u201d",
           "sku": "SFH-BLA0832-06-000-010",
           "price": 19.99,
           "available": true,
           "options": [
             "Black",
-            "6.000”"
+            "6.000\u201d"
           ],
           "image": "/images/9073958322435-0.png"
         }
@@ -2113,7 +2113,7 @@
     },
     {
       "id": "9458952241411",
-      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
+      "title": "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 002",
       "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts-v2",
       "category": "Nuts",
       "images": [
@@ -2367,9 +2367,9 @@
             "0.500\" / 100pcs",
             "1.125\" / 50pcs",
             "1.250\" / 50pcs",
-            "1.375” / 50pcs",
-            "1.500” / 50pcs",
-            "1.625” / 50pcs"
+            "1.375\u201d / 50pcs",
+            "1.500\u201d / 50pcs",
+            "1.625\u201d / 50pcs"
           ]
         }
       ],
@@ -2424,37 +2424,37 @@
         },
         {
           "id": "47824455041283",
-          "title": "Stainless steel / 1.375” / 50pcs",
+          "title": "Stainless steel / 1.375\u201d / 50pcs",
           "sku": "SXRL-0832-0001-375-050",
           "price": 6.49,
           "available": true,
           "options": [
             "Stainless steel",
-            "1.375” / 50pcs"
+            "1.375\u201d / 50pcs"
           ],
           "image": "/images/9086853153027-0.png"
         },
         {
           "id": "47824455074051",
-          "title": "Stainless steel / 1.500” / 50pcs",
+          "title": "Stainless steel / 1.500\u201d / 50pcs",
           "sku": "SXRL-0832-0001-500-050",
           "price": 6.49,
           "available": true,
           "options": [
             "Stainless steel",
-            "1.500” / 50pcs"
+            "1.500\u201d / 50pcs"
           ],
           "image": "/images/9086853153027-0.png"
         },
         {
           "id": "47824455106819",
-          "title": "Stainless steel / 1.625” / 50pcs",
+          "title": "Stainless steel / 1.625\u201d / 50pcs",
           "sku": "SXRL-0832-0001-625-050",
           "price": 6.49,
           "available": true,
           "options": [
             "Stainless steel",
-            "1.625” / 50pcs"
+            "1.625\u201d / 50pcs"
           ],
           "image": "/images/9086853153027-0.png"
         }
@@ -2462,7 +2462,7 @@
     },
     {
       "id": "9086852759811",
-      "title": "T15 Flat Head Screws, 0.04” Shoulder, Locking",
+      "title": "T15 Flat Head Screws, 0.04\u201d Shoulder, Locking",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder-locking",
       "category": "Screws",
       "images": [
@@ -2538,7 +2538,7 @@
     },
     {
       "id": "9086852464899",
-      "title": "T15 Flat Head Screws, 0.09” Shoulder",
+      "title": "T15 Flat Head Screws, 0.09\u201d Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder",
       "category": "Screws",
       "images": [
@@ -2565,7 +2565,7 @@
           "position": 3,
           "values": [
             "0.290\" / 100pcs",
-            "0.375” / 100pcs",
+            "0.375\u201d / 100pcs",
             "0.500\" / 100pcs",
             "1.000\" / 50pcs",
             "2.000\" / 50pcs",
@@ -2589,14 +2589,14 @@
         },
         {
           "id": "48490095116547",
-          "title": "Stainless steel / 100 / 0.375” / 100pcs",
+          "title": "Stainless steel / 100 / 0.375\u201d / 100pcs",
           "sku": "SXRS-0832-0900-375-100",
           "price": 8.99,
           "available": true,
           "options": [
             "Stainless steel",
             "100",
-            "0.375” / 100pcs"
+            "0.375\u201d / 100pcs"
           ],
           "image": "/images/9086852464899-0.png"
         },
@@ -2678,7 +2678,7 @@
             "0.125\"",
             "0.250\"",
             "0.375\"",
-            "0.500” (actual 0.540”)"
+            "0.500\u201d (actual 0.540\u201d)"
           ]
         }
       ],
@@ -2729,12 +2729,12 @@
         },
         {
           "id": "47327310020867",
-          "title": "0.500” (actual 0.540”)",
+          "title": "0.500\u201d (actual 0.540\u201d)",
           "sku": "SPR-HS-BLA0700-00-5000-050",
           "price": 11.99,
           "available": true,
           "options": [
-            "0.500” (actual 0.540”)"
+            "0.500\u201d (actual 0.540\u201d)"
           ],
           "image": "/images/9135983624451-0.png"
         }
@@ -2848,7 +2848,7 @@
     },
     {
       "id": "9086853710083",
-      "title": "T15 Flat Head Screws, 0.09” Shoulder, Locking",
+      "title": "T15 Flat Head Screws, 0.09\u201d Shoulder, Locking",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder-locking",
       "category": "Screws",
       "images": [
@@ -3390,7 +3390,7 @@
     },
     {
       "id": "9429667709187",
-      "title": "T15 Steel Flat Head Screws, 0.04”",
+      "title": "T15 Steel Flat Head Screws, 0.04\u201d",
       "url": "https://www.whimsytech.net/products/t15-steel-flat-head-screws-0-04",
       "category": "Screws",
       "images": [
@@ -3518,7 +3518,7 @@
     },
     {
       "id": "9536053903619",
-      "title": "T15 Flat Head Screws, 0.18” Shoulder",
+      "title": "T15 Flat Head Screws, 0.18\u201d Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-18-shoulder",
       "category": "Screws",
       "images": [],
@@ -3541,21 +3541,21 @@
           "name": "Length",
           "position": 3,
           "values": [
-            "0.375” / 100pcs"
+            "0.375\u201d / 100pcs"
           ]
         }
       ],
       "variants": [
         {
           "id": "49248192659715",
-          "title": "Stainless steel / 100 / 0.375” / 100pcs",
+          "title": "Stainless steel / 100 / 0.375\u201d / 100pcs",
           "sku": "SXRS-0832-0900-375-100",
           "price": 8.99,
           "available": true,
           "options": [
             "Stainless steel",
             "100",
-            "0.375” / 100pcs"
+            "0.375\u201d / 100pcs"
           ],
           "image": null
         }
@@ -3675,6 +3675,1046 @@
           "image": null
         }
       ]
+    },
+    {
+      "id": "robo-251",
+      "title": "Thin Nylock Nuts, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/nuts/251-thin-nylock-nuts",
+      "supplier": "Robosource",
+      "category": "Nuts",
+      "images": [
+        "/images/robo-251.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-251",
+          "title": "Thin Nylock Nuts, 100 Pack",
+          "sku": "32-02",
+          "price": 4.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-251.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-488",
+      "title": "Color Coded Shoulder Screws 1,100 Piece Variety Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/488-color-coded-shoulder-screws-1100-piece-variety-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-488.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-488",
+          "title": "Color Coded Shoulder Screws 1,100 Piece Variety Pack",
+          "sku": "33-80",
+          "price": 99.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-488.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-489",
+      "title": "Color Coded Shoulder Screws, 0.290\" with 0.09\" Shoulder, 100 Pack, Yellow",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/489-color-coded-shoulder-screws-0290-with-009-shoulder-100-pack-yellow",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-489.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-489",
+          "title": "Color Coded Shoulder Screws, 0.290\" with 0.09\" Shoulder, 100 Pack, Yellow",
+          "sku": "33-81",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Yellow"
+          ],
+          "image": "/images/robo-489.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-490",
+      "title": "Color Coded Shoulder Screws, 0.375\" with 0.12\" Shoulder, 100 Pack, Orange",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/490-color-coded-shoulder-screws-0375-with-012-shoulder-100-pack-orange",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-490.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-490",
+          "title": "Color Coded Shoulder Screws, 0.375\" with 0.12\" Shoulder, 100 Pack, Orange",
+          "sku": "33-82",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Orange"
+          ],
+          "image": "/images/robo-490.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-491",
+      "title": "Color Coded Shoulder Screws, 0.500\" with 0.04\" Shoulder, 100 Pack, Red",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/491-color-coded-shoulder-screws-0500-with-004-shoulder-100-pack-red",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-491.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-491",
+          "title": "Color Coded Shoulder Screws, 0.500\" with 0.04\" Shoulder, 100 Pack, Red",
+          "sku": "33-83",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Red"
+          ],
+          "image": "/images/robo-491.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-492",
+      "title": "Color Coded Shoulder Screws, 0.500\" with 0.18\" Shoulder, 100 Pack, Red",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/492-color-coded-shoulder-screws-0500-with-018-shoulder-100-pack-red",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-492.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-492",
+          "title": "Color Coded Shoulder Screws, 0.500\" with 0.18\" Shoulder, 100 Pack, Red",
+          "sku": "33-84",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Red"
+          ],
+          "image": "/images/robo-492.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-493",
+      "title": "Color Coded Shoulder Screws, 1.00\" with 0.12\" Shoulder, 100 Pack, Dark Blue",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/493-color-coded-shoulder-screws-100-with-012-shoulder-100-pack-dark-blue",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-493.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-493",
+          "title": "Color Coded Shoulder Screws, 1.00\" with 0.12\" Shoulder, 100 Pack, Dark Blue",
+          "sku": "33-85",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Dark Blue"
+          ],
+          "image": "/images/robo-493.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-494",
+      "title": "Color Coded Shoulder Screws, 1.50\" with 0.18\" Shoulder, 100 Pack, Purple",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/494-color-coded-shoulder-screws-150-with-018-shoulder-100-pack-purple",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-494.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-494",
+          "title": "Color Coded Shoulder Screws, 1.50\" with 0.18\" Shoulder, 100 Pack, Purple",
+          "sku": "33-86",
+          "price": 14.99,
+          "available": true,
+          "options": [
+            "Purple"
+          ],
+          "image": "/images/robo-494.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-495",
+      "title": "Color Coded Shoulder Screws, 2.00\" with 0.04\" Shoulder, 100 Pack, Black",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/495-color-coded-shoulder-screws-200-with-004-shoulder-100-pack-black",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-495.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-495",
+          "title": "Color Coded Shoulder Screws, 2.00\" with 0.04\" Shoulder, 100 Pack, Black",
+          "sku": "33-87",
+          "price": 17.99,
+          "available": true,
+          "options": [
+            "Black"
+          ],
+          "image": "/images/robo-495.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-716",
+      "title": "Color Coded Shoulder Screws, 2.50\" with 0.04\" Shoulder, 100 Pack, Brown",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/color-coded-shoulder-screws/716-color-coded-shoulder-screws-250-with-004-shoulder-100-pack-brown",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-716.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-716",
+          "title": "Color Coded Shoulder Screws, 2.50\" with 0.04\" Shoulder, 100 Pack, Brown",
+          "sku": "33-88",
+          "price": 19.99,
+          "available": true,
+          "options": [
+            "Brown"
+          ],
+          "image": "/images/robo-716.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-479",
+      "title": "Shoulder Screws 1,100 Piece Variety Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/479-shoulder-screws-1100-piece-variety-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-479.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-479",
+          "title": "Shoulder Screws 1,100 Piece Variety Pack",
+          "sku": "33-70",
+          "price": 79.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-479.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-481",
+      "title": "Shoulder Screws, 0.290\" with 0.09\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/481-shoulder-screws-0290-with-009-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-481.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-481",
+          "title": "Shoulder Screws, 0.290\" with 0.09\" Shoulder, 100 Pack",
+          "sku": "33-71",
+          "price": 6.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-481.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-482",
+      "title": "Shoulder Screws, 0.375\" with 0.12\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/482-shoulder-screws-0375-with-012-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-482.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-482",
+          "title": "Shoulder Screws, 0.375\" with 0.12\" Shoulder, 100 Pack",
+          "sku": "33-72",
+          "price": 6.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-482.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-483",
+      "title": "Shoulder Screws, 0.500\" with 0.04\" Shoulder, V5 Motors, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/483-shoulder-screws-0500-with-004-shoulder-v5-motors-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-483.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-483",
+          "title": "Shoulder Screws, 0.500\" with 0.04\" Shoulder, V5 Motors, 100 Pack",
+          "sku": "33-73",
+          "price": 7.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-483.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-484",
+      "title": "Shoulder Screws, 0.500\" with 0.18\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/484-shoulder-screws-0500-with-018-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-484.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-484",
+          "title": "Shoulder Screws, 0.500\" with 0.18\" Shoulder, 100 Pack",
+          "sku": "33-74",
+          "price": 7.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-484.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-485",
+      "title": "Shoulder Screws, 1.00\" with 0.12\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/485-shoulder-screws-1000-with-012-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-485.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-485",
+          "title": "Shoulder Screws, 1.00\" with 0.12\" Shoulder, 100 Pack",
+          "sku": "33-75",
+          "price": 9.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-485.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-486",
+      "title": "Shoulder Screws, 1.50\" with 0.18\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/486-shoulder-screws-1500-with-018-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-486.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-486",
+          "title": "Shoulder Screws, 1.50\" with 0.18\" Shoulder, 100 Pack",
+          "sku": "33-76",
+          "price": 11.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-486.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-487",
+      "title": "Shoulder Screws, 2.00\" with 0.04\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/487-shoulder-screws-2000-with-004-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-487.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-487",
+          "title": "Shoulder Screws, 2.00\" with 0.04\" Shoulder, 100 Pack",
+          "sku": "33-77",
+          "price": 13.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-487.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-715",
+      "title": "Shoulder Screws, 2.50\" with 0.04\" Shoulder, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/shoulder-screws-steel/shoulder-screws/715-shoulder-screws-2500-with-004-shoulder-100-pack",
+      "supplier": "Robosource",
+      "category": "Shoulder screws",
+      "images": [
+        "/images/robo-715.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-715",
+          "title": "Shoulder Screws, 2.50\" with 0.04\" Shoulder, 100 Pack",
+          "sku": "33-78",
+          "price": 15.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-715.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-414",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.290\", 100 pack, Yellow",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/414-color-coded-star-drive-screws-0290",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-414.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-414",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.290\", 100 pack, Yellow",
+          "sku": "33-31",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Yellow"
+          ],
+          "image": "/images/robo-414.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-415",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.375\", 100 pack, Orange",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/415-color-coded-star-drive-screws-0375",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-415.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-415",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.375\", 100 pack, Orange",
+          "sku": "33-32",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Orange"
+          ],
+          "image": "/images/robo-415.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-416",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.500\", 100 pack, Red",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/416-color-coded-star-drive-screws-0500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-416.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-416",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.500\", 100 pack, Red",
+          "sku": "33-33",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Red"
+          ],
+          "image": "/images/robo-416.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-417",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.625\", 100 pack, Light Green",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/417-color-coded-star-drive-screws-0625",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-417.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-417",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.625\", 100 pack, Light Green",
+          "sku": "33-34",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Light Green"
+          ],
+          "image": "/images/robo-417.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-418",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.750\", 100 pack, Dark Green",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/418-color-coded-star-drive-screws-0750",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-418.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-418",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.750\", 100 pack, Dark Green",
+          "sku": "33-35",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Dark Green"
+          ],
+          "image": "/images/robo-418.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-419",
+      "title": "Color Coded Star Drive Screws, 8-32 x 0.875\", 100 pack, Light Blue",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/419-color-coded-star-drive-screws-0875",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-419.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-419",
+          "title": "Color Coded Star Drive Screws, 8-32 x 0.875\", 100 pack, Light Blue",
+          "sku": "33-36",
+          "price": 10.99,
+          "available": true,
+          "options": [
+            "Light Blue"
+          ],
+          "image": "/images/robo-419.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-420",
+      "title": "Color Coded Star Drive Screws, 8-32 x 1.000\", 100 pack, Dark Blue",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/420-color-coded-star-drive-screws-1000",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-420.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-420",
+          "title": "Color Coded Star Drive Screws, 8-32 x 1.000\", 100 pack, Dark Blue",
+          "sku": "33-37",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Dark Blue"
+          ],
+          "image": "/images/robo-420.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-421",
+      "title": "Color Coded Star Drive Screws, 8-32 x 1.500\", 100 pack, Purple",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/421-color-coded-star-drive-screws-1500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-421.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-421",
+          "title": "Color Coded Star Drive Screws, 8-32 x 1.500\", 100 pack, Purple",
+          "sku": "33-39",
+          "price": 13.99,
+          "available": true,
+          "options": [
+            "Purple"
+          ],
+          "image": "/images/robo-421.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-422",
+      "title": "Color Coded Star Drive Screws, 8-32 x 2.000\", 100 pack, Black",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/422-color-coded-star-drive-screws-2000",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-422.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-422",
+          "title": "Color Coded Star Drive Screws, 8-32 x 2.000\", 100 pack, Black",
+          "sku": "33-41",
+          "price": 15.99,
+          "available": true,
+          "options": [
+            "Black"
+          ],
+          "image": "/images/robo-422.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-423",
+      "title": "Color Coded Star Drive Screws 2,200 Piece Variety Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/423-color-coded-star-drive-screws-variety-pack",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-423.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-423",
+          "title": "Color Coded Star Drive Screws 2,200 Piece Variety Pack",
+          "sku": "33-30",
+          "price": 187.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-423.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-477",
+      "title": "Color Coded Star Drive Screws, 8-32 x 1.250\", 100 pack, Pink",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/477-color-coded-star-drive-screws-1250",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-477.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-477",
+          "title": "Color Coded Star Drive Screws, 8-32 x 1.250\", 100 pack, Pink",
+          "sku": "33-38",
+          "price": 12.99,
+          "available": true,
+          "options": [
+            "Pink"
+          ],
+          "image": "/images/robo-477.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-478",
+      "title": "Color Coded Star Drive Screws, 8-32 x 1.750\", 100 pack, White",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/478-color-coded-star-drive-screws-1750",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-478.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-478",
+          "title": "Color Coded Star Drive Screws, 8-32 x 1.750\", 100 pack, White",
+          "sku": "33-40",
+          "price": 14.99,
+          "available": true,
+          "options": [
+            "White"
+          ],
+          "image": "/images/robo-478.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-550",
+      "title": "Color Coded Star Drive Screws, 8-32 x 2.250\", 100 pack, Beige",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/550-color-coded-star-drive-screws-2250",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-550.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-550",
+          "title": "Color Coded Star Drive Screws, 8-32 x 2.250\", 100 pack, Beige",
+          "sku": "33-42",
+          "price": 17.99,
+          "available": true,
+          "options": [
+            "Beige"
+          ],
+          "image": "/images/robo-550.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-551",
+      "title": "Color Coded Star Drive Screws, 8-32 x 2.500\", 100 pack, Brown",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/color-coded-star-drive-screws/551-color-coded-star-drive-screws-2500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-551.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-551",
+          "title": "Color Coded Star Drive Screws, 8-32 x 2.500\", 100 pack, Brown",
+          "sku": "33-43",
+          "price": 18.99,
+          "available": true,
+          "options": [
+            "Brown"
+          ],
+          "image": "/images/robo-551.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-403",
+      "title": "Star Drive Screws, 8-32 x 0.290\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/403-star-drive-screws-0290",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-403.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-403",
+          "title": "Star Drive Screws, 8-32 x 0.290\", 100 pack",
+          "sku": "33-11",
+          "price": 5.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-403.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-404",
+      "title": "Star Drive Screws, 8-32 x 0.375\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/404-star-drive-screws-0375",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-404.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-404",
+          "title": "Star Drive Screws, 8-32 x 0.375\", 100 pack",
+          "sku": "33-12",
+          "price": 5.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-404.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-405",
+      "title": "Star Drive Screws, 8-32 x 0.500\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/405-star-drive-screws-0500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-405.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-405",
+          "title": "Star Drive Screws, 8-32 x 0.500\", 100 pack",
+          "sku": "33-13",
+          "price": 5.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-405.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-406",
+      "title": "Star Drive Screws, 8-32 x 0.625\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/406-star-drive-screws-0625",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-406.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-406",
+          "title": "Star Drive Screws, 8-32 x 0.625\", 100 pack",
+          "sku": "33-14",
+          "price": 6.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-406.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-407",
+      "title": "Star Drive Screws, 8-32 x 0.750\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/407-star-drive-screws-0750",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-407.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-407",
+          "title": "Star Drive Screws, 8-32 x 0.750\", 100 pack",
+          "sku": "33-15",
+          "price": 6.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-407.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-408",
+      "title": "Star Drive Screws, 8-32 x 0.875\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/408-star-drive-screws-0875",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-408.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-408",
+          "title": "Star Drive Screws, 8-32 x 0.875\", 100 pack",
+          "sku": "33-16",
+          "price": 7.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-408.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-409",
+      "title": "Star Drive Screws, 8-32 x 1.000\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/409-star-drive-screws-1000",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-409.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-409",
+          "title": "Star Drive Screws, 8-32 x 1.000\", 100 pack",
+          "sku": "33-17",
+          "price": 8.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-409.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-410",
+      "title": "Star Drive Screws, 8-32 x 1.500\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/410-star-drive-screws-1500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-410.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-410",
+          "title": "Star Drive Screws, 8-32 x 1.500\", 100 pack",
+          "sku": "33-19",
+          "price": 10.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-410.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-412",
+      "title": "Star Drive Screws, 8-32 x 2.000\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/412-star-drive-screws-2000",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-412.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-412",
+          "title": "Star Drive Screws, 8-32 x 2.000\", 100 pack",
+          "sku": "33-21",
+          "price": 12.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-412.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-413",
+      "title": "Star Drive Screws 2,200 Piece Variety Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/413-star-drive-screws-variety-pack",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-413.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-413",
+          "title": "Star Drive Screws 2,200 Piece Variety Pack",
+          "sku": "33-10",
+          "price": 149.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-413.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-475",
+      "title": "Star Drive Screws, 8-32 x 1.250\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/475-star-drive-screws-1250",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-475.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-475",
+          "title": "Star Drive Screws, 8-32 x 1.250\", 100 pack",
+          "sku": "33-18",
+          "price": 9.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-475.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-476",
+      "title": "Star Drive Screws, 8-32 x 1.750\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/476-star-drive-screws-1750",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-476.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-476",
+          "title": "Star Drive Screws, 8-32 x 1.750\", 100 pack",
+          "sku": "33-20",
+          "price": 11.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-476.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-548",
+      "title": "Star Drive Screws, 8-32 x 2.250\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/548-star-drive-screws-2250",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-548.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-548",
+          "title": "Star Drive Screws, 8-32 x 2.250\", 100 pack",
+          "sku": "33-22",
+          "price": 13.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-548.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robo-549",
+      "title": "Star Drive Screws, 8-32 x 2.500\", 100 pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/star-drive-screws-steel/star-drive-screws/549-star-drive-screws-2500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/robo-549.jpg"
+      ],
+      "variants": [
+        {
+          "id": "robo-549",
+          "title": "Star Drive Screws, 8-32 x 2.500\", 100 pack",
+          "sku": "33-23",
+          "price": 14.99,
+          "available": true,
+          "options": [],
+          "image": "/images/robo-549.jpg"
+        }
+      ]
     }
-  ]
+  ],
+  "robosourceUpdatedAt": "2026-10-26T18:05:57Z",
+  "robosourceCoverage": {
+    "star-drive-screws-steel": {
+      "pages": 3,
+      "products": 46
+    },
+    "shoulder-screws-steel": {
+      "pages": 1,
+      "products": 18
+    }
+  }
 }
