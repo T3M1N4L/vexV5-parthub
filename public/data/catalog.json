@@ -3,13 +3,13 @@
   "source": "https://www.whimsytech.net",
   "requested": [
     "T15 Flat Head Screws",
-    "T15 Flat Head Screws, 0.04\u201d Shoulder",
-    "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 001",
+    "T15 Flat Head Screws, 0.04” Shoulder",
+    "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
     "Aluminum Standoffs",
     "Colored Spacers",
-    "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 002",
-    "T15 Nylon Flat Head Screws, 0.04\u201d Shoulder",
-    "T15 Flat Head Screws, 0.09\u201d Shoulder",
+    "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
+    "T15 Nylon Flat Head Screws, 0.04” Shoulder",
+    "T15 Flat Head Screws, 0.09” Shoulder",
     "White Nylon Washers & Spacers",
     "Black Nylon Hex Standoffs",
     "Pneumatic 4mm Quick Connect T-Fittings",
@@ -270,7 +270,7 @@
     },
     {
       "id": "9086560895235",
-      "title": "T15 Flat Head Screws, 0.04\u201d Shoulder",
+      "title": "T15 Flat Head Screws, 0.04” Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder",
       "category": "Screws",
       "images": [
@@ -517,14 +517,14 @@
     },
     {
       "id": "9205080260867",
-      "title": "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 001",
+      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
       "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts",
       "category": "Nuts",
       "images": [
         "/images/9205080260867-0.png",
         "/images/9205080260867-1.png",
         "/images/9205080260867-2.png",
-        "/images/9205080260867-3.jpg",
+        "/images/transparent/9205080260867-3.png",
         "/images/9205080260867-4.png",
         "/images/9205080260867-5.png",
         "/images/9205080260867-6.png",
@@ -693,10 +693,10 @@
             "2.000\"",
             "2.250\"",
             "2.500\"",
-            "3.000\u201d",
-            "4.000\u201d",
-            "5.000\u201d",
-            "6.000\u201d"
+            "3.000”",
+            "4.000”",
+            "5.000”",
+            "6.000”"
           ]
         }
       ],
@@ -799,49 +799,49 @@
         },
         {
           "id": "48328447197443",
-          "title": "Black / 3.000\u201d",
+          "title": "Black / 3.000”",
           "sku": "SFH-BLA0832-03-000-010",
           "price": 13.99,
           "available": true,
           "options": [
             "Black",
-            "3.000\u201d"
+            "3.000”"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447230211",
-          "title": "Black / 4.000\u201d",
+          "title": "Black / 4.000”",
           "sku": "SFH-BLA0832-04-000-010",
           "price": 14.99,
           "available": true,
           "options": [
             "Black",
-            "4.000\u201d"
+            "4.000”"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447262979",
-          "title": "Black / 5.000\u201d",
+          "title": "Black / 5.000”",
           "sku": "SFH-BLA0832-05-000-010",
           "price": 18.99,
           "available": true,
           "options": [
             "Black",
-            "5.000\u201d"
+            "5.000”"
           ],
           "image": "/images/9073958322435-0.png"
         },
         {
           "id": "48328447295747",
-          "title": "Black / 6.000\u201d",
+          "title": "Black / 6.000”",
           "sku": "SFH-BLA0832-06-000-010",
           "price": 19.99,
           "available": true,
           "options": [
             "Black",
-            "6.000\u201d"
+            "6.000”"
           ],
           "image": "/images/9073958322435-0.png"
         }
@@ -853,12 +853,12 @@
       "url": "https://www.whimsytech.net/products/t15-aluminum-flat-head-screws-0-04-shoulder",
       "category": "Screws",
       "images": [
-        "/images/9153164771587-0.jpg",
+        "/images/transparent/9153164771587-0.png",
         "/images/9153164771587-1.png",
-        "/images/9153164771587-2.jpg",
-        "/images/9153164771587-3.jpg",
-        "/images/9153164771587-4.jpg",
-        "/images/9153164771587-5.jpg"
+        "/images/transparent/9153164771587-2.png",
+        "/images/transparent/9153164771587-3.png",
+        "/images/transparent/9153164771587-4.png",
+        "/images/transparent/9153164771587-5.png"
       ],
       "options": [
         {
@@ -903,7 +903,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-0.jpg"
+          "image": "/images/transparent/9153164771587-0.png"
         },
         {
           "id": "47375544910083",
@@ -916,7 +916,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-0.jpg"
+          "image": "/images/transparent/9153164771587-0.png"
         },
         {
           "id": "48203222876419",
@@ -929,7 +929,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-4.jpg"
+          "image": "/images/transparent/9153164771587-4.png"
         },
         {
           "id": "47886768832771",
@@ -968,7 +968,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-2.jpg"
+          "image": "/images/transparent/9153164771587-2.png"
         },
         {
           "id": "47375544877315",
@@ -981,7 +981,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-0.jpg"
+          "image": "/images/transparent/9153164771587-0.png"
         },
         {
           "id": "48203222843651",
@@ -994,7 +994,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-3.jpg"
+          "image": "/images/transparent/9153164771587-3.png"
         },
         {
           "id": "48203222778115",
@@ -1007,7 +1007,7 @@
             "0.500\"",
             "50"
           ],
-          "image": "/images/9153164771587-5.jpg"
+          "image": "/images/transparent/9153164771587-5.png"
         }
       ]
     },
@@ -2113,14 +2113,14 @@
     },
     {
       "id": "9458952241411",
-      "title": "1/4\u201d Aluminum Anodized Nylock Nuts Rev. 002",
+      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
       "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts-v2",
       "category": "Nuts",
       "images": [
         "/images/9458952241411-0.png",
         "/images/9458952241411-1.png",
         "/images/9458952241411-2.png",
-        "/images/9458952241411-3.jpg",
+        "/images/transparent/9458952241411-3.png",
         "/images/9458952241411-4.png",
         "/images/9458952241411-5.png",
         "/images/9458952241411-6.png",
@@ -2344,201 +2344,8 @@
       ]
     },
     {
-      "id": "9086853153027",
-      "title": "T15 Flat Head Screws, Locking",
-      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-locking",
-      "category": "Screws",
-      "images": [
-        "/images/9086853153027-0.png"
-      ],
-      "options": [
-        {
-          "name": "Hardware material",
-          "position": 1,
-          "values": [
-            "Stainless steel"
-          ]
-        },
-        {
-          "name": "Length",
-          "position": 2,
-          "values": [
-            "0.290\" / 100pcs",
-            "0.500\" / 100pcs",
-            "1.125\" / 50pcs",
-            "1.250\" / 50pcs",
-            "1.375\u201d / 50pcs",
-            "1.500\u201d / 50pcs",
-            "1.625\u201d / 50pcs"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": "47173749866755",
-          "title": "Stainless steel / 0.290\" / 100pcs",
-          "sku": "SXRL-0832-0000-290-100",
-          "price": 6.49,
-          "available": false,
-          "options": [
-            "Stainless steel",
-            "0.290\" / 100pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47533281247491",
-          "title": "Stainless steel / 0.500\" / 100pcs",
-          "sku": "SXRL-0832-0000-500-100",
-          "price": 7.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "0.500\" / 100pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47173750096131",
-          "title": "Stainless steel / 1.125\" / 50pcs",
-          "sku": "SXRL-0832-0001-125-050",
-          "price": 5.99,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "1.125\" / 50pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47173750128899",
-          "title": "Stainless steel / 1.250\" / 50pcs",
-          "sku": "SXRL-0832-0001-250-050",
-          "price": 5.99,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "1.250\" / 50pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47824455041283",
-          "title": "Stainless steel / 1.375\u201d / 50pcs",
-          "sku": "SXRL-0832-0001-375-050",
-          "price": 6.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "1.375\u201d / 50pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47824455074051",
-          "title": "Stainless steel / 1.500\u201d / 50pcs",
-          "sku": "SXRL-0832-0001-500-050",
-          "price": 6.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "1.500\u201d / 50pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        },
-        {
-          "id": "47824455106819",
-          "title": "Stainless steel / 1.625\u201d / 50pcs",
-          "sku": "SXRL-0832-0001-625-050",
-          "price": 6.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "1.625\u201d / 50pcs"
-          ],
-          "image": "/images/9086853153027-0.png"
-        }
-      ]
-    },
-    {
-      "id": "9086852759811",
-      "title": "T15 Flat Head Screws, 0.04\u201d Shoulder, Locking",
-      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder-locking",
-      "category": "Screws",
-      "images": [
-        "/images/9086852759811-0.png",
-        "/images/9086852759811-1.png"
-      ],
-      "options": [
-        {
-          "name": "Hardware material",
-          "position": 1,
-          "values": [
-            "Stainless steel"
-          ]
-        },
-        {
-          "name": "Count",
-          "position": 2,
-          "values": [
-            "100"
-          ]
-        },
-        {
-          "name": "Length",
-          "position": 3,
-          "values": [
-            "0.290\"",
-            "0.375\"",
-            "0.500\""
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": "47173749309699",
-          "title": "Stainless steel / 100 / 0.290\"",
-          "sku": "SXRL-0832-0400-290-100",
-          "price": 8.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "100",
-            "0.290\""
-          ],
-          "image": "/images/9086852759811-0.png"
-        },
-        {
-          "id": "47173749342467",
-          "title": "Stainless steel / 100 / 0.375\"",
-          "sku": "SXRL-0832-0400-375-100",
-          "price": 9.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "100",
-            "0.375\""
-          ],
-          "image": "/images/9086852759811-0.png"
-        },
-        {
-          "id": "47173749375235",
-          "title": "Stainless steel / 100 / 0.500\"",
-          "sku": "SXRL-0832-0400-500-100",
-          "price": 9.49,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "100",
-            "0.500\""
-          ],
-          "image": "/images/9086852759811-0.png"
-        }
-      ]
-    },
-    {
       "id": "9086852464899",
-      "title": "T15 Flat Head Screws, 0.09\u201d Shoulder",
+      "title": "T15 Flat Head Screws, 0.09” Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder",
       "category": "Screws",
       "images": [
@@ -2565,7 +2372,7 @@
           "position": 3,
           "values": [
             "0.290\" / 100pcs",
-            "0.375\u201d / 100pcs",
+            "0.375” / 100pcs",
             "0.500\" / 100pcs",
             "1.000\" / 50pcs",
             "2.000\" / 50pcs",
@@ -2589,14 +2396,14 @@
         },
         {
           "id": "48490095116547",
-          "title": "Stainless steel / 100 / 0.375\u201d / 100pcs",
+          "title": "Stainless steel / 100 / 0.375” / 100pcs",
           "sku": "SXRS-0832-0900-375-100",
           "price": 8.99,
           "available": true,
           "options": [
             "Stainless steel",
             "100",
-            "0.375\u201d / 100pcs"
+            "0.375” / 100pcs"
           ],
           "image": "/images/9086852464899-0.png"
         },
@@ -2678,7 +2485,7 @@
             "0.125\"",
             "0.250\"",
             "0.375\"",
-            "0.500\u201d (actual 0.540\u201d)"
+            "0.500” (actual 0.540”)"
           ]
         }
       ],
@@ -2729,12 +2536,12 @@
         },
         {
           "id": "47327310020867",
-          "title": "0.500\u201d (actual 0.540\u201d)",
+          "title": "0.500” (actual 0.540”)",
           "sku": "SPR-HS-BLA0700-00-5000-050",
           "price": 11.99,
           "available": true,
           "options": [
-            "0.500\u201d (actual 0.540\u201d)"
+            "0.500” (actual 0.540”)"
           ],
           "image": "/images/9135983624451-0.png"
         }
@@ -2843,59 +2650,6 @@
             "1.00\""
           ],
           "image": "/images/9353827254531-0.png"
-        }
-      ]
-    },
-    {
-      "id": "9086853710083",
-      "title": "T15 Flat Head Screws, 0.09\u201d Shoulder, Locking",
-      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder-locking",
-      "category": "Screws",
-      "images": [
-        "/images/9086853710083-0.png",
-        "/images/9086853710083-1.png"
-      ],
-      "options": [
-        {
-          "name": "Hardware material",
-          "position": 1,
-          "values": [
-            "Stainless steel"
-          ]
-        },
-        {
-          "name": "Length",
-          "position": 2,
-          "values": [
-            "0.290\" / 100pcs",
-            "0.500\" / 100pcs"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": "47533274071299",
-          "title": "Stainless steel / 0.290\" / 100pcs",
-          "sku": "SXRS-0832-0900-290-100",
-          "price": 7.99,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "0.290\" / 100pcs"
-          ],
-          "image": "/images/9086853710083-0.png"
-        },
-        {
-          "id": "47173750653187",
-          "title": "Stainless steel / 0.500\" / 100pcs",
-          "sku": "SXRL-0832-0900-500-100",
-          "price": 8.99,
-          "available": true,
-          "options": [
-            "Stainless steel",
-            "0.500\" / 100pcs"
-          ],
-          "image": "/images/9086853710083-0.png"
         }
       ]
     },
@@ -3390,12 +3144,12 @@
     },
     {
       "id": "9429667709187",
-      "title": "T15 Steel Flat Head Screws, 0.04\u201d",
+      "title": "T15 Steel Flat Head Screws, 0.04”",
       "url": "https://www.whimsytech.net/products/t15-steel-flat-head-screws-0-04",
       "category": "Screws",
       "images": [
-        "/images/9429667709187-0.jpg",
-        "/images/9429667709187-1.jpg"
+        "/images/transparent/9429667709187-0.png",
+        "/images/transparent/9429667709187-1.png"
       ],
       "options": [
         {
@@ -3425,7 +3179,7 @@
             "Steel",
             "2.250\" / 50pcs"
           ],
-          "image": "/images/9429667709187-0.jpg"
+          "image": "/images/transparent/9429667709187-0.png"
         },
         {
           "id": "48203080073475",
@@ -3437,7 +3191,7 @@
             "Steel",
             "2.500\" / 50pcs"
           ],
-          "image": "/images/9429667709187-0.jpg"
+          "image": "/images/transparent/9429667709187-0.png"
         }
       ]
     },
@@ -3447,7 +3201,7 @@
       "url": "https://www.whimsytech.net/products/quick-connect-switch",
       "category": "Pneumatics",
       "images": [
-        "/images/9087022563587-0.png"
+        "/images/transparent/9087022563587-0.png"
       ],
       "options": [
         {
@@ -3468,7 +3222,7 @@
           "options": [
             "1"
           ],
-          "image": "/images/9087022563587-0.png"
+          "image": "/images/transparent/9087022563587-0.png"
         }
       ]
     },
@@ -3479,7 +3233,7 @@
       "category": "Pneumatics",
       "images": [
         "/images/9074055119107-0.png",
-        "/images/9074055119107-1.heic"
+        "/images/transparent/9074055119107-1.png"
       ],
       "options": [
         {
@@ -3501,7 +3255,7 @@
           "options": [
             "White"
           ],
-          "image": "/images/9074055119107-1.heic"
+          "image": "/images/transparent/9074055119107-1.png"
         },
         {
           "id": "47157182038275",
@@ -3518,7 +3272,7 @@
     },
     {
       "id": "9536053903619",
-      "title": "T15 Flat Head Screws, 0.18\u201d Shoulder",
+      "title": "T15 Flat Head Screws, 0.18” Shoulder",
       "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-18-shoulder",
       "category": "Screws",
       "images": [],
@@ -3541,21 +3295,21 @@
           "name": "Length",
           "position": 3,
           "values": [
-            "0.375\u201d / 100pcs"
+            "0.375” / 100pcs"
           ]
         }
       ],
       "variants": [
         {
           "id": "49248192659715",
-          "title": "Stainless steel / 100 / 0.375\u201d / 100pcs",
+          "title": "Stainless steel / 100 / 0.375” / 100pcs",
           "sku": "SXRS-0832-0900-375-100",
           "price": 8.99,
           "available": true,
           "options": [
             "Stainless steel",
             "100",
-            "0.375\u201d / 100pcs"
+            "0.375” / 100pcs"
           ],
           "image": null
         }
@@ -3683,7 +3437,7 @@
       "supplier": "Robosource",
       "category": "Nuts",
       "images": [
-        "/images/robo-251.jpg"
+        "/images/transparent/robo-251.png"
       ],
       "variants": [
         {
@@ -3693,7 +3447,49 @@
           "price": 4.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-251.jpg"
+          "image": "/images/transparent/robo-251.png"
+        }
+      ]
+    },
+    {
+      "id": "robo-137",
+      "title": "Nylon Hex Nut, 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/nylon-screws-nuts/137-nylon-nut",
+      "supplier": "Robosource",
+      "category": "Nuts",
+      "images": [
+        "/images/transparent/robo-137.png"
+      ],
+      "variants": [
+        {
+          "id": "robo-137",
+          "title": "Nylon Hex Nut, 100 Pack",
+          "sku": "30-01",
+          "price": 9.99,
+          "available": true,
+          "options": [],
+          "image": "/images/transparent/robo-137.png"
+        }
+      ]
+    },
+    {
+      "id": "robo-139",
+      "title": "Nylon Screw, 8-32 x 0.500\", 100 Pack",
+      "url": "https://www.robosource.net/robot-parts/screws-hardware/nylon-screws-nuts/139-nylon-screw-0500",
+      "supplier": "Robosource",
+      "category": "Screws",
+      "images": [
+        "/images/transparent/robo-139.png"
+      ],
+      "variants": [
+        {
+          "id": "robo-139",
+          "title": "Nylon Screw, 8-32 x 0.500\", 100 Pack",
+          "sku": "30-33",
+          "price": 9.99,
+          "available": true,
+          "options": [],
+          "image": "/images/transparent/robo-139.png"
         }
       ]
     },
@@ -3704,7 +3500,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-488.jpg"
+        "/images/transparent/robo-488.png"
       ],
       "variants": [
         {
@@ -3714,7 +3510,7 @@
           "price": 99.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-488.jpg"
+          "image": "/images/transparent/robo-488.png"
         }
       ]
     },
@@ -3725,7 +3521,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-489.jpg"
+        "/images/transparent/robo-489.png"
       ],
       "variants": [
         {
@@ -3737,7 +3533,7 @@
           "options": [
             "Yellow"
           ],
-          "image": "/images/robo-489.jpg"
+          "image": "/images/transparent/robo-489.png"
         }
       ]
     },
@@ -3748,7 +3544,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-490.jpg"
+        "/images/transparent/robo-490.png"
       ],
       "variants": [
         {
@@ -3760,7 +3556,7 @@
           "options": [
             "Orange"
           ],
-          "image": "/images/robo-490.jpg"
+          "image": "/images/transparent/robo-490.png"
         }
       ]
     },
@@ -3771,7 +3567,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-491.jpg"
+        "/images/transparent/robo-491.png"
       ],
       "variants": [
         {
@@ -3783,7 +3579,7 @@
           "options": [
             "Red"
           ],
-          "image": "/images/robo-491.jpg"
+          "image": "/images/transparent/robo-491.png"
         }
       ]
     },
@@ -3794,7 +3590,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-492.jpg"
+        "/images/transparent/robo-492.png"
       ],
       "variants": [
         {
@@ -3806,7 +3602,7 @@
           "options": [
             "Red"
           ],
-          "image": "/images/robo-492.jpg"
+          "image": "/images/transparent/robo-492.png"
         }
       ]
     },
@@ -3817,7 +3613,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-493.jpg"
+        "/images/transparent/robo-493.png"
       ],
       "variants": [
         {
@@ -3829,7 +3625,7 @@
           "options": [
             "Dark Blue"
           ],
-          "image": "/images/robo-493.jpg"
+          "image": "/images/transparent/robo-493.png"
         }
       ]
     },
@@ -3840,7 +3636,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-494.jpg"
+        "/images/transparent/robo-494.png"
       ],
       "variants": [
         {
@@ -3852,7 +3648,7 @@
           "options": [
             "Purple"
           ],
-          "image": "/images/robo-494.jpg"
+          "image": "/images/transparent/robo-494.png"
         }
       ]
     },
@@ -3863,7 +3659,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-495.jpg"
+        "/images/transparent/robo-495.png"
       ],
       "variants": [
         {
@@ -3875,7 +3671,7 @@
           "options": [
             "Black"
           ],
-          "image": "/images/robo-495.jpg"
+          "image": "/images/transparent/robo-495.png"
         }
       ]
     },
@@ -3886,7 +3682,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-716.jpg"
+        "/images/transparent/robo-716.png"
       ],
       "variants": [
         {
@@ -3898,7 +3694,7 @@
           "options": [
             "Brown"
           ],
-          "image": "/images/robo-716.jpg"
+          "image": "/images/transparent/robo-716.png"
         }
       ]
     },
@@ -3909,7 +3705,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-479.jpg"
+        "/images/transparent/robo-479.png"
       ],
       "variants": [
         {
@@ -3919,7 +3715,7 @@
           "price": 79.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-479.jpg"
+          "image": "/images/transparent/robo-479.png"
         }
       ]
     },
@@ -3930,7 +3726,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-481.jpg"
+        "/images/transparent/robo-481.png"
       ],
       "variants": [
         {
@@ -3940,7 +3736,7 @@
           "price": 6.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-481.jpg"
+          "image": "/images/transparent/robo-481.png"
         }
       ]
     },
@@ -3951,7 +3747,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-482.jpg"
+        "/images/transparent/robo-482.png"
       ],
       "variants": [
         {
@@ -3961,7 +3757,7 @@
           "price": 6.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-482.jpg"
+          "image": "/images/transparent/robo-482.png"
         }
       ]
     },
@@ -3972,7 +3768,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-483.jpg"
+        "/images/transparent/robo-483.png"
       ],
       "variants": [
         {
@@ -3982,7 +3778,7 @@
           "price": 7.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-483.jpg"
+          "image": "/images/transparent/robo-483.png"
         }
       ]
     },
@@ -3993,7 +3789,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-484.jpg"
+        "/images/transparent/robo-484.png"
       ],
       "variants": [
         {
@@ -4003,7 +3799,7 @@
           "price": 7.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-484.jpg"
+          "image": "/images/transparent/robo-484.png"
         }
       ]
     },
@@ -4014,7 +3810,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-485.jpg"
+        "/images/transparent/robo-485.png"
       ],
       "variants": [
         {
@@ -4024,7 +3820,7 @@
           "price": 9.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-485.jpg"
+          "image": "/images/transparent/robo-485.png"
         }
       ]
     },
@@ -4035,7 +3831,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-486.jpg"
+        "/images/transparent/robo-486.png"
       ],
       "variants": [
         {
@@ -4045,7 +3841,7 @@
           "price": 11.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-486.jpg"
+          "image": "/images/transparent/robo-486.png"
         }
       ]
     },
@@ -4056,7 +3852,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-487.jpg"
+        "/images/transparent/robo-487.png"
       ],
       "variants": [
         {
@@ -4066,7 +3862,7 @@
           "price": 13.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-487.jpg"
+          "image": "/images/transparent/robo-487.png"
         }
       ]
     },
@@ -4077,7 +3873,7 @@
       "supplier": "Robosource",
       "category": "Shoulder screws",
       "images": [
-        "/images/robo-715.jpg"
+        "/images/transparent/robo-715.png"
       ],
       "variants": [
         {
@@ -4087,7 +3883,7 @@
           "price": 15.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-715.jpg"
+          "image": "/images/transparent/robo-715.png"
         }
       ]
     },
@@ -4098,7 +3894,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-414.jpg"
+        "/images/transparent/robo-414.png"
       ],
       "variants": [
         {
@@ -4110,7 +3906,7 @@
           "options": [
             "Yellow"
           ],
-          "image": "/images/robo-414.jpg"
+          "image": "/images/transparent/robo-414.png"
         }
       ]
     },
@@ -4121,7 +3917,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-415.jpg"
+        "/images/transparent/robo-415.png"
       ],
       "variants": [
         {
@@ -4133,7 +3929,7 @@
           "options": [
             "Orange"
           ],
-          "image": "/images/robo-415.jpg"
+          "image": "/images/transparent/robo-415.png"
         }
       ]
     },
@@ -4144,7 +3940,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-416.jpg"
+        "/images/transparent/robo-416.png"
       ],
       "variants": [
         {
@@ -4156,7 +3952,7 @@
           "options": [
             "Red"
           ],
-          "image": "/images/robo-416.jpg"
+          "image": "/images/transparent/robo-416.png"
         }
       ]
     },
@@ -4167,7 +3963,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-417.jpg"
+        "/images/transparent/robo-417.png"
       ],
       "variants": [
         {
@@ -4179,7 +3975,7 @@
           "options": [
             "Light Green"
           ],
-          "image": "/images/robo-417.jpg"
+          "image": "/images/transparent/robo-417.png"
         }
       ]
     },
@@ -4190,7 +3986,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-418.jpg"
+        "/images/transparent/robo-418.png"
       ],
       "variants": [
         {
@@ -4202,7 +3998,7 @@
           "options": [
             "Dark Green"
           ],
-          "image": "/images/robo-418.jpg"
+          "image": "/images/transparent/robo-418.png"
         }
       ]
     },
@@ -4213,7 +4009,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-419.jpg"
+        "/images/transparent/robo-419.png"
       ],
       "variants": [
         {
@@ -4225,7 +4021,7 @@
           "options": [
             "Light Blue"
           ],
-          "image": "/images/robo-419.jpg"
+          "image": "/images/transparent/robo-419.png"
         }
       ]
     },
@@ -4236,7 +4032,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-420.jpg"
+        "/images/transparent/robo-420.png"
       ],
       "variants": [
         {
@@ -4248,7 +4044,7 @@
           "options": [
             "Dark Blue"
           ],
-          "image": "/images/robo-420.jpg"
+          "image": "/images/transparent/robo-420.png"
         }
       ]
     },
@@ -4259,7 +4055,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-421.jpg"
+        "/images/transparent/robo-421.png"
       ],
       "variants": [
         {
@@ -4271,7 +4067,7 @@
           "options": [
             "Purple"
           ],
-          "image": "/images/robo-421.jpg"
+          "image": "/images/transparent/robo-421.png"
         }
       ]
     },
@@ -4282,7 +4078,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-422.jpg"
+        "/images/transparent/robo-422.png"
       ],
       "variants": [
         {
@@ -4294,7 +4090,7 @@
           "options": [
             "Black"
           ],
-          "image": "/images/robo-422.jpg"
+          "image": "/images/transparent/robo-422.png"
         }
       ]
     },
@@ -4305,7 +4101,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-423.jpg"
+        "/images/transparent/robo-423.png"
       ],
       "variants": [
         {
@@ -4315,7 +4111,7 @@
           "price": 187.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-423.jpg"
+          "image": "/images/transparent/robo-423.png"
         }
       ]
     },
@@ -4326,7 +4122,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-477.jpg"
+        "/images/transparent/robo-477.png"
       ],
       "variants": [
         {
@@ -4338,7 +4134,7 @@
           "options": [
             "Pink"
           ],
-          "image": "/images/robo-477.jpg"
+          "image": "/images/transparent/robo-477.png"
         }
       ]
     },
@@ -4349,7 +4145,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-478.jpg"
+        "/images/transparent/robo-478.png"
       ],
       "variants": [
         {
@@ -4361,7 +4157,7 @@
           "options": [
             "White"
           ],
-          "image": "/images/robo-478.jpg"
+          "image": "/images/transparent/robo-478.png"
         }
       ]
     },
@@ -4372,7 +4168,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-550.jpg"
+        "/images/transparent/robo-550.png"
       ],
       "variants": [
         {
@@ -4384,7 +4180,7 @@
           "options": [
             "Beige"
           ],
-          "image": "/images/robo-550.jpg"
+          "image": "/images/transparent/robo-550.png"
         }
       ]
     },
@@ -4395,7 +4191,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-551.jpg"
+        "/images/transparent/robo-551.png"
       ],
       "variants": [
         {
@@ -4407,7 +4203,7 @@
           "options": [
             "Brown"
           ],
-          "image": "/images/robo-551.jpg"
+          "image": "/images/transparent/robo-551.png"
         }
       ]
     },
@@ -4418,7 +4214,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-403.jpg"
+        "/images/transparent/robo-403.png"
       ],
       "variants": [
         {
@@ -4428,7 +4224,7 @@
           "price": 5.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-403.jpg"
+          "image": "/images/transparent/robo-403.png"
         }
       ]
     },
@@ -4439,7 +4235,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-404.jpg"
+        "/images/transparent/robo-404.png"
       ],
       "variants": [
         {
@@ -4449,7 +4245,7 @@
           "price": 5.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-404.jpg"
+          "image": "/images/transparent/robo-404.png"
         }
       ]
     },
@@ -4460,7 +4256,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-405.jpg"
+        "/images/transparent/robo-405.png"
       ],
       "variants": [
         {
@@ -4470,7 +4266,7 @@
           "price": 5.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-405.jpg"
+          "image": "/images/transparent/robo-405.png"
         }
       ]
     },
@@ -4481,7 +4277,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-406.jpg"
+        "/images/transparent/robo-406.png"
       ],
       "variants": [
         {
@@ -4491,7 +4287,7 @@
           "price": 6.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-406.jpg"
+          "image": "/images/transparent/robo-406.png"
         }
       ]
     },
@@ -4502,7 +4298,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-407.jpg"
+        "/images/transparent/robo-407.png"
       ],
       "variants": [
         {
@@ -4512,7 +4308,7 @@
           "price": 6.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-407.jpg"
+          "image": "/images/transparent/robo-407.png"
         }
       ]
     },
@@ -4523,7 +4319,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-408.jpg"
+        "/images/transparent/robo-408.png"
       ],
       "variants": [
         {
@@ -4533,7 +4329,7 @@
           "price": 7.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-408.jpg"
+          "image": "/images/transparent/robo-408.png"
         }
       ]
     },
@@ -4544,7 +4340,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-409.jpg"
+        "/images/transparent/robo-409.png"
       ],
       "variants": [
         {
@@ -4554,7 +4350,7 @@
           "price": 8.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-409.jpg"
+          "image": "/images/transparent/robo-409.png"
         }
       ]
     },
@@ -4565,7 +4361,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-410.jpg"
+        "/images/transparent/robo-410.png"
       ],
       "variants": [
         {
@@ -4575,7 +4371,7 @@
           "price": 10.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-410.jpg"
+          "image": "/images/transparent/robo-410.png"
         }
       ]
     },
@@ -4586,7 +4382,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-412.jpg"
+        "/images/transparent/robo-412.png"
       ],
       "variants": [
         {
@@ -4596,7 +4392,7 @@
           "price": 12.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-412.jpg"
+          "image": "/images/transparent/robo-412.png"
         }
       ]
     },
@@ -4607,7 +4403,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-413.jpg"
+        "/images/transparent/robo-413.png"
       ],
       "variants": [
         {
@@ -4617,7 +4413,7 @@
           "price": 149.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-413.jpg"
+          "image": "/images/transparent/robo-413.png"
         }
       ]
     },
@@ -4628,7 +4424,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-475.jpg"
+        "/images/transparent/robo-475.png"
       ],
       "variants": [
         {
@@ -4638,7 +4434,7 @@
           "price": 9.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-475.jpg"
+          "image": "/images/transparent/robo-475.png"
         }
       ]
     },
@@ -4649,7 +4445,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-476.jpg"
+        "/images/transparent/robo-476.png"
       ],
       "variants": [
         {
@@ -4659,7 +4455,7 @@
           "price": 11.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-476.jpg"
+          "image": "/images/transparent/robo-476.png"
         }
       ]
     },
@@ -4670,7 +4466,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-548.jpg"
+        "/images/transparent/robo-548.png"
       ],
       "variants": [
         {
@@ -4680,7 +4476,7 @@
           "price": 13.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-548.jpg"
+          "image": "/images/transparent/robo-548.png"
         }
       ]
     },
@@ -4691,7 +4487,7 @@
       "supplier": "Robosource",
       "category": "Screws",
       "images": [
-        "/images/robo-549.jpg"
+        "/images/transparent/robo-549.png"
       ],
       "variants": [
         {
@@ -4701,12 +4497,12 @@
           "price": 14.99,
           "available": true,
           "options": [],
-          "image": "/images/robo-549.jpg"
+          "image": "/images/transparent/robo-549.png"
         }
       ]
     }
   ],
-  "robosourceUpdatedAt": "2026-10-26T18:05:57Z",
+  "robosourceUpdatedAt": "2026-10-26T18:18:51Z",
   "robosourceCoverage": {
     "star-drive-screws-steel": {
       "pages": 3,
@@ -4715,6 +4511,10 @@
     "shoulder-screws-steel": {
       "pages": 1,
       "products": 18
+    },
+    "nylon-screws-nuts": {
+      "pages": 2,
+      "products": 2
     }
   }
 }

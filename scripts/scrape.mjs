@@ -7,7 +7,7 @@ while(true){
  if(!r.ok) throw Error(`Catalog access failed: HTTP ${r.status}; existing catalog preserved`);
  const data=await r.json(); if(!Array.isArray(data.products)) throw Error('Invalid catalog response');
  if(!data.products.length) break;
- for(const p of data.products){if(!patterns.some(x=>x.test(p.title)))continue;
+ for(const p of data.products){if(/\blocking\b/i.test(p.title)||!patterns.some(x=>x.test(p.title)))continue;
   products.push({id:String(p.id),title:p.title,url:`${base}/products/${p.handle}`,category:/standoff/i.test(p.title)?'Standoffs':/spacer|washer/i.test(p.title)?'Spacers':/nylock/i.test(p.title)?'Nuts':/quick|pneumatic/i.test(p.title)?'Pneumatics':'Screws',images:p.images.map(i=>i.src),options:p.options,variants:p.variants.map(v=>({id:String(v.id),title:v.title,sku:v.sku||null,price:Number(v.price),available:v.available,options:[v.option1,v.option2,v.option3].filter(Boolean),image:p.images.find(i=>i.variant_ids?.includes(v.id))?.src||p.images[0]?.src||null}))});
  }
  if(data.products.length<250)break;

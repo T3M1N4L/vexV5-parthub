@@ -27,3 +27,9 @@ The interface now uses actual shadcn (base-nova) Button components installed wit
 Robosource import: install `beautifulsoup4` in your Python environment, then run `python scripts/scrape-robosource.py`. Requires curl. It follows all listing pages, deduplicates overlapping categories, validates reference numbers/photos, and preserves Whimsy products. Current coverage is 47 unique products, including 18 shoulder-screw listings; all references and photos were found. Existing Whimsy missing SKU/photo limitations still apply.
 
 Deploy to GitHub Pages with `npm run build -- --base=/vexV5-parthub/` and publish dist contents plus `.nojekyll` to the existing gh-pages branch.
+
+## Catalog scope and transparent photos
+
+Whimsy locking screws are excluded by the importer; aluminum, nylon, and non-locking shoulder screws remain. Robosource now also imports matching screws/nuts from every page of `/nylon-screws-nuts` (currently Nylon Hex Nut, 100 Pack, reference 30-01, and Nylon Screw 8-32 × 0.500 inch, 100 Pack; see catalog for supplier references/prices).
+
+After either supplier import, run `npm run images:transparent` before building or committing. This uses the `sharp` npm package to turn edge-connected near-white backgrounds into alpha-transparent PNGs, keeping the original image files. It preserves existing transparency and internal white product details. Robosource's isolated image-header text is cropped because size/reference information is displayed in the product card. Generated PNGs live in `public/images/transparent/`; catalog URLs are updated automatically. Review pale parts against the dark UI after importing new photos. Repeating the command does not reprocess the already transparent catalog images.

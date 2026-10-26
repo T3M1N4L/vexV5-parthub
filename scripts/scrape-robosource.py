@@ -10,7 +10,7 @@ BASE='https://www.robosource.net'
 def get(url):
  r=subprocess.run(['curl','-fsSL','--max-time','45',url],capture_output=True,check=True);return SimpleNamespace(content=r.stdout,text=r.stdout.decode('utf8',errors='replace'))
 urls=set();counts={}
-for collection in ['star-drive-screws-steel','shoulder-screws-steel']:
+for collection in ['star-drive-screws-steel','shoulder-screws-steel','nylon-screws-nuts']:
  url=BASE+'/'+collection;seen=set();found=set()
  while url:
   if url in seen: raise RuntimeError('Pagination repeated')
@@ -19,7 +19,7 @@ for collection in ['star-drive-screws-steel','shoulder-screws-steel']:
   if not cards:raise RuntimeError('No product listing found')
   for card in cards:
    a=card.select_one('a.product-name')
-   if a and 'screw' in (a.get('title','')+a.get_text()).lower():found.add(a['href'])
+   if a and re.search(r'\b(screws?|nuts?)\b' if collection=='nylon-screws-nuts' else r'\bscrews?\b',a.get('title','')+' '+a.get_text(),re.I):found.add(a['href'])
   nxt=s.select_one('link[rel=next]');url=urljoin(url,nxt['href']) if nxt else None
  urls.update(found);counts[collection]={'pages':len(seen),'products':len(found)}
 urls.add(BASE+'/robot-parts/screws-hardware/nuts/251-thin-nylock-nuts')
