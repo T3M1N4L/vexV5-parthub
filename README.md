@@ -1,0 +1,21 @@
+# V5 Supply
+
+Independent V5RC parts ordering hub. React + Vite; AMOLED theme; persistent variant cart; CSV and XLSX exports matching the provided team order columns, plus names, variants and line totals. Exports are purchase lists, not submitted purchases. Prices are USD, excluding tax/shipping.
+
+## Run
+
+```sh
+npm ci --cache /tmp/npm-cache
+npm run dev -- --host 0.0.0.0
+npm run build
+```
+
+## Import real catalog
+
+```sh
+npm run scrape
+```
+
+Requires HTTPS access to www.whimsytech.net and Shopify image hosts. Importer paginates the Shopify collection JSON, selects requested product families, retains every returned variant (including unavailable ones), preserves supplier SKUs/prices, and downloads variant and gallery images. It fails without replacing the catalog on network or image errors. Review product coverage and missing SKU count after import; the site disables unavailable stock and exports supplier variant IDs alongside SKUs. New supplier naming may require adjusting patterns in scripts/scrape.mjs. The catalog contains 31 products and 211 variants. Supplier data has no SKUs for six Black Nylon Hex Standoffs and seven Green Nylon Washers & Spacers variants; these are exported with blank SKU and the supplier variant ID. Three products have no supplier images (White Nylon Washers & Spacers, Green Nylon Washers & Spacers, and T15 Flat Head Screws 0.18 inch Shoulder); the UI labels these gaps. All other supplied images are downloaded locally.
+
+Cart is stored in localStorage. Exports neutralize spreadsheet formula prefixes. No payment or supplier checkout is performed.

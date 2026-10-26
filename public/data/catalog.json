@@ -1,0 +1,3680 @@
+{
+  "updatedAt": "2026-10-26T13:16:13.130Z",
+  "source": "https://www.whimsytech.net",
+  "requested": [
+    "T15 Flat Head Screws",
+    "T15 Flat Head Screws, 0.04” Shoulder",
+    "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
+    "Aluminum Standoffs",
+    "Colored Spacers",
+    "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
+    "T15 Nylon Flat Head Screws, 0.04” Shoulder",
+    "T15 Flat Head Screws, 0.09” Shoulder",
+    "White Nylon Washers & Spacers",
+    "Black Nylon Hex Standoffs",
+    "Pneumatic 4mm Quick Connect T-Fittings",
+    "Quick Connect Switch"
+  ],
+  "products": [
+    {
+      "id": "9086199005443",
+      "title": "T15 Flat Head Screws",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws",
+      "category": "Screws",
+      "images": [
+        "/images/9086199005443-0.png",
+        "/images/9086199005443-1.png",
+        "/images/9086199005443-2.png",
+        "/images/9086199005443-3.png",
+        "/images/9086199005443-4.png",
+        "/images/9086199005443-5.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.290\" / 100pcs",
+            "0.375\" / 100pcs",
+            "0.500\" / 100pcs",
+            "0.625\" / 100pcs",
+            "0.750\" / 100pcs",
+            "0.875\" / 100pcs",
+            "1.000\" / 50pcs",
+            "1.125\" / 50pcs",
+            "1.250\" / 50pcs",
+            "1.375\" / 50pcs",
+            "1.500\" / 50pcs",
+            "1.625\" / 50pcs",
+            "1.750\" / 50pcs",
+            "1.875\" / 50pcs",
+            "2.000\" / 50pcs",
+            "2.250\" / 50pcs",
+            "2.500\" / 50pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47172393009411",
+          "title": "Stainless steel / 0.290\" / 100pcs",
+          "sku": "SXRS-0832-0000-290-100",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.290\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393074947",
+          "title": "Stainless steel / 0.375\" / 100pcs",
+          "sku": "SXRS-0832-0000-375-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.375\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393140483",
+          "title": "Stainless steel / 0.500\" / 100pcs",
+          "sku": "SXRS-0832-0000-500-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.500\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393206019",
+          "title": "Stainless steel / 0.625\" / 100pcs",
+          "sku": "SXRS-0832-0000-625-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.625\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393271555",
+          "title": "Stainless steel / 0.750\" / 100pcs",
+          "sku": "SXRS-0832-0000-750-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.750\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393337091",
+          "title": "Stainless steel / 0.875\" / 100pcs",
+          "sku": "SXRS-0832-0000-875-100",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.875\" / 100pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172393369859",
+          "title": "Stainless steel / 1.000\" / 50pcs",
+          "sku": "SXRS-0832-0001-000-050",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.000\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412801283",
+          "title": "Stainless steel / 1.125\" / 50pcs",
+          "sku": "SXRS-0832-0001-125-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.125\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412834051",
+          "title": "Stainless steel / 1.250\" / 50pcs",
+          "sku": "SXRS-0832-0001-250-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.250\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412866819",
+          "title": "Stainless steel / 1.375\" / 50pcs",
+          "sku": "SXRS-0832-0001-375-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.375\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412899587",
+          "title": "Stainless steel / 1.500\" / 50pcs",
+          "sku": "SXRS-0832-0001-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.500\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412932355",
+          "title": "Stainless steel / 1.625\" / 50pcs",
+          "sku": "SXRS-0832-0001-625-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.625\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412965123",
+          "title": "Stainless steel / 1.750\" / 50pcs",
+          "sku": "SXRS-0832-0001-750-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.750\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172412997891",
+          "title": "Stainless steel / 1.875\" / 50pcs",
+          "sku": "SXRS-0832-0001-875-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.875\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172413030659",
+          "title": "Stainless steel / 2.000\" / 50pcs",
+          "sku": "SXRS-0832-0002-000-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.000\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172413063427",
+          "title": "Stainless steel / 2.250\" / 50pcs",
+          "sku": "SXRS-0832-0002-250-050",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.250\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        },
+        {
+          "id": "47172413096195",
+          "title": "Stainless steel / 2.500\" / 50pcs",
+          "sku": "SXRS-0832-0002-500-050",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.500\" / 50pcs"
+          ],
+          "image": "/images/9086199005443-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9086560895235",
+      "title": "T15 Flat Head Screws, 0.04” Shoulder",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder",
+      "category": "Screws",
+      "images": [
+        "/images/9086560895235-0.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.290\" / 100pcs",
+            "0.375\" / 100pcs",
+            "0.500\" / 100pcs",
+            "0.625\" / 100pcs",
+            "0.750\" / 100pcs",
+            "0.875\" / 100pcs",
+            "1.000\" / 50pcs",
+            "1.125\" / 50pcs",
+            "1.250\" / 50pcs",
+            "1.375\" / 50pcs",
+            "1.500\" / 50pcs",
+            "1.625\" / 50pcs",
+            "1.750\" / 50pcs",
+            "1.875\" / 50pcs",
+            "2.000\" / 50pcs",
+            "2.250\" / 50pcs",
+            "2.500\" / 50pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "48203048648963",
+          "title": "Stainless steel / 0.290\" / 100pcs",
+          "sku": "SXRS-0832-0400-290-100",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.290\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048681731",
+          "title": "Stainless steel / 0.375\" / 100pcs",
+          "sku": "SXRS-0832-0400-375-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.375\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048714499",
+          "title": "Stainless steel / 0.500\" / 100pcs",
+          "sku": "SXRS-0832-0400-500-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.500\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048747267",
+          "title": "Stainless steel / 0.625\" / 100pcs",
+          "sku": "SXRS-0832-0400-625-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.625\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048780035",
+          "title": "Stainless steel / 0.750\" / 100pcs",
+          "sku": "SXRS-0832-0400-750-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.750\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048812803",
+          "title": "Stainless steel / 0.875\" / 100pcs",
+          "sku": "SXRS-0832-0400-875-100",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.875\" / 100pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048845571",
+          "title": "Stainless steel / 1.000\" / 50pcs",
+          "sku": "SXRS-0832-0401-000-050",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.000\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048878339",
+          "title": "Stainless steel / 1.125\" / 50pcs",
+          "sku": "SXRS-0832-0401-125-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.125\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048911107",
+          "title": "Stainless steel / 1.250\" / 50pcs",
+          "sku": "SXRS-0832-0401-250-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.250\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048943875",
+          "title": "Stainless steel / 1.375\" / 50pcs",
+          "sku": "SXRS-0832-0401-375-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.375\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203048976643",
+          "title": "Stainless steel / 1.500\" / 50pcs",
+          "sku": "SXRS-0832-0401-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.500\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049009411",
+          "title": "Stainless steel / 1.625\" / 50pcs",
+          "sku": "SXRS-0832-0401-625-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.625\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049042179",
+          "title": "Stainless steel / 1.750\" / 50pcs",
+          "sku": "SXRS-0832-0401-750-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.750\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049074947",
+          "title": "Stainless steel / 1.875\" / 50pcs",
+          "sku": "SXRS-0832-0401-875-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.875\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049107715",
+          "title": "Stainless steel / 2.000\" / 50pcs",
+          "sku": "SXRS-0832-0402-000-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.000\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049140483",
+          "title": "Stainless steel / 2.250\" / 50pcs",
+          "sku": "SXRS-0832-0402-250-050",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.250\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        },
+        {
+          "id": "48203049173251",
+          "title": "Stainless steel / 2.500\" / 50pcs",
+          "sku": "SXRS-0832-0402-500-050",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "2.500\" / 50pcs"
+          ],
+          "image": "/images/9086560895235-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9205080260867",
+      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 001",
+      "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts",
+      "category": "Nuts",
+      "images": [
+        "/images/9205080260867-0.png",
+        "/images/9205080260867-1.png",
+        "/images/9205080260867-2.png",
+        "/images/9205080260867-3.jpg",
+        "/images/9205080260867-4.png",
+        "/images/9205080260867-5.png",
+        "/images/9205080260867-6.png",
+        "/images/9205080260867-7.png",
+        "/images/9205080260867-8.png",
+        "/images/9205080260867-9.png",
+        "/images/9205080260867-10.png",
+        "/images/9205080260867-11.png",
+        "/images/9205080260867-12.png",
+        "/images/9205080260867-13.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black",
+            "Red",
+            "Orange",
+            "Gold",
+            "Green",
+            "Blue",
+            "Purple",
+            "Hot Pink"
+          ]
+        },
+        {
+          "name": "Count",
+          "position": 2,
+          "values": [
+            "50"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47512430051587",
+          "title": "Black / 50",
+          "sku": "NXAL-BLA0832-0635-0465-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Black",
+            "50"
+          ],
+          "image": "/images/9205080260867-12.png"
+        },
+        {
+          "id": "47594533847299",
+          "title": "Red / 50",
+          "sku": "NXAL-RED0832-0635-0465-050",
+          "price": 7.99,
+          "available": false,
+          "options": [
+            "Red",
+            "50"
+          ],
+          "image": "/images/9205080260867-4.png"
+        },
+        {
+          "id": "47878871875843",
+          "title": "Orange / 50",
+          "sku": "NXAL-ORA0832-0635-0465-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Orange",
+            "50"
+          ],
+          "image": "/images/9205080260867-5.png"
+        },
+        {
+          "id": "47878871908611",
+          "title": "Gold / 50",
+          "sku": "NXAL-GOL0832-0635-0465-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Gold",
+            "50"
+          ],
+          "image": "/images/9205080260867-6.png"
+        },
+        {
+          "id": "47725087359235",
+          "title": "Green / 50",
+          "sku": "NXAL-GRE0832-0635-0465-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Green",
+            "50"
+          ],
+          "image": "/images/9205080260867-7.png"
+        },
+        {
+          "id": "47512430149891",
+          "title": "Blue / 50",
+          "sku": "NXAL-BLU0832-0635-0465-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "50"
+          ],
+          "image": "/images/9205080260867-8.png"
+        },
+        {
+          "id": "47512430248195",
+          "title": "Purple / 50",
+          "sku": "NXAL-PUR0832-0635-0465-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "50"
+          ],
+          "image": "/images/9205080260867-9.png"
+        },
+        {
+          "id": "47725087326467",
+          "title": "Hot Pink / 50",
+          "sku": "NXAL-PIN0832-0635-0465-050",
+          "price": 7.99,
+          "available": false,
+          "options": [
+            "Hot Pink",
+            "50"
+          ],
+          "image": "/images/9205080260867-10.png"
+        }
+      ]
+    },
+    {
+      "id": "9073958322435",
+      "title": "Black Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/black-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073958322435-0.png",
+        "/images/9073958322435-1.png",
+        "/images/9073958322435-2.png",
+        "/images/9073958322435-3.png",
+        "/images/9073958322435-4.png",
+        "/images/9073958322435-5.png",
+        "/images/9073958322435-6.png",
+        "/images/9073958322435-7.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "1.900\" (Discontinued)",
+            "2.000\"",
+            "2.250\"",
+            "2.500\"",
+            "3.000”",
+            "4.000”",
+            "5.000”",
+            "6.000”"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47156966031619",
+          "title": "Black / 0.500\"",
+          "sku": "SFH-BLA0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Black",
+            "0.500\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966064387",
+          "title": "Black / 0.875\"",
+          "sku": "SFH-BLA0832-00-875-010",
+          "price": 5.99,
+          "available": false,
+          "options": [
+            "Black",
+            "0.875\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966097155",
+          "title": "Black / 1.000\"",
+          "sku": "SFH-BLA0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Black",
+            "1.000\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966129923",
+          "title": "Black / 1.500\"",
+          "sku": "SFH-BLA0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Black",
+            "1.500\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966162691",
+          "title": "Black / 1.900\" (Discontinued)",
+          "sku": "SFH-BLA0832-01-900-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Black",
+            "1.900\" (Discontinued)"
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966195459",
+          "title": "Black / 2.000\"",
+          "sku": "SFH-BLA0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Black",
+            "2.000\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966228227",
+          "title": "Black / 2.250\"",
+          "sku": "SFH-BLA0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Black",
+            "2.250\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "47156966260995",
+          "title": "Black / 2.500\"",
+          "sku": "SFH-BLA0832-02-250-010",
+          "price": 12.99,
+          "available": true,
+          "options": [
+            "Black",
+            "2.500\""
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "48328447197443",
+          "title": "Black / 3.000”",
+          "sku": "SFH-BLA0832-03-000-010",
+          "price": 13.99,
+          "available": true,
+          "options": [
+            "Black",
+            "3.000”"
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "48328447230211",
+          "title": "Black / 4.000”",
+          "sku": "SFH-BLA0832-04-000-010",
+          "price": 14.99,
+          "available": true,
+          "options": [
+            "Black",
+            "4.000”"
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "48328447262979",
+          "title": "Black / 5.000”",
+          "sku": "SFH-BLA0832-05-000-010",
+          "price": 18.99,
+          "available": true,
+          "options": [
+            "Black",
+            "5.000”"
+          ],
+          "image": "/images/9073958322435-0.png"
+        },
+        {
+          "id": "48328447295747",
+          "title": "Black / 6.000”",
+          "sku": "SFH-BLA0832-06-000-010",
+          "price": 19.99,
+          "available": true,
+          "options": [
+            "Black",
+            "6.000”"
+          ],
+          "image": "/images/9073958322435-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9153164771587",
+      "title": "T15 Aluminum Flat Head Screws, 0.04\" Shoulder",
+      "url": "https://www.whimsytech.net/products/t15-aluminum-flat-head-screws-0-04-shoulder",
+      "category": "Screws",
+      "images": [
+        "/images/9153164771587-0.jpg",
+        "/images/9153164771587-1.png",
+        "/images/9153164771587-2.jpg",
+        "/images/9153164771587-3.jpg",
+        "/images/9153164771587-4.jpg",
+        "/images/9153164771587-5.jpg"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black",
+            "Silver",
+            "Red",
+            "Orange (Matte - Limited)",
+            "Gold (Matte - Limited)",
+            "Green",
+            "Blue",
+            "Purple",
+            "Cherry Blossom Pink"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\""
+          ]
+        },
+        {
+          "name": "Quantity",
+          "position": 3,
+          "values": [
+            "50"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47375543795971",
+          "title": "Black / 0.500\" / 50",
+          "sku": "SALS-BLA0832-0400-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Black",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-0.jpg"
+        },
+        {
+          "id": "47375544910083",
+          "title": "Silver / 0.500\" / 50",
+          "sku": "SALS-SIL0832-0400-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Silver",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-0.jpg"
+        },
+        {
+          "id": "48203222876419",
+          "title": "Red / 0.500\" / 50",
+          "sku": "SALS-RED0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Red",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-4.jpg"
+        },
+        {
+          "id": "47886768832771",
+          "title": "Orange (Matte - Limited) / 0.500\" / 50",
+          "sku": "SALS-ORA0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Orange (Matte - Limited)",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-1.png"
+        },
+        {
+          "id": "47886768865539",
+          "title": "Gold (Matte - Limited) / 0.500\" / 50",
+          "sku": "SALS-GOL0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Gold (Matte - Limited)",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-1.png"
+        },
+        {
+          "id": "48203222810883",
+          "title": "Green / 0.500\" / 50",
+          "sku": "SALS-GRE0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Green",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-2.jpg"
+        },
+        {
+          "id": "47375544877315",
+          "title": "Blue / 0.500\" / 50",
+          "sku": "SALS-BLU0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-0.jpg"
+        },
+        {
+          "id": "48203222843651",
+          "title": "Purple / 0.500\" / 50",
+          "sku": "SALS-PUR0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-3.jpg"
+        },
+        {
+          "id": "48203222778115",
+          "title": "Cherry Blossom Pink / 0.500\" / 50",
+          "sku": "SALS-CBP0832-0400-500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Cherry Blossom Pink",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9153164771587-5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "9087039799555",
+      "title": "Cherry Blossom Pink Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/cherry-blossom-pink-nylon-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9087039799555-0.png",
+        "/images/9087039799555-1.png",
+        "/images/9087039799555-2.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Pink"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.250\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47174089277699",
+          "title": "Pink / 0.0625\"",
+          "sku": "SNR-CBPI0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.0625\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089081091",
+          "title": "Pink / 0.125\"",
+          "sku": "SNR-CBPI0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.125\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089113859",
+          "title": "Pink / 0.250\"",
+          "sku": "SNR-CBPI0800-0000-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.250\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089146627",
+          "title": "Pink / 0.375\"",
+          "sku": "SNR-CBPI0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.375\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089179395",
+          "title": "Pink / 0.500\"",
+          "sku": "SNR-CBPI0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.500\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089212163",
+          "title": "Pink / 0.875\"",
+          "sku": "SNR-CBPI0800-0000-875-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.875\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        },
+        {
+          "id": "47174089244931",
+          "title": "Pink / 1.00\"",
+          "sku": "SNR-CBPI0800-0001-000-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "1.00\""
+          ],
+          "image": "/images/9087039799555-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073958224131",
+      "title": "Purple Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/purple-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073958224131-0.png",
+        "/images/9073958224131-1.png",
+        "/images/9073958224131-2.png",
+        "/images/9073958224131-3.png",
+        "/images/9073958224131-4.png",
+        "/images/9073958224131-5.png",
+        "/images/9073958224131-6.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Purple"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "1.900\" (Discontinued)",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47156965736707",
+          "title": "Purple / 0.500\"",
+          "sku": "SFH-PUR0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.500\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965769475",
+          "title": "Purple / 0.875\"",
+          "sku": "SFH-PUR0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.875\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965802243",
+          "title": "Purple / 1.000\"",
+          "sku": "SFH-PUR0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "1.000\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965835011",
+          "title": "Purple / 1.500\"",
+          "sku": "SFH-PUR0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "1.500\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965867779",
+          "title": "Purple / 1.900\" (Discontinued)",
+          "sku": "SFH-PUR0832-01-900-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "1.900\" (Discontinued)"
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965900547",
+          "title": "Purple / 2.000\"",
+          "sku": "SFH-PUR0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "2.000\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965933315",
+          "title": "Purple / 2.250\"",
+          "sku": "SFH-PUR0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "2.250\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        },
+        {
+          "id": "47156965966083",
+          "title": "Purple / 2.500\"",
+          "sku": "SFH-PUR0832-02-500-010",
+          "price": 13.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "2.500\""
+          ],
+          "image": "/images/9073958224131-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073368498435",
+      "title": "Dark Blue Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/dark-blue-aluminum-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073368498435-0.png",
+        "/images/9073368498435-1.png",
+        "/images/9073368498435-2.png",
+        "/images/9073368498435-3.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47155715211523",
+          "title": "Blue / 0.500\"",
+          "sku": "SFH-BLU0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.500\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715244291",
+          "title": "Blue / 0.875\"",
+          "sku": "SFH-BLU0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.875\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715277059",
+          "title": "Blue / 1.000\"",
+          "sku": "SFH-BLU0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "1.000\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715309827",
+          "title": "Blue / 1.500\"",
+          "sku": "SFH-BLU0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "1.500\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715342595",
+          "title": "Blue / 2.000\"",
+          "sku": "SFH-BLU0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "2.000\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715375363",
+          "title": "Blue / 2.250\"",
+          "sku": "SFH-BLU0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "2.250\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        },
+        {
+          "id": "47155715408131",
+          "title": "Blue / 2.500\"",
+          "sku": "SFH-BLU0832-02-500-010",
+          "price": 13.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "2.500\""
+          ],
+          "image": "/images/9073368498435-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9087047565571",
+      "title": "Purple Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/purple-nylon-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9087047565571-0.png",
+        "/images/9087047565571-1.png",
+        "/images/9087047565571-2.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Purple"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47174111985923",
+          "title": "Purple / 0.0625\"",
+          "sku": "SNR-PUR0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.0625\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112018691",
+          "title": "Purple / 0.125\"",
+          "sku": "SNR-PUR0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.125\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112051459",
+          "title": "Purple / 0.25\"",
+          "sku": "SNR-PUR0800-0000-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.25\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112084227",
+          "title": "Purple / 0.375\"",
+          "sku": "SNR-PUR0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.375\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112116995",
+          "title": "Purple / 0.500\"",
+          "sku": "SNR-PUR0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.500\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112149763",
+          "title": "Purple / 0.875\"",
+          "sku": "SNR-PUR0800-0000-875-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "0.875\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        },
+        {
+          "id": "47174112182531",
+          "title": "Purple / 1.00\"",
+          "sku": "SNR-PUR0800-0001-000-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Purple",
+            "1.00\""
+          ],
+          "image": "/images/9087047565571-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073954849027",
+      "title": "Red Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/red-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073954849027-0.png",
+        "/images/9073954849027-1.png",
+        "/images/9073954849027-2.png",
+        "/images/9073954849027-3.png",
+        "/images/9073954849027-4.png",
+        "/images/9073954849027-5.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Red"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "1.900\" (Discontinued)",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47156960395523",
+          "title": "Red / 0.500\"",
+          "sku": "SFH-RED0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Red",
+            "0.500\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960428291",
+          "title": "Red / 0.875\"",
+          "sku": "SFH-RED0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Red",
+            "0.875\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960461059",
+          "title": "Red / 1.000\"",
+          "sku": "SFH-RED0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Red",
+            "1.000\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960493827",
+          "title": "Red / 1.500\"",
+          "sku": "SFH-RED0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Red",
+            "1.500\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960526595",
+          "title": "Red / 1.900\" (Discontinued)",
+          "sku": "SFH-RED0832-01-900-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Red",
+            "1.900\" (Discontinued)"
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960559363",
+          "title": "Red / 2.000\"",
+          "sku": "SFH-RED0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Red",
+            "2.000\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960592131",
+          "title": "Red / 2.250\"",
+          "sku": "SFH-RED0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Red",
+            "2.250\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        },
+        {
+          "id": "47156960624899",
+          "title": "Red / 2.500\"",
+          "sku": "SFH-RED0832-02-500-010",
+          "price": 13.49,
+          "available": true,
+          "options": [
+            "Red",
+            "2.500\""
+          ],
+          "image": "/images/9073954849027-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073407197443",
+      "title": "Cherry Blossom Pink Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/cherry-blossom-pink-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073407197443-0.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Pink"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47155794772227",
+          "title": "Pink / 0.500\"",
+          "sku": "SFH-CBPI0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.500\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794804995",
+          "title": "Pink / 0.875\"",
+          "sku": "SFH-CBPI0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "0.875\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794837763",
+          "title": "Pink / 1.000\"",
+          "sku": "SFH-CBPI0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "1.000\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794870531",
+          "title": "Pink / 1.500\"",
+          "sku": "SFH-CBPI0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "1.500\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794903299",
+          "title": "Pink / 2.000\"",
+          "sku": "SFH-CBPI0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "2.000\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794936067",
+          "title": "Pink / 2.250\"",
+          "sku": "SFH-CBPI0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Pink",
+            "2.250\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        },
+        {
+          "id": "47155794968835",
+          "title": "Pink / 2.500\"",
+          "sku": "SFH-CBPI0832-02-500-010",
+          "price": 13.49,
+          "available": true,
+          "options": [
+            "Pink",
+            "2.500\""
+          ],
+          "image": "/images/9073407197443-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9087047401731",
+      "title": "Blue Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/blue-nylon-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9087047401731-0.png",
+        "/images/9087047401731-1.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Blue"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47174111428867",
+          "title": "Blue / 0.0625\"",
+          "sku": "SNR-BLU0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.0625\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111461635",
+          "title": "Blue / 0.125\"",
+          "sku": "SNR-BLU0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.125\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111494403",
+          "title": "Blue / 0.25\"",
+          "sku": "SNR-BLU0800-0000-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.25\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111527171",
+          "title": "Blue / 0.375\"",
+          "sku": "SNR-BLU0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.375\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111559939",
+          "title": "Blue / 0.500\"",
+          "sku": "SNR-BLU0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.500\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111592707",
+          "title": "Blue / 0.875\"",
+          "sku": "SNR-BLU0800-0000-875-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "0.875\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        },
+        {
+          "id": "47174111625475",
+          "title": "Blue / 1.00\"",
+          "sku": "SNR-BLU0800-0001-000-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Blue",
+            "1.00\""
+          ],
+          "image": "/images/9087047401731-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9087041929475",
+      "title": "Red Nylon Spacers",
+      "url": "https://www.whimsytech.net/products/red-nylon-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9087041929475-0.png",
+        "/images/9087041929475-1.png",
+        "/images/9087041929475-2.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Red"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47174110576899",
+          "title": "Red / 0.0625\"",
+          "sku": "SNR-RED0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Red",
+            "0.0625\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110609667",
+          "title": "Red / 0.125\"",
+          "sku": "SNR-RED0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Red",
+            "0.125\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110642435",
+          "title": "Red / 0.25\"",
+          "sku": "SNR-RED0800-0000-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Red",
+            "0.25\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110675203",
+          "title": "Red / 0.375\"",
+          "sku": "SNR-RED0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Red",
+            "0.375\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110707971",
+          "title": "Red / 0.500\"",
+          "sku": "SNR-RED0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Red",
+            "0.500\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110740739",
+          "title": "Red / 0.875\"",
+          "sku": "SNR-RED0800-0000-875-050",
+          "price": 6.49,
+          "available": false,
+          "options": [
+            "Red",
+            "0.875\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        },
+        {
+          "id": "47174110773507",
+          "title": "Red / 1.00\"",
+          "sku": "SNR-RED0800-0001-000-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Red",
+            "1.00\""
+          ],
+          "image": "/images/9087041929475-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9087047827715",
+      "title": "Black Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/black-nylon-washers-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9087047827715-0.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47174120145155",
+          "title": "Black / 0.0625\"",
+          "sku": "SNR-BLA0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Black",
+            "0.0625\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120177923",
+          "title": "Black / 0.125\"",
+          "sku": "SNR-BLA0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Black",
+            "0.125\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120210691",
+          "title": "Black / 0.25\"",
+          "sku": "SNR-BLA0800-0000-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Black",
+            "0.25\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120243459",
+          "title": "Black / 0.375\"",
+          "sku": "SNR-BLA0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Black",
+            "0.375\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120276227",
+          "title": "Black / 0.500\"",
+          "sku": "SNR-BLA0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Black",
+            "0.500\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120308995",
+          "title": "Black / 0.875\"",
+          "sku": "SNR-BLA0800-0000-875-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Black",
+            "0.875\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        },
+        {
+          "id": "47174120341763",
+          "title": "Black / 1.00\"",
+          "sku": "SNR-BLA0800-0001-000-050",
+          "price": 7.49,
+          "available": false,
+          "options": [
+            "Black",
+            "1.00\""
+          ],
+          "image": "/images/9087047827715-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9458952241411",
+      "title": "1/4” Aluminum Anodized Nylock Nuts Rev. 002",
+      "url": "https://www.whimsytech.net/products/1-4-aluminum-anodized-nylock-nuts-v2",
+      "category": "Nuts",
+      "images": [
+        "/images/9458952241411-0.png",
+        "/images/9458952241411-1.png",
+        "/images/9458952241411-2.png",
+        "/images/9458952241411-3.jpg",
+        "/images/9458952241411-4.png",
+        "/images/9458952241411-5.png",
+        "/images/9458952241411-6.png",
+        "/images/9458952241411-7.png",
+        "/images/9458952241411-8.png",
+        "/images/9458952241411-9.png",
+        "/images/9458952241411-10.png",
+        "/images/9458952241411-11.png",
+        "/images/9458952241411-12.png",
+        "/images/9458952241411-13.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black",
+            "Silver",
+            "Red",
+            "Orange",
+            "Gold",
+            "Green",
+            "Blue",
+            "Purple",
+            "Cherry Blossom Pink",
+            "Hot Pink"
+          ]
+        },
+        {
+          "name": "Count",
+          "position": 2,
+          "values": [
+            "50"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "48274527256835",
+          "title": "Black / 50",
+          "sku": "NXAL-BLA0832-0635-0465-050",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Black",
+            "50"
+          ],
+          "image": "/images/9458952241411-12.png"
+        },
+        {
+          "id": "48274527289603",
+          "title": "Silver / 50",
+          "sku": "NXAL-SIL0832-0635-0465-050",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Silver",
+            "50"
+          ],
+          "image": "/images/9458952241411-13.png"
+        },
+        {
+          "id": "48274527322371",
+          "title": "Red / 50",
+          "sku": "NXAL-RED0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Red",
+            "50"
+          ],
+          "image": "/images/9458952241411-4.png"
+        },
+        {
+          "id": "48274527355139",
+          "title": "Orange / 50",
+          "sku": "NXAL-ORA0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Orange",
+            "50"
+          ],
+          "image": "/images/9458952241411-5.png"
+        },
+        {
+          "id": "48274527387907",
+          "title": "Gold / 50",
+          "sku": "NXAL-GOL0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Gold",
+            "50"
+          ],
+          "image": "/images/9458952241411-6.png"
+        },
+        {
+          "id": "48274527420675",
+          "title": "Green / 50",
+          "sku": "NXAL-GRE0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Green",
+            "50"
+          ],
+          "image": "/images/9458952241411-7.png"
+        },
+        {
+          "id": "48274527453443",
+          "title": "Blue / 50",
+          "sku": "NXAL-BLU0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Blue",
+            "50"
+          ],
+          "image": "/images/9458952241411-8.png"
+        },
+        {
+          "id": "48274527486211",
+          "title": "Purple / 50",
+          "sku": "NXAL-PUR0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Purple",
+            "50"
+          ],
+          "image": "/images/9458952241411-9.png"
+        },
+        {
+          "id": "48274527518979",
+          "title": "Cherry Blossom Pink / 50",
+          "sku": "NXAL-CBPI0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Cherry Blossom Pink",
+            "50"
+          ],
+          "image": "/images/9458952241411-11.png"
+        },
+        {
+          "id": "48274527551747",
+          "title": "Hot Pink / 50",
+          "sku": "NXAL-PIN0832-0635-0465-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "50"
+          ],
+          "image": "/images/9458952241411-10.png"
+        }
+      ]
+    },
+    {
+      "id": "9117060661507",
+      "title": "T15 Nylon Flat Head Screws, 0.04\" Shoulder",
+      "url": "https://www.whimsytech.net/products/t15-nylon-flat-head-screws-0-04-shoulder",
+      "category": "Screws",
+      "images": [
+        "/images/9117060661507-0.png",
+        "/images/9117060661507-1.png",
+        "/images/9117060661507-2.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "White",
+            "Black"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\""
+          ]
+        },
+        {
+          "name": "Quantity",
+          "position": 3,
+          "values": [
+            "50"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47277675905283",
+          "title": "White / 0.500\" / 50",
+          "sku": "SXNS-WHI0832-0400-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "White",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9117060661507-2.png"
+        },
+        {
+          "id": "47277675938051",
+          "title": "Black / 0.500\" / 50",
+          "sku": "SXNS-BLA0832-0400-500-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Black",
+            "0.500\"",
+            "50"
+          ],
+          "image": "/images/9117060661507-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9086853153027",
+      "title": "T15 Flat Head Screws, Locking",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-locking",
+      "category": "Screws",
+      "images": [
+        "/images/9086853153027-0.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.290\" / 100pcs",
+            "0.500\" / 100pcs",
+            "1.125\" / 50pcs",
+            "1.250\" / 50pcs",
+            "1.375” / 50pcs",
+            "1.500” / 50pcs",
+            "1.625” / 50pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47173749866755",
+          "title": "Stainless steel / 0.290\" / 100pcs",
+          "sku": "SXRL-0832-0000-290-100",
+          "price": 6.49,
+          "available": false,
+          "options": [
+            "Stainless steel",
+            "0.290\" / 100pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47533281247491",
+          "title": "Stainless steel / 0.500\" / 100pcs",
+          "sku": "SXRL-0832-0000-500-100",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.500\" / 100pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47173750096131",
+          "title": "Stainless steel / 1.125\" / 50pcs",
+          "sku": "SXRL-0832-0001-125-050",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.125\" / 50pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47173750128899",
+          "title": "Stainless steel / 1.250\" / 50pcs",
+          "sku": "SXRL-0832-0001-250-050",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.250\" / 50pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47824455041283",
+          "title": "Stainless steel / 1.375” / 50pcs",
+          "sku": "SXRL-0832-0001-375-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.375” / 50pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47824455074051",
+          "title": "Stainless steel / 1.500” / 50pcs",
+          "sku": "SXRL-0832-0001-500-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.500” / 50pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        },
+        {
+          "id": "47824455106819",
+          "title": "Stainless steel / 1.625” / 50pcs",
+          "sku": "SXRL-0832-0001-625-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "1.625” / 50pcs"
+          ],
+          "image": "/images/9086853153027-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9086852759811",
+      "title": "T15 Flat Head Screws, 0.04” Shoulder, Locking",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-04-shoulder-locking",
+      "category": "Screws",
+      "images": [
+        "/images/9086852759811-0.png",
+        "/images/9086852759811-1.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Count",
+          "position": 2,
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 3,
+          "values": [
+            "0.290\"",
+            "0.375\"",
+            "0.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47173749309699",
+          "title": "Stainless steel / 100 / 0.290\"",
+          "sku": "SXRL-0832-0400-290-100",
+          "price": 8.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.290\""
+          ],
+          "image": "/images/9086852759811-0.png"
+        },
+        {
+          "id": "47173749342467",
+          "title": "Stainless steel / 100 / 0.375\"",
+          "sku": "SXRL-0832-0400-375-100",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.375\""
+          ],
+          "image": "/images/9086852759811-0.png"
+        },
+        {
+          "id": "47173749375235",
+          "title": "Stainless steel / 100 / 0.500\"",
+          "sku": "SXRL-0832-0400-500-100",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.500\""
+          ],
+          "image": "/images/9086852759811-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9086852464899",
+      "title": "T15 Flat Head Screws, 0.09” Shoulder",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder",
+      "category": "Screws",
+      "images": [
+        "/images/9086852464899-0.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Count",
+          "position": 2,
+          "values": [
+            "100",
+            "50"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 3,
+          "values": [
+            "0.290\" / 100pcs",
+            "0.375” / 100pcs",
+            "0.500\" / 100pcs",
+            "1.000\" / 50pcs",
+            "2.000\" / 50pcs",
+            "2.500\" / 50pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47173748424963",
+          "title": "Stainless steel / 100 / 0.290\" / 100pcs",
+          "sku": "SXRS-0832-0900-290-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.290\" / 100pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        },
+        {
+          "id": "48490095116547",
+          "title": "Stainless steel / 100 / 0.375” / 100pcs",
+          "sku": "SXRS-0832-0900-375-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.375” / 100pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        },
+        {
+          "id": "47173748490499",
+          "title": "Stainless steel / 100 / 0.500\" / 100pcs",
+          "sku": "SXRS-0832-0900-500-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.500\" / 100pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        },
+        {
+          "id": "47350125297923",
+          "title": "Stainless steel / 50 / 1.000\" / 50pcs",
+          "sku": "SXRS-0832-0901-000-050",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "50",
+            "1.000\" / 50pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        },
+        {
+          "id": "47350125330691",
+          "title": "Stainless steel / 50 / 2.000\" / 50pcs",
+          "sku": "SXRS-0832-0902-000-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "50",
+            "2.000\" / 50pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        },
+        {
+          "id": "47173748949251",
+          "title": "Stainless steel / 50 / 2.500\" / 50pcs",
+          "sku": "SXRS-0832-0902-500-050",
+          "price": 10.49,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "50",
+            "2.500\" / 50pcs"
+          ],
+          "image": "/images/9086852464899-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9135983624451",
+      "title": "Black High Strength Acetal Spacers",
+      "url": "https://www.whimsytech.net/products/black-high-strength-acetal-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9135983624451-0.png",
+        "/images/9135983624451-1.png",
+        "/images/9135983624451-2.png",
+        "/images/9135983624451-3.png",
+        "/images/9135983624451-4.png",
+        "/images/9135983624451-5.png",
+        "/images/9135983624451-6.png",
+        "/images/9135983624451-7.png"
+      ],
+      "options": [
+        {
+          "name": "Length",
+          "position": 1,
+          "values": [
+            "0.0625\" (Discontinued)",
+            "0.125\"",
+            "0.250\"",
+            "0.375\"",
+            "0.500” (actual 0.540”)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47327309889795",
+          "title": "0.0625\" (Discontinued)",
+          "sku": "SPR-HS-BLA0700-00-0625-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "0.0625\" (Discontinued)"
+          ],
+          "image": "/images/9135983624451-0.png"
+        },
+        {
+          "id": "47327309922563",
+          "title": "0.125\"",
+          "sku": "SPR-HS-BLA0700-00-1250-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "0.125\""
+          ],
+          "image": "/images/9135983624451-0.png"
+        },
+        {
+          "id": "47327309955331",
+          "title": "0.250\"",
+          "sku": "SPR-HS-BLA0700-00-2500-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "0.250\""
+          ],
+          "image": "/images/9135983624451-0.png"
+        },
+        {
+          "id": "47327309988099",
+          "title": "0.375\"",
+          "sku": "SPR-HS-BLA0700-00-3750-050",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "0.375\""
+          ],
+          "image": "/images/9135983624451-0.png"
+        },
+        {
+          "id": "47327310020867",
+          "title": "0.500” (actual 0.540”)",
+          "sku": "SPR-HS-BLA0700-00-5000-050",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "0.500” (actual 0.540”)"
+          ],
+          "image": "/images/9135983624451-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9353827254531",
+      "title": "1/4\" Nylon Pasta Spacers",
+      "url": "https://www.whimsytech.net/products/pasta-washers-spacers",
+      "category": "Spacers",
+      "images": [
+        "/images/9353827254531-0.png",
+        "/images/9353827254531-1.png",
+        "/images/9353827254531-2.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Off-White"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47904423608579",
+          "title": "Off-White / 0.125\"",
+          "sku": "SNR-NAU0800-1400-125-050",
+          "price": 3.49,
+          "available": false,
+          "options": [
+            "Off-White",
+            "0.125\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        },
+        {
+          "id": "47904423641347",
+          "title": "Off-White / 0.25\"",
+          "sku": "SNR-NAU0800-1400-250-050",
+          "price": 3.99,
+          "available": true,
+          "options": [
+            "Off-White",
+            "0.25\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        },
+        {
+          "id": "47904423674115",
+          "title": "Off-White / 0.375\"",
+          "sku": "SNR-NAU0800-1400-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Off-White",
+            "0.375\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        },
+        {
+          "id": "47904423706883",
+          "title": "Off-White / 0.500\"",
+          "sku": "SNR-NAU0800-1400-500-050",
+          "price": 4.99,
+          "available": false,
+          "options": [
+            "Off-White",
+            "0.500\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        },
+        {
+          "id": "47904423739651",
+          "title": "Off-White / 0.875\"",
+          "sku": "SNR-NAU0800-1400-875-050",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Off-White",
+            "0.875\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        },
+        {
+          "id": "47904423772419",
+          "title": "Off-White / 1.00\"",
+          "sku": "SNR-NAU0800-1401-000-050",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Off-White",
+            "1.00\""
+          ],
+          "image": "/images/9353827254531-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9086853710083",
+      "title": "T15 Flat Head Screws, 0.09” Shoulder, Locking",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-09-shoulder-locking",
+      "category": "Screws",
+      "images": [
+        "/images/9086853710083-0.png",
+        "/images/9086853710083-1.png"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.290\" / 100pcs",
+            "0.500\" / 100pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47533274071299",
+          "title": "Stainless steel / 0.290\" / 100pcs",
+          "sku": "SXRS-0832-0900-290-100",
+          "price": 7.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.290\" / 100pcs"
+          ],
+          "image": "/images/9086853710083-0.png"
+        },
+        {
+          "id": "47173750653187",
+          "title": "Stainless steel / 0.500\" / 100pcs",
+          "sku": "SXRL-0832-0900-500-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "0.500\" / 100pcs"
+          ],
+          "image": "/images/9086853710083-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073958486275",
+      "title": "Hot Pink Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/hot-pink-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073958486275-0.png",
+        "/images/9073958486275-1.png",
+        "/images/9073958486275-2.png",
+        "/images/9073958486275-3.png",
+        "/images/9073958486275-4.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Hot Pink"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "1.900\" (Discontinued)",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47156966588675",
+          "title": "Hot Pink / 0.500\"",
+          "sku": "SFH-PIN0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "0.500\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966621443",
+          "title": "Hot Pink / 0.875\"",
+          "sku": "SFH-PIN0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "0.875\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966654211",
+          "title": "Hot Pink / 1.000\"",
+          "sku": "SFH-PIN0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "1.000\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966686979",
+          "title": "Hot Pink / 1.500\"",
+          "sku": "SFH-PIN0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "1.500\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966719747",
+          "title": "Hot Pink / 1.900\" (Discontinued)",
+          "sku": "SFH-PIN0832-01-900-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "1.900\" (Discontinued)"
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966752515",
+          "title": "Hot Pink / 2.000\"",
+          "sku": "SFH-PIN0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "2.000\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966785283",
+          "title": "Hot Pink / 2.250\"",
+          "sku": "SFH-PIN0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "2.250\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        },
+        {
+          "id": "47156966818051",
+          "title": "Hot Pink / 2.500\"",
+          "sku": "SFH-PIN0832-02-500-010",
+          "price": 13.49,
+          "available": true,
+          "options": [
+            "Hot Pink",
+            "2.500\""
+          ],
+          "image": "/images/9073958486275-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9073960812803",
+      "title": "Green Aluminum Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/green-aluminum-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9073960812803-0.png",
+        "/images/9073960812803-1.png",
+        "/images/9073960812803-2.png",
+        "/images/9073960812803-3.png",
+        "/images/9073960812803-4.png",
+        "/images/9073960812803-5.png",
+        "/images/9073960812803-6.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Green"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "1.900\" (Discontinued)",
+            "2.000\"",
+            "2.250\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47156968653059",
+          "title": "Green / 0.500\"",
+          "sku": "SFH-GRE0832-00-500-010",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Green",
+            "0.500\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968685827",
+          "title": "Green / 0.875\"",
+          "sku": "SFH-GRE0832-00-875-010",
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Green",
+            "0.875\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968718595",
+          "title": "Green / 1.000\"",
+          "sku": "SFH-GRE0832-01-000-010",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Green",
+            "1.000\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968751363",
+          "title": "Green / 1.500\"",
+          "sku": "SFH-GRE0832-01-500-010",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "Green",
+            "1.500\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968784131",
+          "title": "Green / 1.900\" (Discontinued)",
+          "sku": "SFH-GRE0832-01-900-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Green",
+            "1.900\" (Discontinued)"
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968816899",
+          "title": "Green / 2.000\"",
+          "sku": "SFH-GRE0832-02-000-010",
+          "price": 9.99,
+          "available": true,
+          "options": [
+            "Green",
+            "2.000\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968849667",
+          "title": "Green / 2.250\"",
+          "sku": "SFH-GRE0832-02-250-010",
+          "price": 11.99,
+          "available": true,
+          "options": [
+            "Green",
+            "2.250\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        },
+        {
+          "id": "47156968882435",
+          "title": "Green / 2.500\"",
+          "sku": "SFH-GRE0832-02-500-010",
+          "price": 12.99,
+          "available": true,
+          "options": [
+            "Green",
+            "2.500\""
+          ],
+          "image": "/images/9073960812803-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9353815851267",
+      "title": "White Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/white-nylon-washers-spacers",
+      "category": "Spacers",
+      "images": [],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "White"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47904345948419",
+          "title": "White / 0.0625\"",
+          "sku": "SNR-WHI0800-0000-062-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "White",
+            "0.0625\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904345981187",
+          "title": "White / 0.125\"",
+          "sku": "SNR-WHI0800-0000-125-050",
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "White",
+            "0.125\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904346013955",
+          "title": "White / 0.25\"",
+          "sku": "SNR-WHI0800-0000-250-050",
+          "price": 3.99,
+          "available": false,
+          "options": [
+            "White",
+            "0.25\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904346046723",
+          "title": "White / 0.375\"",
+          "sku": "SNR-WHI0800-0000-375-050",
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "White",
+            "0.375\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904346079491",
+          "title": "White / 0.500\"",
+          "sku": "SNR-WHI0800-0000-500-050",
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "White",
+            "0.500\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904346112259",
+          "title": "White / 0.875\"",
+          "sku": "SNR-WHI0800-0000-875-050",
+          "price": 6.49,
+          "available": true,
+          "options": [
+            "White",
+            "0.875\""
+          ],
+          "image": null
+        },
+        {
+          "id": "47904346145027",
+          "title": "White / 1.00\"",
+          "sku": "SNR-WHI0800-0001-000-050",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "White",
+            "1.00\""
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "9539884286211",
+      "title": "Black Nylon Hex Standoffs",
+      "url": "https://www.whimsytech.net/products/black-nylon-hex-standoffs",
+      "category": "Standoffs",
+      "images": [
+        "/images/9539884286211-0.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Black"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.500\"",
+            "0.875\"",
+            "1.000\"",
+            "1.500\"",
+            "2.000\"",
+            "2.500\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "49258390356227",
+          "title": "Black / 0.500\"",
+          "sku": null,
+          "price": 5.99,
+          "available": true,
+          "options": [
+            "Black",
+            "0.500\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        },
+        {
+          "id": "49258390388995",
+          "title": "Black / 0.875\"",
+          "sku": null,
+          "price": 6.99,
+          "available": false,
+          "options": [
+            "Black",
+            "0.875\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        },
+        {
+          "id": "49258390421763",
+          "title": "Black / 1.000\"",
+          "sku": null,
+          "price": 7.99,
+          "available": false,
+          "options": [
+            "Black",
+            "1.000\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        },
+        {
+          "id": "49258390454531",
+          "title": "Black / 1.500\"",
+          "sku": null,
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Black",
+            "1.500\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        },
+        {
+          "id": "49258390520067",
+          "title": "Black / 2.000\"",
+          "sku": null,
+          "price": 10.99,
+          "available": true,
+          "options": [
+            "Black",
+            "2.000\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        },
+        {
+          "id": "49258390585603",
+          "title": "Black / 2.500\"",
+          "sku": null,
+          "price": 13.99,
+          "available": true,
+          "options": [
+            "Black",
+            "2.500\""
+          ],
+          "image": "/images/9539884286211-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9429667709187",
+      "title": "T15 Steel Flat Head Screws, 0.04”",
+      "url": "https://www.whimsytech.net/products/t15-steel-flat-head-screws-0-04",
+      "category": "Screws",
+      "images": [
+        "/images/9429667709187-0.jpg",
+        "/images/9429667709187-1.jpg"
+      ],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Steel"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "2.250\" / 50pcs",
+            "2.500\" / 50pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "48203080040707",
+          "title": "Steel / 2.250\" / 50pcs",
+          "sku": "SXSS-0832-0402-250-050",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Steel",
+            "2.250\" / 50pcs"
+          ],
+          "image": "/images/9429667709187-0.jpg"
+        },
+        {
+          "id": "48203080073475",
+          "title": "Steel / 2.500\" / 50pcs",
+          "sku": "SXSS-0832-0402-500-050",
+          "price": 9.49,
+          "available": true,
+          "options": [
+            "Steel",
+            "2.500\" / 50pcs"
+          ],
+          "image": "/images/9429667709187-0.jpg"
+        }
+      ]
+    },
+    {
+      "id": "9087022563587",
+      "title": "Quick Connect Switch",
+      "url": "https://www.whimsytech.net/products/quick-connect-switch",
+      "category": "Pneumatics",
+      "images": [
+        "/images/9087022563587-0.png"
+      ],
+      "options": [
+        {
+          "name": "Quantity",
+          "position": 1,
+          "values": [
+            "1"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "49240204378371",
+          "title": "1",
+          "sku": "PNEU-QMSW-BLU004-0001",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "1"
+          ],
+          "image": "/images/9087022563587-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9074055119107",
+      "title": "Pneumatic 4mm Quick Connect T-Fittings",
+      "url": "https://www.whimsytech.net/products/pneumatic-4mm-quick-connect-t-fittings",
+      "category": "Pneumatics",
+      "images": [
+        "/images/9074055119107-0.png",
+        "/images/9074055119107-1.heic"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "White",
+            "Black"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "47157181939971",
+          "title": "White",
+          "sku": "PNEU-QTFIT-LPW004-0005",
+          "price": 7.49,
+          "available": true,
+          "options": [
+            "White"
+          ],
+          "image": "/images/9074055119107-1.heic"
+        },
+        {
+          "id": "47157182038275",
+          "title": "Black",
+          "sku": "PNEU-QTFIT-BLU004-0005",
+          "price": 6.99,
+          "available": true,
+          "options": [
+            "Black"
+          ],
+          "image": "/images/9074055119107-0.png"
+        }
+      ]
+    },
+    {
+      "id": "9536053903619",
+      "title": "T15 Flat Head Screws, 0.18” Shoulder",
+      "url": "https://www.whimsytech.net/products/t15-flat-head-screws-0-18-shoulder",
+      "category": "Screws",
+      "images": [],
+      "options": [
+        {
+          "name": "Hardware material",
+          "position": 1,
+          "values": [
+            "Stainless steel"
+          ]
+        },
+        {
+          "name": "Count",
+          "position": 2,
+          "values": [
+            "100"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 3,
+          "values": [
+            "0.375” / 100pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "49248192659715",
+          "title": "Stainless steel / 100 / 0.375” / 100pcs",
+          "sku": "SXRS-0832-0900-375-100",
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Stainless steel",
+            "100",
+            "0.375” / 100pcs"
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "9745913676035",
+      "title": "Green Nylon Washers & Spacers",
+      "url": "https://www.whimsytech.net/products/green-nylon-washers-spacers",
+      "category": "Spacers",
+      "images": [],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Green"
+          ]
+        },
+        {
+          "name": "Length",
+          "position": 2,
+          "values": [
+            "0.0625\"",
+            "0.125\"",
+            "0.25\"",
+            "0.375\"",
+            "0.500\"",
+            "0.875\"",
+            "1.00\""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "49935617229059",
+          "title": "Green / 0.0625\"",
+          "sku": null,
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Green",
+            "0.0625\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617261827",
+          "title": "Green / 0.125\"",
+          "sku": null,
+          "price": 3.49,
+          "available": true,
+          "options": [
+            "Green",
+            "0.125\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617294595",
+          "title": "Green / 0.25\"",
+          "sku": null,
+          "price": 3.99,
+          "available": false,
+          "options": [
+            "Green",
+            "0.25\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617327363",
+          "title": "Green / 0.375\"",
+          "sku": null,
+          "price": 4.49,
+          "available": true,
+          "options": [
+            "Green",
+            "0.375\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617360131",
+          "title": "Green / 0.500\"",
+          "sku": null,
+          "price": 4.99,
+          "available": true,
+          "options": [
+            "Green",
+            "0.500\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617392899",
+          "title": "Green / 0.875\"",
+          "sku": null,
+          "price": 6.49,
+          "available": false,
+          "options": [
+            "Green",
+            "0.875\""
+          ],
+          "image": null
+        },
+        {
+          "id": "49935617425667",
+          "title": "Green / 1.00\"",
+          "sku": null,
+          "price": 7.49,
+          "available": false,
+          "options": [
+            "Green",
+            "1.00\""
+          ],
+          "image": null
+        }
+      ]
+    }
+  ]
+}
