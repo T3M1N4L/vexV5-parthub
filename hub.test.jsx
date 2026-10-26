@@ -11,7 +11,7 @@ test('variant cart persists, quantities calculate, and both exports contain real
  await screen.findByText('Test screw');
  fireEvent.change(screen.getByLabelText('Variant for Test screw'),{target:{value:'2'}});
  fireEvent.click(screen.getByText('Add to order'));
- fireEvent.click(screen.getByText('Your order',{selector:'button'}));
+ fireEvent.click(screen.getByRole('button',{name:/Your order/}));
  fireEvent.click(screen.getByLabelText('Increase Test screw'));
  await waitFor(()=>expect(JSON.parse(values.get('v5-cart'))[0].qty).toBe(2));
  expect(screen.getAllByText('$6.00').length).toBe(2);
@@ -25,6 +25,6 @@ test('variant cart persists, quantities calculate, and both exports contain real
  expect(rows[0]).toMatchObject({'Part #':'TEST-BLUE','Qty':2,'Unit Cost':3,'Line Total':6,Variant:'Blue / 2 inch'});
  const csv=XLSX.utils.sheet_to_csv(wb.Sheets['Parts Order']);expect(csv).toContain('TEST-BLUE');
  fireEvent.click(screen.getByText('Remove'));
- await screen.findByText('Your next build starts here.');
+ await screen.findByText('Your order is empty.');
  expect(screen.getByText('Export CSV').disabled).toBe(true);
 });
