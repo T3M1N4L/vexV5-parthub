@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T13:16:13.130Z",
+  "updatedAt": "2026-10-27T02:16:40.227Z",
   "source": "https://www.whimsytech.net",
   "requested": [
     "T15 Flat Head Screws",
@@ -15,7 +15,85 @@
     "Pneumatic 4mm Quick Connect T-Fittings",
     "Quick Connect Switch"
   ],
+  "robosourceUpdatedAt": "2026-10-26T18:18:51Z",
+  "robosourceCoverage": {
+    "star-drive-screws-steel": {
+      "pages": 3,
+      "products": 46
+    },
+    "shoulder-screws-steel": {
+      "pages": 1,
+      "products": 18
+    },
+    "nylon-screws-nuts": {
+      "pages": 2,
+      "products": 2
+    }
+  },
   "products": [
+    {
+      "id": "9539810590979",
+      "title": "Aluminum Spacers & Collars",
+      "url": "https://www.whimsytech.net/products/aluminum-spacers-collars",
+      "category": "Spacers",
+      "images": [
+        "/images/transparent/9539810590979-0.png",
+        "/images/transparent/9539810590979-1.png"
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "Silver",
+            "Black"
+          ]
+        },
+        {
+          "name": "Number of Circumference Holes",
+          "position": 2,
+          "values": [
+            "1 Hole"
+          ]
+        },
+        {
+          "name": "Tapped or Untapped? And Quantity",
+          "position": 3,
+          "values": [
+            "Untapped / 10 pcs",
+            "Tapped / 10 pcs"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "49273768280323",
+          "title": "Silver / 1 Hole / Untapped / 10 pcs",
+          "sku": null,
+          "price": 7.99,
+          "available": false,
+          "options": [
+            "Silver",
+            "1 Hole",
+            "Untapped / 10 pcs"
+          ],
+          "image": "/images/transparent/9539810590979-1.png"
+        },
+        {
+          "id": "49258224025859",
+          "title": "Black / 1 Hole / Tapped / 10 pcs",
+          "sku": null,
+          "price": 8.99,
+          "available": true,
+          "options": [
+            "Black",
+            "1 Hole",
+            "Tapped / 10 pcs"
+          ],
+          "image": "/images/transparent/9539810590979-0.png"
+        }
+      ]
+    },
     {
       "id": "9086199005443",
       "title": "T15 Flat Head Screws",
@@ -4501,20 +4579,5 @@
         }
       ]
     }
-  ],
-  "robosourceUpdatedAt": "2026-10-26T18:18:51Z",
-  "robosourceCoverage": {
-    "star-drive-screws-steel": {
-      "pages": 3,
-      "products": 46
-    },
-    "shoulder-screws-steel": {
-      "pages": 1,
-      "products": 18
-    },
-    "nylon-screws-nuts": {
-      "pages": 2,
-      "products": 2
-    }
-  }
+  ]
 }
