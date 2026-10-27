@@ -10,7 +10,10 @@ test('variant cart persists, quantities calculate, and both exports contain real
  await import('./src.jsx');
  await screen.findByText('Test screw');
  fireEvent.change(screen.getByLabelText('Variant for Test screw'),{target:{value:'2'}});
- fireEvent.click(screen.getByText('Add to order'));
+ fireEvent.click(screen.getByText('Add to cart'));
+ await screen.findByText('Added to cart');
+ expect(screen.queryByLabelText('Supplier')).toBeNull();
+ expect(screen.queryByText('TEST-BLUE')).toBeNull();
  fireEvent.click(screen.getByRole('button',{name:/Your order/}));
  fireEvent.click(screen.getByLabelText('Increase Test screw'));
  await waitFor(()=>expect(JSON.parse(values.get('v5-cart'))[0].qty).toBe(2));
