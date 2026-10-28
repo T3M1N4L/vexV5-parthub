@@ -52,7 +52,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
       )}
       <CardHeader>
         <Button variant="ghost" size="sm" className="w-fit" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
-          <Avatar size="sm"><AvatarImage src={asset(supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback>{supplier[0]}</AvatarFallback></Avatar>
+          <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className="rounded-none object-contain" src={asset(supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
           {supplier}<ArrowUpRight />
         </Button>
         <CardTitle>{p.title}</CardTitle>
@@ -100,7 +100,7 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
         <main className="py-6">
           <Tabs value={category} onValueChange={setCategory}>
             <ScrollArea className="w-full">
-              <div className="flex w-max"><TabsList aria-label="Part categories">
+              <div className="mx-auto flex w-max"><TabsList aria-label="Part categories">
                 {categories.map(c => <TabsTrigger key={c} value={c}>{c}</TabsTrigger>)}
               </TabsList></div>
               <ScrollBar orientation="horizontal" />
