@@ -43,3 +43,13 @@ Supplier badges use the actual favicon assets (Whimsy 256px PNG; Robosource mult
 ## Registry UI migration
 
 All controls now come directly from the official shadcn registry (`base-nova`), including cards, variant selects, category tabs, search input, supplier avatars, and the cart sheet. The previous custom component CSS was removed. See [REGISTRY.md](REGISTRY.md) for the exact installation command and component mapping.
+
+## Editable spreadsheet export and VEX/HCU catalogs
+
+Order review now opens an editable shadcn Dialog/Table preview before downloads. Part names, links, supplier, reference, quantity, quantity needed, unit price and variant are editable for the export. Quantity × price totals are calculated. Exports follow the original uploaded order sheet's title/header layout, with extra variant, total and source-URL columns. Split mode creates supplier tabs in XLSX or supplier CSVs inside a ZIP. Cart deletion uses an accessible trash-icon button.
+
+The initial screen presents centered search and categories; no catalog cards render until searching or selecting a category. Electronics, Metal, Wheels and Motion were added. Existing lazy loading remains.
+
+`PYTHONPATH=<beautifulsoup4 install location> python scripts/scrape-vex.py` imports the requested VEX pages. It uses the public Magento GraphQL US catalog for USD prices, grouped children and custom option SKUs; HTML supplies product images and option mappings. It distinguishes 6P and 9P sprockets, omits the hardware kit/crimper/rack gear/gear kits/general gusset assortment, and limits aluminum angle to 1x1x35. Product 276-7285 is the U-channel, and 276-8659 is AI Vision (the duplicate vision link is imported once).
+
+Source limitations: VEX does not publish a usable option photo for legacy 4-inch wheel 276-1497; its card uses a labeled placeholder. Compression wheel 276-8880 appears on the EU page but is absent from the US response, so its USD price is blank and ordering is disabled. HCU's public product API exposes actual SKUs N-B-100 ($25/100) and N-S-100 ($20/100); these are retained despite the original request expecting no number. HCU's own logo is displayed inverted. VEX's actual favicon is downloaded locally.

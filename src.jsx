@@ -1,7 +1,7 @@
+import {OrderPreview} from './order-preview';
 import React, { useEffect, useState, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ShoppingBag, Search, Plus, Minus, Download, Box, Check, ArrowUpRight } from 'lucide-react';
-import * as XLSX from 'xlsx';
+import { Trash2, ShoppingBag, Search, Plus, Minus, Download, Box, Check, ArrowUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -19,7 +19,7 @@ import './style.css';
 
 const asset = p => p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p;
 const money = n => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n);
-const categories = ['All parts', 'Screws', 'Shoulder screws', 'Standoffs', 'Nuts', 'Spacers', 'Pneumatics'];
+const categories = ['All parts', 'Electronics', 'Metal', 'Wheels', 'Motion', 'Screws', 'Shoulder screws', 'Standoffs', 'Nuts', 'Spacers', 'Pneumatics'];
 
 function AddToCart({ available, onAdd }) {
   const [added, setAdded] = useState(0);
@@ -52,7 +52,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
       )}
       <CardHeader>
         <Button variant="ghost" size="sm" className="w-fit px-0" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
-          <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className="rounded-none object-contain" src={asset(supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
+          <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className={`rounded-none object-contain ${supplier==='HCU Tech'?'invert':''}`} src={asset(supplier === 'VEX Robotics' ? '/logos/vex.ico' : supplier === 'HCU Tech' ? '/logos/hcu.png' : supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
           {supplier}<ArrowUpRight />
         </Button>
         <CardTitle>{p.title}</CardTitle>
@@ -66,7 +66,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
             </SelectContent>
           </Select>
         )}
-        <p className="font-medium tabular-nums">{money(v.price)}</p>
+        <p className="font-medium tabular-nums">{v.price==null?'Price unavailable':money(v.price)}</p>
       </CardContent>
       <CardFooter><AddToCart key={v.id} available={v.available} onAdd={() => onAdd(p, v)} /></CardFooter>
     </Card>
@@ -74,15 +74,14 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
 }
 
 function App() {
-const[data,setData]=useState({products:[],requested:[]}),[query,setQuery]=useState(''),[category,setCategory]=useState('All parts'),[cart,setCart]=useState(()=>{try{return JSON.parse(localStorage.getItem('v5-cart')||'[]')}catch{return[]}}),[open,setOpen]=useState(false),[selected,setSelected]=useState({}),[error,setError]=useState('');
+const[data,setData]=useState({products:[],requested:[]}),[query,setQuery]=useState(''),[category,setCategory]=useState('Start'),[cart,setCart]=useState(()=>{try{return JSON.parse(localStorage.getItem('v5-cart')||'[]')}catch{return[]}}),[open,setOpen]=useState(false),[selected,setSelected]=useState({}),[error,setError]=useState('');
 useEffect(()=>{fetch(import.meta.env.BASE_URL+'data/catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(setData).catch(()=>setError('Catalog could not be loaded. Please refresh.'))},[]);
 useEffect(()=>{localStorage.setItem('v5-cart',JSON.stringify(cart))},[cart]);
 const change=(id,n)=>setCart(c=>c.map(x=>x.id===id?{...x,qty:Math.max(0,Math.min(9999,n))}:x).filter(x=>x.qty));
 const add=(p,v)=>{if(cart.some(x=>x.id===v.id&&x.qty>=9999))return false;setCart(c=>c.some(x=>x.id===v.id)?c.map(x=>x.id===v.id?{...x,qty:Math.min(9999,x.qty+1)}:x):[...c,{...v,product:p.title,url:p.url,supplier:p.supplier||'Whimsy Tech',qty:1}]);return true;};
 const total=cart.reduce((s,x)=>s+x.price*x.qty,0),count=cart.reduce((s,x)=>s+x.qty,0);
-function download(type){const safe=x=>typeof x==='string'&&/^[=+@\-\t\r]/.test(x)?"'"+x:x;const rows=cart.map(x=>Object.fromEntries(Object.entries({'Part Link':x.url,'Part #':x.sku,'Website':x.supplier||'Whimsy Tech','Qty':x.qty,'Qty Needed':'','Unit Cost':x.price,'Part Name':x.product,'Variant':x.title,'Supplier Variant ID':x.id,'Line Total':Math.round(x.price*x.qty*100)/100}).map(([k,v])=>[k,safe(v)])));const ws=XLSX.utils.json_to_sheet(rows);ws['!cols']=[{wch:60},{wch:24},{wch:18},{wch:8},{wch:14},{wch:12},{wch:45},{wch:30},{wch:14}];const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,'Parts Order');XLSX.writeFile(wb,`8780F-parts-order.${type}`,{bookType:type});}
 const productCategory=p=>/shoulder/i.test(p.title)?'Shoulder screws':p.category;
-const items=data.products.filter(p=>(category==='All parts'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
+const items=data.products.filter(p=>(category==='All parts'||category==='Start'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
   const [visibleCount, setVisibleCount] = useState(24);
   const loadMoreRef = useRef(null);
   useEffect(() => setVisibleCount(24), [category, query]);
@@ -102,16 +101,17 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <header className="flex flex-wrap items-center justify-between gap-4 py-6">
           <Button variant="ghost" nativeButton={false} render={<a href={import.meta.env.BASE_URL} />}>V5 / PARTS</Button>
-          <div className="order-3 w-full sm:order-none sm:max-w-sm">
+          {category!=='Start'&&<div className={`order-3 w-full sm:order-none ${category==='Start'&&!query?'mx-auto mt-24 sm:max-w-xl':'sm:max-w-sm'}`}>
             <InputGroup>
               <InputGroupAddon><Search /></InputGroupAddon>
               <InputGroupInput aria-label="Search parts" placeholder="Search parts…" value={query} onChange={e => setQuery(e.target.value)} />
             </InputGroup>
-          </div>
+          </div>}
           <SheetTrigger render={<Button variant="outline" />}><ShoppingBag />Your order<Badge variant="secondary">{count}</Badge></SheetTrigger>
         </header>
         <Separator />
         <main className="py-6">
+          {category==='Start'&&<div className="mx-auto mb-8 max-w-xl space-y-6 py-12 text-center"><h1 className="text-3xl font-semibold tracking-tight">Find parts for your next build</h1><InputGroup><InputGroupAddon><Search/></InputGroupAddon><InputGroupInput aria-label="Search parts" placeholder="Search parts…" value={query} onChange={e=>setQuery(e.target.value)}/></InputGroup></div>}
           <Tabs value={category} onValueChange={setCategory}>
             <ScrollArea className="w-full">
               <div className="mx-auto flex w-max"><TabsList aria-label="Part categories">
@@ -120,12 +120,12 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
               <ScrollBar orientation="horizontal" />
             </ScrollArea>
             <TabsContent value={category} className="space-y-6 py-6">
-              <h1 className="text-2xl font-semibold tracking-tight">{category}</h1>
+              {(category!=='Start'||query)&&<h1 className="text-2xl font-semibold tracking-tight">{category==='Start'?'Search results':category}</h1>}
               {error && <Alert variant="destructive"><AlertDescription>{error}</AlertDescription></Alert>}
               <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {items.slice(0, visibleCount).map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
+                {(category==='Start'&&!query?[]:items).slice(0, visibleCount).map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
               </div>
-              {visibleCount < items.length && <div ref={loadMoreRef} className="flex justify-center"><Button variant="outline" onClick={() => setVisibleCount(n => n + 24)}>Load more parts</Button></div>}
+              {(category!=='Start'||query)&&visibleCount < items.length && <div ref={loadMoreRef} className="flex justify-center"><Button variant="outline" onClick={() => setVisibleCount(n => n + 24)}>Load more parts</Button></div>}
               {!items.length && !error && <Empty><EmptyHeader><EmptyMedia variant="icon"><Search /></EmptyMedia><EmptyTitle>No parts found</EmptyTitle><EmptyDescription>Try a different search or category.</EmptyDescription></EmptyHeader></Empty>}
             </TabsContent>
           </Tabs>
@@ -153,7 +153,7 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
                     <strong className="ml-auto tabular-nums">{money(x.price * x.qty)}</strong>
                   </div>
                 </CardContent>
-                <CardFooter><Button variant="ghost" size="sm" onClick={() => change(x.id, 0)}>Remove</Button></CardFooter>
+                <CardFooter><Button variant="ghost" size="icon" aria-label={`Delete ${x.product}`} onClick={() => change(x.id, 0)}><Trash2/></Button></CardFooter>
               </Card>
             )) : (
               <Empty><EmptyHeader><EmptyMedia variant="icon"><ShoppingBag /></EmptyMedia><EmptyTitle>Your order is empty.</EmptyTitle><EmptyDescription>Add parts to put your order together.</EmptyDescription></EmptyHeader><EmptyContent><SheetClose render={<Button variant="outline" />}>Browse parts</SheetClose></EmptyContent></Empty>
@@ -164,10 +164,7 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
         <SheetFooter>
           <div className="flex justify-between text-base font-semibold"><span>Subtotal</span><span>{money(total)}</span></div>
           <p className="text-xs text-muted-foreground">USD · Tax and shipping excluded. Exports are order lists; purchase directly from the supplier.</p>
-          <div className="grid grid-cols-2 gap-2">
-            <Button disabled={!cart.length} onClick={() => download('xlsx')}><Download />Export Excel</Button>
-            <Button variant="outline" disabled={!cart.length} onClick={() => download('csv')}><Download />Export CSV</Button>
-          </div>
+          <OrderPreview cart={cart}/>
         </SheetFooter>
       </SheetContent>
     </Sheet>

@@ -4578,6 +4578,1978 @@
           "image": "/images/transparent/robo-549.png"
         }
       ]
+    },
+    {
+      "id": "hcu-nylocks",
+      "title": "HCU Nylocks",
+      "supplier": "HCU Tech",
+      "category": "Nuts",
+      "url": "https://hcu-tech.square.site/product/hcu-nylocks/HJESOE6J2O7F6Z3XUKFA65Z3",
+      "images": [
+        "/images/hcu-2LWAOJBXVTJ3PZ2RLRYJ4KK4.png",
+        "/images/hcu-RCMLQYBGG4GQ7HMG6T4EIABX.png"
+      ],
+      "variants": [
+        {
+          "id": "hcu-2LWAOJBXVTJ3PZ2RLRYJ4KK4",
+          "title": "Black, 100",
+          "sku": "N-B-100",
+          "price": 25,
+          "available": true,
+          "options": [
+            "Black",
+            "100"
+          ],
+          "image": "/images/hcu-2LWAOJBXVTJ3PZ2RLRYJ4KK4.png"
+        },
+        {
+          "id": "hcu-RCMLQYBGG4GQ7HMG6T4EIABX",
+          "title": "Silver, 100",
+          "sku": "N-S-100",
+          "price": 20,
+          "available": true,
+          "options": [
+            "Silver",
+            "100"
+          ],
+          "image": "/images/hcu-RCMLQYBGG4GQ7HMG6T4EIABX.png"
+        }
+      ]
+    },
+    {
+      "id": "vex-276-5840",
+      "title": "Smart Motor 36:1 Cartridge (100 RPM)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4840.html",
+      "images": [
+        "/images/transparent/vex-276-5840.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-5840",
+          "title": "Smart Motor 36:1 Cartridge (100 RPM)",
+          "sku": "276-5840",
+          "price": 13.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-5840.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-5841",
+      "title": "Smart Motor 18:1 Cartridge (200 RPM)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4840.html",
+      "images": [
+        "/images/transparent/vex-276-5841.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-5841",
+          "title": "Smart Motor 18:1 Cartridge (200 RPM)",
+          "sku": "276-5841",
+          "price": 13.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-5841.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-5842",
+      "title": "Smart Motor 6:1 Cartridge (600 RPM) ",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4840.html",
+      "images": [
+        "/images/transparent/vex-276-5842.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-5842",
+          "title": "Smart Motor 6:1 Cartridge (600 RPM) ",
+          "sku": "276-5842",
+          "price": 13.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-5842.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4840",
+      "title": "V5 Smart Motor (11W)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4840.html",
+      "images": [
+        "/images/transparent/vex-276-4840.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4840",
+          "title": "V5 Smart Motor (11W)",
+          "sku": "276-4840",
+          "price": 49.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-4840.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4811",
+      "title": "V5 Robot Battery Li-Ion 1100mAh",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4811.html",
+      "images": [
+        "/images/transparent/vex-276-4811.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4811",
+          "title": "V5 Robot Battery Li-Ion 1100mAh",
+          "sku": "276-4811",
+          "price": 76.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-4811.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7043",
+      "title": "Optical Sensor",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-7043.html",
+      "images": [
+        "/images/transparent/vex-276-7043.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7043",
+          "title": "Optical Sensor",
+          "sku": "276-7043",
+          "price": 49.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7043.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4852",
+      "title": "Distance Sensor",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4852.html",
+      "images": [
+        "/images/transparent/vex-276-4852.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4852",
+          "title": "Distance Sensor",
+          "sku": "276-4852",
+          "price": 49.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-4852.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4855",
+      "title": "Inertial Sensor",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4855.html",
+      "images": [
+        "/images/transparent/vex-276-4855.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4855",
+          "title": "Inertial Sensor",
+          "sku": "276-4855",
+          "price": 55.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-4855.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-6050",
+      "title": "Rotation Sensor",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-6050.html",
+      "images": [
+        "/images/transparent/vex-276-6050.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-6050",
+          "title": "Rotation Sensor",
+          "sku": "276-6050",
+          "price": 44.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-6050.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4810",
+      "title": "V5 Robot Brain",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4810.html",
+      "images": [
+        "/images/transparent/vex-276-4810.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4810",
+          "title": "V5 Robot Brain",
+          "sku": "276-4810",
+          "price": 384.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-4810.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4820",
+      "title": "V5 Controller",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4820.html",
+      "images": [
+        "/images/transparent/vex-276-4820.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4820",
+          "title": "V5 Controller",
+          "sku": "276-4820",
+          "price": 137.39,
+          "available": true,
+          "image": "/images/transparent/vex-276-4820.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4831",
+      "title": "V5 Robot Radio",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4831.html",
+      "images": [
+        "/images/transparent/vex-276-4831.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4831",
+          "title": "V5 Robot Radio",
+          "sku": "276-4831",
+          "price": 48.79,
+          "available": true,
+          "image": "/images/transparent/vex-276-4831.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8659",
+      "title": "AI Vision Sensor",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-8659.html",
+      "images": [
+        "/images/transparent/vex-276-8659.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8659",
+          "title": "AI Vision Sensor",
+          "sku": "276-8659",
+          "price": 95.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8659.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4842",
+      "title": "Smart Motor (5.5W)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/276-4842.html",
+      "images": [
+        "/images/transparent/vex-276-4842.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4842",
+          "title": "Smart Motor (5.5W)",
+          "sku": "276-4842",
+          "price": 33.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-4842.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4860",
+      "title": "Smart Cables (Short Assortment)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/v5-smart-cables.html",
+      "images": [
+        "/images/transparent/vex-276-4860.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4860",
+          "title": "Smart Cables (Short Assortment)",
+          "sku": "276-4860",
+          "price": 6.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-4860.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-5774",
+      "title": "Smart Cable Stock (8m)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/v5-smart-cables.html",
+      "images": [
+        "/images/transparent/vex-276-5774.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-5774",
+          "title": "Smart Cable Stock (8m)",
+          "sku": "276-5774",
+          "price": 7.79,
+          "available": true,
+          "image": "/images/transparent/vex-276-5774.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4861",
+      "title": "Smart Cables (Long Assortment)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/v5-smart-cables.html",
+      "images": [
+        "/images/transparent/vex-276-4861.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4861",
+          "title": "Smart Cables (Long Assortment)",
+          "sku": "276-4861",
+          "price": 12.89,
+          "available": true,
+          "image": "/images/transparent/vex-276-4861.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-5775",
+      "title": "Smart Cable Connectors (50-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Electronics",
+      "url": "https://www.vexrobotics.com/v5-smart-cables.html",
+      "images": [
+        "/images/transparent/vex-276-5775.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-5775",
+          "title": "Smart Cable Connectors (50-Pack)",
+          "sku": "276-5775",
+          "price": 3.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-5775.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-9044",
+      "title": "2\" Omni-Directional Wheel (4-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-9044.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-9044",
+          "title": "2\" Omni-Directional Wheel (4-Pack)",
+          "sku": "276-9044",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-9044.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8106",
+      "title": "2.75\" (220mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8106.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8106",
+          "title": "2.75\" (220mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+          "sku": "276-8106",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8106.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8026",
+      "title": "3.25\" (260mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8026.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8026",
+          "title": "3.25\" (260mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+          "sku": "276-8026",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8026.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8107",
+      "title": "4\" (320mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8107.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8107",
+          "title": "4\" (320mm Travel) Omni-Directional Anti-Static Wheel (2-Pack)",
+          "sku": "276-8107",
+          "price": 30.89,
+          "available": true,
+          "image": "/images/transparent/vex-276-8107.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-1496",
+      "title": "2.75\" Wheel (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-1496.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-1496",
+          "title": "2.75\" Wheel (4-pack)",
+          "sku": "276-1496",
+          "price": 12.25,
+          "available": true,
+          "image": "/images/transparent/vex-276-1496.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8098",
+      "title": "2.75\" (220mm Travel) Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8098.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8098",
+          "title": "2.75\" (220mm Travel) Anti-Static Wheel (2-Pack)",
+          "sku": "276-8098",
+          "price": 9.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8098.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7771",
+      "title": "3.25\" (260mm Travel) Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-7771.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7771",
+          "title": "3.25\" (260mm Travel) Anti-Static Wheel (2-Pack)",
+          "sku": "276-7771",
+          "price": 14.39,
+          "available": true,
+          "image": "/images/transparent/vex-276-7771.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-1497",
+      "title": "4\" Wheel (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [],
+      "variants": [
+        {
+          "id": "vex-276-1497",
+          "title": "4\" Wheel (4-pack)",
+          "sku": "276-1497",
+          "price": 21.99,
+          "available": true,
+          "image": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8103",
+      "title": "4\" (320mm Travel) Anti-Static Wheel (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8103.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8103",
+          "title": "4\" (320mm Travel) Anti-Static Wheel (2-Pack)",
+          "sku": "276-8103",
+          "price": 16.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8103.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8823",
+      "title": "Hubbed Compression Wheel 4-Pack Kit (2\" OD x 1/2\" WD, 1/4\" Square Bore, 30 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8823.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8823",
+          "title": "Hubbed Compression Wheel 4-Pack Kit (2\" OD x 1/2\" WD, 1/4\" Square Bore, 30 durometer)",
+          "sku": "276-8823",
+          "price": 21.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8823.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8877",
+      "title": "Compression Wheel Kit (30 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8877.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8877",
+          "title": "Compression Wheel Kit (30 durometer)",
+          "sku": "276-8877",
+          "price": 19.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8877.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8878",
+      "title": "Compression Wheel Kit (40 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8878.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8878",
+          "title": "Compression Wheel Kit (40 durometer)",
+          "sku": "276-8878",
+          "price": 19.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8878.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8881",
+      "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 40 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8881.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8881",
+          "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 40 durometer)",
+          "sku": "276-8881",
+          "price": 19.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8881.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8879",
+      "title": "Compression Wheel Kit (60 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8879.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8879",
+          "title": "Compression Wheel Kit (60 durometer)",
+          "sku": "276-8879",
+          "price": 19.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8879.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8882",
+      "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 60 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8882.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8882",
+          "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 60 durometer)",
+          "sku": "276-8882",
+          "price": 19.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8882.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8880",
+      "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 30 durometer)",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/compression-wheels.html",
+      "images": [
+        "/images/transparent/vex-276-8880.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8880",
+          "title": "Compression Wheel Kit (1/2\" Width, 1/2\" Hex Bore, 30 durometer)",
+          "sku": "276-8880",
+          "price": null,
+          "available": false,
+          "image": "/images/transparent/vex-276-8880.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2214",
+      "title": "Tank Tread Upgrade Kit",
+      "supplier": "VEX Robotics",
+      "category": "Wheels",
+      "url": "https://www.vexrobotics.com/276-2214.html",
+      "images": [
+        "/images/transparent/vex-276-2214.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2214",
+          "title": "Tank Tread Upgrade Kit",
+          "sku": "276-2214",
+          "price": 30.89,
+          "available": true,
+          "image": "/images/transparent/vex-276-2214.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8030",
+      "title": "8T Sprocket, 6P (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-276-8030.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8030",
+          "title": "8T Sprocket, 6P (8-pack)",
+          "sku": "276-8030",
+          "price": 22.25,
+          "available": true,
+          "image": "/images/transparent/vex-276-8030.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8328",
+      "title": "16T Sprocket, 6P (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-276-8328.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8328",
+          "title": "16T Sprocket, 6P (8-pack)",
+          "sku": "276-8328",
+          "price": 27.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8328.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8329",
+      "title": "24T Sprocket, 6P (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-276-8329.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8329",
+          "title": "24T Sprocket, 6P (8-pack)",
+          "sku": "276-8329",
+          "price": 27.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8329.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8330",
+      "title": "32T Sprocket, 6P (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-276-8330.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8330",
+          "title": "32T Sprocket, 6P (4-pack)",
+          "sku": "276-8330",
+          "price": 27.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8330.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8331",
+      "title": "40T Sprocket, 6P (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-276-8331.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8331",
+          "title": "40T Sprocket, 6P (4-pack)",
+          "sku": "276-8331",
+          "price": 27.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8331.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-228-4983",
+      "title": "Chain Add-on Pack",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/6p-sprockets.html",
+      "images": [
+        "/images/transparent/vex-228-4983.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-228-4983",
+          "title": "Chain Add-on Pack",
+          "sku": "228-4983",
+          "price": 22.25,
+          "available": true,
+          "image": "/images/transparent/vex-228-4983.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3440",
+      "title": "2\" High Strength Shaft (4-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-3440.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3440",
+          "title": "2\" High Strength Shaft (4-Pack)",
+          "sku": "276-3440",
+          "price": 6.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-3440.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3522",
+      "title": "3\" High Strength Shaft (4-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-3522.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3522",
+          "title": "3\" High Strength Shaft (4-Pack)",
+          "sku": "276-3522",
+          "price": 6.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-3522.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3523",
+      "title": "4\" High Strength Shaft (4-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-3523.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3523",
+          "title": "4\" High Strength Shaft (4-Pack)",
+          "sku": "276-3523",
+          "price": 6.79,
+          "available": true,
+          "image": "/images/transparent/vex-276-3523.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7465",
+      "title": "24\" High Strength Shaft (2-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-7465.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7465",
+          "title": "24\" High Strength Shaft (2-Pack)",
+          "sku": "276-7465",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7465.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8235",
+      "title": "High Strength Shaft Adapter (1/8\" Square Bore, 1/2\" Long) (20-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-8235.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8235",
+          "title": "High Strength Shaft Adapter (1/8\" Square Bore, 1/2\" Long) (20-pack)",
+          "sku": "276-8235",
+          "price": 14.39,
+          "available": true,
+          "image": "/images/transparent/vex-276-8235.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8034",
+      "title": "High Strength Shaft Adapter (#8 Round Bore, 1/2\" Long) (20-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-8034.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8034",
+          "title": "High Strength Shaft Adapter (#8 Round Bore, 1/2\" Long) (20-Pack)",
+          "sku": "276-8034",
+          "price": 16.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-8034.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3521",
+      "title": "High Strength Shaft Bearing (10-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-3521.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3521",
+          "title": "High Strength Shaft Bearing (10-Pack)",
+          "sku": "276-3521",
+          "price": 9.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3521.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-8383",
+      "title": "High Strength Pillow Block (10-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-hardware.html",
+      "images": [
+        "/images/transparent/vex-276-8383.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-8383",
+          "title": "High Strength Pillow Block (10-pack)",
+          "sku": "276-8383",
+          "price": 9.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-8383.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-228-3057",
+      "title": "Shaft Add-On Kit",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/drive-shafts.html",
+      "images": [
+        "/images/transparent/vex-228-3057.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-228-3057",
+          "title": "Shaft Add-On Kit",
+          "sku": "228-3057",
+          "price": 12.99,
+          "available": true,
+          "image": "/images/transparent/vex-228-3057.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-228-4420",
+      "title": "Long Shaft Add-On Pack",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/drive-shafts.html",
+      "images": [
+        "/images/transparent/vex-228-4420.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-228-4420",
+          "title": "Long Shaft Add-On Pack",
+          "sku": "228-4420",
+          "price": 12.89,
+          "available": true,
+          "image": "/images/transparent/vex-228-4420.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-1149",
+      "title": "12\" Drive Shaft (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/drive-shafts.html",
+      "images": [
+        "/images/transparent/vex-276-1149.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-1149",
+          "title": "12\" Drive Shaft (4-pack)",
+          "sku": "276-1149",
+          "price": 11.19,
+          "available": true,
+          "image": "/images/transparent/vex-276-1149.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-228-7457",
+      "title": "Short Capped Shaft Add-On Pack",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/drive-shafts.html",
+      "images": [
+        "/images/transparent/vex-228-7457.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-228-7457",
+          "title": "Short Capped Shaft Add-On Pack",
+          "sku": "228-7457",
+          "price": 12.89,
+          "available": true,
+          "image": "/images/transparent/vex-228-7457.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-228-7458",
+      "title": "Long Capped Shaft Add-On Pack",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/drive-shafts.html",
+      "images": [
+        "/images/transparent/vex-228-7458.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-228-7458",
+          "title": "Long Capped Shaft Add-On Pack",
+          "sku": "228-7458",
+          "price": 12.89,
+          "available": true,
+          "image": "/images/transparent/vex-228-7458.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7578",
+      "title": "High Strength Chain Attachment Link Kit",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-7578.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7578",
+          "title": "High Strength Chain Attachment Link Kit",
+          "sku": "276-7578",
+          "price": 12.25,
+          "available": true,
+          "image": "/images/transparent/vex-276-7578.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2172",
+      "title": "Additional High Strength Chain",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-2172.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2172",
+          "title": "Additional High Strength Chain",
+          "sku": "276-2172",
+          "price": 30.89,
+          "available": true,
+          "image": "/images/transparent/vex-276-2172.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3876",
+      "title": "6T High Strength Sprocket (8-Pack) (9P)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-3876.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3876",
+          "title": "6T High Strength Sprocket (8-Pack) (9P)",
+          "sku": "276-3876",
+          "price": 15.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3876.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3877",
+      "title": "12T High Strength Sprocket (4-Pack) (9P)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-3877.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3877",
+          "title": "12T High Strength Sprocket (4-Pack) (9P)",
+          "sku": "276-3877",
+          "price": 15.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3877.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3878",
+      "title": "18T High Strength Sprocket (4-Pack) (9P)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-3878.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3878",
+          "title": "18T High Strength Sprocket (4-Pack) (9P)",
+          "sku": "276-3878",
+          "price": 15.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3878.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3879",
+      "title": "24T High Strength Sprocket (4-Pack) (9P)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-3879.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3879",
+          "title": "24T High Strength Sprocket (4-Pack) (9P)",
+          "sku": "276-3879",
+          "price": 15.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3879.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-3880",
+      "title": "30T High Strength Sprocket (4-Pack) (9P)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/hs-sprockets-and-chain.html",
+      "images": [
+        "/images/transparent/vex-276-3880.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-3880",
+          "title": "30T High Strength Sprocket (4-Pack) (9P)",
+          "sku": "276-3880",
+          "price": 15.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-3880.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2251",
+      "title": "12T High Strength Metal Pinion (12-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-2251.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2251",
+          "title": "12T High Strength Metal Pinion (12-pack)",
+          "sku": "276-2251",
+          "price": 24.29,
+          "available": true,
+          "image": "/images/transparent/vex-276-2251.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7572",
+      "title": "24T High Strength Gear V2 (8-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7572.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7572",
+          "title": "24T High Strength Gear V2 (8-Pack)",
+          "sku": "276-7572",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7572.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7747",
+      "title": "36T High Strength Gear v2 (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7747.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7747",
+          "title": "36T High Strength Gear v2 (8-pack)",
+          "sku": "276-7747",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7747.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7573",
+      "title": "48T High Strength Gear v2 (8-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7573.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7573",
+          "title": "48T High Strength Gear v2 (8-Pack)",
+          "sku": "276-7573",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7573.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7748",
+      "title": "60T High Strength Gear v2 (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7748.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7748",
+          "title": "60T High Strength Gear v2 (8-pack)",
+          "sku": "276-7748",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7748.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7574",
+      "title": "72T High Strength Gear v2 (6-Pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7574.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7574",
+          "title": "72T High Strength Gear v2 (6-Pack)",
+          "sku": "276-7574",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7574.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7368",
+      "title": "12T Metal Gear (12-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7368.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7368",
+          "title": "12T Metal Gear (12-pack)",
+          "sku": "276-7368",
+          "price": 12.25,
+          "available": true,
+          "image": "/images/transparent/vex-276-7368.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7749",
+      "title": "84T High Strength Gear v2 (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/gears.html",
+      "images": [
+        "/images/transparent/vex-276-7749.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7749",
+          "title": "84T High Strength Gear v2 (4-pack)",
+          "sku": "276-7749",
+          "price": 18.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-7749.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-275-1262",
+      "title": "Latex Tubing (10')",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/275-1262.html",
+      "images": [
+        "/images/transparent/vex-275-1262.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-275-1262",
+          "title": "Latex Tubing (10')",
+          "sku": "275-1262",
+          "price": 12.25,
+          "available": true,
+          "image": "/images/transparent/vex-275-1262.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-275-1029",
+      "title": "Rubber Link (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Motion",
+      "url": "https://www.vexrobotics.com/275-1029.html",
+      "images": [
+        "/images/transparent/vex-275-1029.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-275-1029",
+          "title": "Rubber Link (4-pack)",
+          "sku": "275-1029",
+          "price": 9.99,
+          "available": true,
+          "image": "/images/transparent/vex-275-1029.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7285",
+      "title": "2x2x2x20 Aluminum U-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/catalogsearch/result/?q=276-7285",
+      "images": [
+        "/images/transparent/vex-276-7285.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7285",
+          "title": "2x2x2x20 Aluminum U-Channel (6-pack)",
+          "sku": "276-7285",
+          "price": 44.69,
+          "available": true,
+          "image": "/images/transparent/vex-276-7285.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7758",
+      "title": "30 Degree Gusset Pack",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-7758.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7758",
+          "title": "30 Degree Gusset Pack",
+          "sku": "276-7758",
+          "price": 8.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-7758.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7759",
+      "title": "45 Degree Gusset Pack",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-7759.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7759",
+          "title": "45 Degree Gusset Pack",
+          "sku": "276-7759",
+          "price": 8.49,
+          "available": false,
+          "image": "/images/transparent/vex-276-7759.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2575",
+      "title": "C-Channel Coupler Gusset (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-2575.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2575",
+          "title": "C-Channel Coupler Gusset (8-pack)",
+          "sku": "276-2575",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-2575.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7760",
+      "title": "60 Degree Gusset Pack",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-7760.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7760",
+          "title": "60 Degree Gusset Pack",
+          "sku": "276-7760",
+          "price": 8.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-7760.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2578",
+      "title": "Angle Coupler Gusset (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-2578.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2578",
+          "title": "Angle Coupler Gusset (8-pack)",
+          "sku": "276-2578",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-2578.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2576",
+      "title": "Angle Corner Gusset (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-2576.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2576",
+          "title": "Angle Corner Gusset (4-pack)",
+          "sku": "276-2576",
+          "price": 24.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-2576.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2577",
+      "title": "90-Degree Gusset Set (4-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-2577.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2577",
+          "title": "90-Degree Gusset Set (4-pack)",
+          "sku": "276-2577",
+          "price": 8.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-2577.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-7761",
+      "title": "90 Degree Gusset Pack",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/gussets.html",
+      "images": [
+        "/images/transparent/vex-276-7761.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-7761",
+          "title": "90 Degree Gusset Pack",
+          "sku": "276-7761",
+          "price": 8.49,
+          "available": true,
+          "image": "/images/transparent/vex-276-7761.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2288",
+      "title": "1x2x1x25 Aluminum C-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/channel.html",
+      "images": [
+        "/images/transparent/vex-276-2288.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2288",
+          "title": "1x2x1x25 Aluminum C-Channel (6-pack)",
+          "sku": "276-2288",
+          "price": 36.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-2288.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2289",
+      "title": "1x2x1x35 Aluminum C-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/channel.html",
+      "images": [
+        "/images/transparent/vex-276-2289.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2289",
+          "title": "1x2x1x35 Aluminum C-Channel (6-pack)",
+          "sku": "276-2289",
+          "price": 44.69,
+          "available": true,
+          "image": "/images/transparent/vex-276-2289.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-4359",
+      "title": "1x3x1x35 Aluminum C-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/channel.html",
+      "images": [
+        "/images/transparent/vex-276-4359.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-4359",
+          "title": "1x3x1x35 Aluminum C-Channel (6-pack)",
+          "sku": "276-4359",
+          "price": 44.69,
+          "available": true,
+          "image": "/images/transparent/vex-276-4359.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2290",
+      "title": "1x5x1x25 Aluminum C-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/channel.html",
+      "images": [
+        "/images/transparent/vex-276-2290.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2290",
+          "title": "1x5x1x25 Aluminum C-Channel (6-pack)",
+          "sku": "276-2290",
+          "price": 48.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-2290.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-2298",
+      "title": "1x5x1x35 Aluminum C-Channel (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/channel.html",
+      "images": [
+        "/images/transparent/vex-276-2298.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-2298",
+          "title": "1x5x1x35 Aluminum C-Channel (6-pack)",
+          "sku": "276-2298",
+          "price": 55.99,
+          "available": true,
+          "image": "/images/transparent/vex-276-2298.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-276-6484",
+      "title": "1x1x35 Aluminum Angle (6-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/aluminum-kits.html",
+      "images": [
+        "/images/transparent/vex-276-6484.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-276-6484",
+          "title": "1x1x35 Aluminum Angle (6-pack)",
+          "sku": "276-6484",
+          "price": 29.79,
+          "available": true,
+          "image": "/images/transparent/vex-276-6484.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "vex-275-1065",
+      "title": "Drive Shaft Bar Lock (8-pack)",
+      "supplier": "VEX Robotics",
+      "category": "Metal",
+      "url": "https://www.vexrobotics.com/275-1065.html",
+      "images": [
+        "/images/transparent/vex-275-1065.png"
+      ],
+      "variants": [
+        {
+          "id": "vex-275-1065",
+          "title": "Drive Shaft Bar Lock (8-pack)",
+          "sku": "275-1065",
+          "price": 7.79,
+          "available": false,
+          "image": "/images/transparent/vex-275-1065.png",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "vexCoverage": [
+    {
+      "page": "276-4840",
+      "included": 4
+    },
+    {
+      "page": "276-4811",
+      "included": 1
+    },
+    {
+      "page": "276-7043",
+      "included": 1
+    },
+    {
+      "page": "276-4852",
+      "included": 1
+    },
+    {
+      "page": "276-4855",
+      "included": 1
+    },
+    {
+      "page": "276-6050",
+      "included": 1
+    },
+    {
+      "page": "276-4810",
+      "included": 1
+    },
+    {
+      "page": "276-4820",
+      "included": 1
+    },
+    {
+      "page": "276-4831",
+      "included": 1
+    },
+    {
+      "page": "276-8659",
+      "included": 1
+    },
+    {
+      "page": "276-4842",
+      "included": 1
+    },
+    {
+      "page": "v5-smart-cables",
+      "included": 4
+    },
+    {
+      "page": "wheels",
+      "included": 9
+    },
+    {
+      "page": "compression-wheels",
+      "included": 7
+    },
+    {
+      "page": "276-2214",
+      "included": 1
+    },
+    {
+      "page": "6p-sprockets",
+      "included": 6
+    },
+    {
+      "page": "hs-hardware",
+      "included": 8
+    },
+    {
+      "page": "drive-shafts",
+      "included": 5
+    },
+    {
+      "page": "hs-sprockets-and-chain",
+      "included": 7
+    },
+    {
+      "page": "gears",
+      "included": 8
+    },
+    {
+      "page": "275-1262",
+      "included": 1
+    },
+    {
+      "page": "275-1029",
+      "included": 1
+    },
+    {
+      "page": "276-7285",
+      "included": 1
+    },
+    {
+      "page": "gussets",
+      "included": 8
+    },
+    {
+      "page": "channel",
+      "included": 5
+    },
+    {
+      "page": "aluminum-kits",
+      "included": 1
+    },
+    {
+      "page": "275-1065",
+      "included": 1
     }
   ]
 }
