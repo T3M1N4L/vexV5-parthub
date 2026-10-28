@@ -39,3 +39,7 @@ After either supplier import, run `npm run images:transparent` before building o
 Only search and category tabs remain above the catalog. The filter/sort row, product count, and visible SKU/reference labels are removed; identifiers remain in exported orders. Single-variant products no longer show a redundant dropdown. Add-to-cart buttons briefly show an animated check and “Added to cart” after the quantity is updated, with reduced-motion support.
 
 Supplier badges use the actual favicon assets (Whimsy 256px PNG; Robosource multi-resolution ICO up to 64px). Aluminum Spacers & Collars is explicitly fetched from Whimsy's product endpoint during refresh, including both actual variants, prices, stock, and variant images; the supplier does not publish SKUs for these two variants. To refresh only this extra product without fetching the collection, run `node --use-env-proxy scripts/scrape.mjs --extras-only`, then `npm run images:transparent`.
+
+## Registry UI migration
+
+All controls now come directly from the official shadcn registry (`base-nova`), including cards, variant selects, category tabs, search input, supplier avatars, and the cart sheet. The previous custom component CSS was removed. See [REGISTRY.md](REGISTRY.md) for the exact installation command and component mapping.

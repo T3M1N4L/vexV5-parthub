@@ -1,18 +1,79 @@
-import {Button} from './components/ui/button';
-import React,{useEffect,useState,useRef} from 'react';
-import{createRoot}from'react-dom/client';
-import{ShoppingBag,ArrowUpRight,Search,Plus,Minus,X,Download,Box,ArrowRight,Check}from'lucide-react';
+import React, { useEffect, useState, useRef } from 'react';
+import { createRoot } from 'react-dom/client';
+import { ShoppingBag, Search, Plus, Minus, Download, Box, Check, ArrowUpRight } from 'lucide-react';
 import * as XLSX from 'xlsx';
+import { Button } from '@/components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { InputGroup, InputGroupInput, InputGroupAddon } from '@/components/ui/input-group';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@/components/ui/select';
+import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetFooter, SheetClose } from '@/components/ui/sheet';
+import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
+import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription, EmptyContent } from '@/components/ui/empty';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import './style.css';
-const asset=p=>p?.startsWith('/')?import.meta.env.BASE_URL+p.slice(1):p;
-const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
-function AddToCart({available,onAdd}){
- const [added,setAdded]=useState(0),timer=useRef(null);
- useEffect(()=>()=>clearTimeout(timer.current),[]);
- function handleAdd(){if(onAdd()===false)return;clearTimeout(timer.current);setAdded(n=>n+1);timer.current=setTimeout(()=>setAdded(0),1500);}
- return <Button className={`add ${added?'is-added':''}`} disabled={!available} onClick={handleAdd}><span aria-live="polite">{!available?'Sold out':added?'Added to cart':'Add to cart'}</span>{added?<Check key={added} className="added-check" size={16}/>:<Plus size={16}/>}</Button>;
+
+const asset = p => p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p;
+const money = n => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n);
+const categories = ['All parts', 'Screws', 'Shoulder screws', 'Standoffs', 'Nuts', 'Spacers', 'Pneumatics'];
+
+function AddToCart({ available, onAdd }) {
+  const [added, setAdded] = useState(0);
+  const timer = useRef(null);
+  useEffect(() => () => clearTimeout(timer.current), []);
+  function handleAdd() {
+    if (onAdd() === false) return;
+    clearTimeout(timer.current);
+    setAdded(n => n + 1);
+    timer.current = setTimeout(() => setAdded(0), 1500);
+  }
+  return (
+    <Button className="w-full" variant={added ? 'secondary' : 'default'} disabled={!available} onClick={handleAdd}>
+      {added ? <Check key={added} className="animate-in zoom-in-50 duration-200 motion-reduce:animate-none" /> : <Plus />}
+      <span aria-live="polite">{!available ? 'Sold out' : added ? 'Added to cart' : 'Add to cart'}</span>
+    </Button>
+  );
 }
-function App(){
+
+function ProductCard({ product: p, selected, onSelect, onAdd }) {
+  const v = p.variants.find(v => v.id === selected) || p.variants[0];
+  const supplier = p.supplier || 'Whimsy Tech';
+  const options = p.variants.map(v => ({ value: v.id, label: v.title + (!v.available ? ' — sold out' : '') }));
+  return (
+    <Card size="sm">
+      {v.image || p.images[0] ? (
+        <img src={asset(v.image || p.images[0])} alt={p.title} loading="lazy" className="aspect-square w-full object-contain p-4" />
+      ) : (
+        <Empty className="aspect-square"><EmptyHeader><EmptyMedia variant="icon"><Box /></EmptyMedia><EmptyDescription>No supplier photo</EmptyDescription></EmptyHeader></Empty>
+      )}
+      <CardHeader>
+        <Button variant="ghost" size="sm" className="w-fit" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
+          <Avatar size="sm"><AvatarImage src={asset(supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback>{supplier[0]}</AvatarFallback></Avatar>
+          {supplier}<ArrowUpRight />
+        </Button>
+        <CardTitle>{p.title}</CardTitle>
+      </CardHeader>
+      <CardContent className="mt-auto space-y-4">
+        {p.variants.length > 1 && (
+          <Select items={options} value={v.id} onValueChange={onSelect}>
+            <SelectTrigger className="w-full min-w-0" aria-label={`Variant for ${p.title}`}><SelectValue /></SelectTrigger>
+            <SelectContent alignItemWithTrigger={false}>
+              {options.map(o => <SelectItem key={o.value} value={o.value}>{o.label}</SelectItem>)}
+            </SelectContent>
+          </Select>
+        )}
+        <p className="font-medium tabular-nums">{money(v.price)}</p>
+      </CardContent>
+      <CardFooter><AddToCart key={v.id} available={v.available} onAdd={() => onAdd(p, v)} /></CardFooter>
+    </Card>
+  );
+}
+
+function App() {
 const[data,setData]=useState({products:[],requested:[]}),[query,setQuery]=useState(''),[category,setCategory]=useState('All parts'),[cart,setCart]=useState(()=>{try{return JSON.parse(localStorage.getItem('v5-cart')||'[]')}catch{return[]}}),[open,setOpen]=useState(false),[selected,setSelected]=useState({}),[error,setError]=useState('');
 useEffect(()=>{fetch(import.meta.env.BASE_URL+'data/catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(setData).catch(()=>setError('Catalog could not be loaded. Please refresh.'))},[]);
 useEffect(()=>{localStorage.setItem('v5-cart',JSON.stringify(cart))},[cart]);
@@ -22,5 +83,79 @@ const total=cart.reduce((s,x)=>s+x.price*x.qty,0),count=cart.reduce((s,x)=>s+x.q
 function download(type){const safe=x=>typeof x==='string'&&/^[=+@\-\t\r]/.test(x)?"'"+x:x;const rows=cart.map(x=>Object.fromEntries(Object.entries({'Part Link':x.url,'Part #':x.sku,'Website':x.supplier||'Whimsy Tech','Qty':x.qty,'Qty Needed':'','Unit Cost':x.price,'Part Name':x.product,'Variant':x.title,'Supplier Variant ID':x.id,'Line Total':Math.round(x.price*x.qty*100)/100}).map(([k,v])=>[k,safe(v)])));const ws=XLSX.utils.json_to_sheet(rows);ws['!cols']=[{wch:60},{wch:24},{wch:18},{wch:8},{wch:14},{wch:12},{wch:45},{wch:30},{wch:14}];const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,'Parts Order');XLSX.writeFile(wb,`8780F-parts-order.${type}`,{bookType:type});}
 const productCategory=p=>/shoulder/i.test(p.title)?'Shoulder screws':p.category;
 const items=data.products.filter(p=>(category==='All parts'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
-return <><header><a className="brand" href={import.meta.env.BASE_URL}>V5 / PARTS</a><label className="search"><Search size={17}/><input aria-label="Search parts" placeholder="Search parts…" value={query} onChange={e=>setQuery(e.target.value)}/></label><Button className="cart-button" onClick={()=>setOpen(true)}><ShoppingBag size={17}/> Your order <b>{count}</b></Button></header><main><nav className="tabs" aria-label="Part categories">{['All parts','Screws','Shoulder screws','Standoffs','Nuts','Spacers','Pneumatics'].map(c=><Button className={category===c?'active':''} onClick={()=>setCategory(c)} key={c}>{c}</Button>)}</nav><section id="catalog"><div className="section-title"><h1>{category}</h1></div>{error&&<p role="alert">{error}</p>}<div className="grid">{items.map(p=>{const variants=p.variants;const v=variants.find(v=>v.id===selected[p.id])||variants[0];return <article key={p.id}><div className="product-image">{v.image||p.images[0]?<img src={asset(v.image||p.images[0])} alt={p.title} loading="lazy"/>:<div className="placeholder"><Box size={32}/><span>No supplier photo</span></div>}</div><div className="card-body"><a className="supplier-badge" href={p.url} target="_blank" rel="noreferrer">{p.supplier==='Robosource'?<img src={asset("/logos/robosource-favicon.ico")} alt=""/>:<img src={asset('/logos/whimsy-favicon.png')} alt=""/>}{p.supplier||'Whimsy Tech'}<ArrowUpRight size={11}/></a><h3>{p.title}</h3>{variants.length>1&&<select aria-label={`Variant for ${p.title}`} value={v.id} onChange={e=>setSelected({...selected,[p.id]:e.target.value})}>{variants.map(v=><option key={v.id} value={v.id}>{v.title}{!v.available?' — sold out':''}</option>)}</select>}<div className="price"><strong>{money(v.price)}</strong></div><AddToCart key={v.id} available={v.available} onAdd={()=>add(p,v)}/></div></article>})}</div>{!items.length&&<div className="empty"><p>No parts found.</p></div>}<p className="sync">Prices in USD. Shipping and tax excluded. {data.updatedAt&&`Updated ${new Date(data.updatedAt).toLocaleDateString()}.`}</p></section></main>{open&&<div className="overlay" onClick={()=>setOpen(false)}><aside role="dialog" aria-modal="true" aria-label="Your parts order" onClick={e=>e.stopPropagation()}><div className="drawer-head"><div><p className="eyebrow">PARTS ORDER</p><h2>Your order <small>({count})</small></h2></div><Button aria-label="Close order" onClick={()=>setOpen(false)}><X/></Button></div><div className="cart-items">{cart.length?cart.map(x=><div className="cart-item" key={x.id}>{x.image&&<img src={asset(x.image)} alt=""/>}<div><h3>{x.product}</h3><p>{x.title}</p><div className="quantity"><Button aria-label={`Decrease ${x.product}`} onClick={()=>change(x.id,x.qty-1)}><Minus size={12}/></Button><input aria-label={`Quantity for ${x.product}`} type="number" min="1" max="9999" value={x.qty} onChange={e=>{const n=Number(e.target.value);if(Number.isInteger(n)&&n>0)change(x.id,n)}}/><Button aria-label={`Increase ${x.product}`} onClick={()=>change(x.id,x.qty+1)}><Plus size={12}/></Button></div></div><div><strong>{money(x.price*x.qty)}</strong><Button className="remove" onClick={()=>change(x.id,0)}>Remove</Button></div></div>):<div className="empty"><ShoppingBag size={44}/><h3>Your order is empty.</h3><p>Add parts to put your order together.</p><Button className="primary" onClick={()=>setOpen(false)}>Browse parts</Button></div>}</div><div className="drawer-bottom"><div className="subtotal"><span>Subtotal</span><strong>{money(total)}</strong></div><p>USD · Shipping and tax excluded. Exporting creates an order list; purchase directly from the supplier.</p><div className="export-buttons"><Button disabled={!cart.length} onClick={()=>download('xlsx')}>Export Excel <Download size={16}/></Button><Button disabled={!cart.length} onClick={()=>download('csv')}>Export CSV <Download size={16}/></Button></div></div></aside></div>}</>}
-createRoot(document.getElementById('root')).render(<App/>);
+  return (
+    <Sheet open={open} onOpenChange={setOpen}>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <header className="flex flex-wrap items-center justify-between gap-4 py-6">
+          <Button variant="ghost" nativeButton={false} render={<a href={import.meta.env.BASE_URL} />}>V5 / PARTS</Button>
+          <div className="order-3 w-full sm:order-none sm:max-w-sm">
+            <InputGroup>
+              <InputGroupAddon><Search /></InputGroupAddon>
+              <InputGroupInput aria-label="Search parts" placeholder="Search parts…" value={query} onChange={e => setQuery(e.target.value)} />
+            </InputGroup>
+          </div>
+          <SheetTrigger render={<Button variant="outline" />}><ShoppingBag />Your order<Badge variant="secondary">{count}</Badge></SheetTrigger>
+        </header>
+        <Separator />
+        <main className="py-6">
+          <Tabs value={category} onValueChange={setCategory}>
+            <ScrollArea className="w-full">
+              <div className="flex w-max"><TabsList aria-label="Part categories">
+                {categories.map(c => <TabsTrigger key={c} value={c}>{c}</TabsTrigger>)}
+              </TabsList></div>
+              <ScrollBar orientation="horizontal" />
+            </ScrollArea>
+            <TabsContent value={category} className="space-y-6 py-6">
+              <h1 className="text-2xl font-semibold tracking-tight">{category}</h1>
+              {error && <Alert variant="destructive"><AlertDescription>{error}</AlertDescription></Alert>}
+              <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {items.map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
+              </div>
+              {!items.length && !error && <Empty><EmptyHeader><EmptyMedia variant="icon"><Search /></EmptyMedia><EmptyTitle>No parts found</EmptyTitle><EmptyDescription>Try a different search or category.</EmptyDescription></EmptyHeader></Empty>}
+            </TabsContent>
+          </Tabs>
+          <Separator />
+          <p className="py-6 text-xs text-muted-foreground">Prices in USD. Shipping and tax excluded.</p>
+        </main>
+      </div>
+      <SheetContent className="data-[side=right]:w-full data-[side=right]:sm:max-w-lg">
+        <SheetHeader><SheetTitle>Your order ({count})</SheetTitle><SheetDescription>Review quantities, then export your parts list.</SheetDescription></SheetHeader>
+        <Separator />
+        <ScrollArea className="min-h-0 flex-1">
+          <div className="space-y-4 p-4">
+            {cart.length ? cart.map(x => (
+              <Card key={x.id} size="sm">
+                <CardHeader><CardTitle>{x.product}</CardTitle></CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    {x.image && <img src={asset(x.image)} alt="" className="size-16 shrink-0 object-contain" />}
+                    <p className="min-w-0 text-sm text-muted-foreground">{x.title}</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Button variant="outline" size="icon" aria-label={`Decrease ${x.product}`} onClick={() => change(x.id, x.qty - 1)}><Minus /></Button>
+                    <Input className="w-20 text-center" aria-label={`Quantity for ${x.product}`} type="number" min="1" max="9999" value={x.qty} onChange={e => { const n = Number(e.target.value); if (Number.isInteger(n) && n > 0) change(x.id, n); }} />
+                    <Button variant="outline" size="icon" aria-label={`Increase ${x.product}`} onClick={() => change(x.id, x.qty + 1)}><Plus /></Button>
+                    <strong className="ml-auto tabular-nums">{money(x.price * x.qty)}</strong>
+                  </div>
+                </CardContent>
+                <CardFooter><Button variant="ghost" size="sm" onClick={() => change(x.id, 0)}>Remove</Button></CardFooter>
+              </Card>
+            )) : (
+              <Empty><EmptyHeader><EmptyMedia variant="icon"><ShoppingBag /></EmptyMedia><EmptyTitle>Your order is empty.</EmptyTitle><EmptyDescription>Add parts to put your order together.</EmptyDescription></EmptyHeader><EmptyContent><SheetClose render={<Button variant="outline" />}>Browse parts</SheetClose></EmptyContent></Empty>
+            )}
+          </div>
+        </ScrollArea>
+        <Separator />
+        <SheetFooter>
+          <div className="flex justify-between text-base font-semibold"><span>Subtotal</span><span>{money(total)}</span></div>
+          <p className="text-xs text-muted-foreground">USD · Tax and shipping excluded. Exports are order lists; purchase directly from the supplier.</p>
+          <div className="grid grid-cols-2 gap-2">
+            <Button disabled={!cart.length} onClick={() => download('xlsx')}><Download />Export Excel</Button>
+            <Button variant="outline" disabled={!cart.length} onClick={() => download('csv')}><Download />Export CSV</Button>
+          </div>
+        </SheetFooter>
+      </SheetContent>
+    </Sheet>
+  );
+}
+createRoot(document.getElementById('root')).render(<App />);
