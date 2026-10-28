@@ -38,6 +38,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/react": "^16.3.3",

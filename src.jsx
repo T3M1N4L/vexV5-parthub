@@ -76,6 +76,8 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
 function App() {
 const[data,setData]=useState({products:[],requested:[]}),[query,setQuery]=useState(''),[category,setCategory]=useState('Start'),[cart,setCart]=useState(()=>{try{return JSON.parse(localStorage.getItem('v5-cart')||'[]')}catch{return[]}}),[open,setOpen]=useState(false),[selected,setSelected]=useState({}),[error,setError]=useState('');
 useEffect(()=>{fetch(import.meta.env.BASE_URL+'data/catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(setData).catch(()=>setError('Catalog could not be loaded. Please refresh.'))},[]);
+// Refresh saved-cart photos when the catalog receives new processed assets.
+useEffect(()=>{if(!data.products.length)return;const images=new Map(data.products.flatMap(p=>p.variants.map(v=>[v.id,v.image])));setCart(c=>c.map(x=>images.has(x.id)?{...x,image:images.get(x.id)}:x));},[data.products]);
 useEffect(()=>{localStorage.setItem('v5-cart',JSON.stringify(cart))},[cart]);
 const change=(id,n)=>setCart(c=>c.map(x=>x.id===id?{...x,qty:Math.max(0,Math.min(9999,n))}:x).filter(x=>x.qty));
 const add=(p,v)=>{if(cart.some(x=>x.id===v.id&&x.qty>=9999))return false;setCart(c=>c.some(x=>x.id===v.id)?c.map(x=>x.id===v.id?{...x,qty:Math.min(9999,x.qty+1)}:x):[...c,{...v,product:p.title,url:p.url,supplier:p.supplier||'Whimsy Tech',qty:1}]);return true;};

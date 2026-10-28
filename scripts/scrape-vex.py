@@ -46,7 +46,7 @@ def scrape(pair):
   for opt in config.get('options',{}).values():
    for vid,val in opt.get('values',{}).items():
     for image in val.get('images',{}).values():
-     urlimg=image.get('url') or image.get('base') or image.get('image')
+     urlimg=image.get('full') or image.get('img') or image.get('base') or image.get('image') or image.get('url')
      if not urlimg:
       for vv in image.values():
        if isinstance(vv,str) and vv.startswith('https:') and '70x70' not in vv and '88x110' not in vv:urlimg=vv;break
@@ -85,7 +85,7 @@ def convert(p):
  price=p['price_range']['minimum_price']['final_price'];assert price['currency']=='USD'
  image=None
  if p['image']['url']:
-  image='/images/vex-'+p['sku']+'.jpg';Path('public'+image).write_bytes(get(p['image']['url']))
- return {'id':'vex-'+p['sku'],'title':p['name'],'supplier':'VEX Robotics','category':p['category'],'url':p['url'],'images':[image] if image else [],'variants':[{'id':'vex-'+p['sku'],'title':p['name'],'sku':p['sku'],'price':price['value'],'available':p['stock_status']=='IN_STOCK','image':image,'options':[]}]}
+  image='/images/vex-'+p['sku']+'.jpg';full=re.sub(r'/cache/[a-f0-9]+/', '/', p['image']['url']);Path('public'+image).write_bytes(get(full));p['image']['url']=full
+ return {'id':'vex-'+p['sku'],'title':p['name'],'supplier':'VEX Robotics','category':p['category'],'url':p['url'],'sourceImageUrl':p['image']['url'],'images':[image] if image else [],'variants':[{'id':'vex-'+p['sku'],'title':p['name'],'sku':p['sku'],'price':price['value'],'available':p['stock_status']=='IN_STOCK','image':image,'options':[]}]}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:products=list(pool.map(convert,records.values()))
 path=Path('public/data/catalog.json');d=json.loads(path.read_text());d['products']=[p for p in d['products'] if p.get('supplier')!='VEX Robotics']+products;d['vexCoverage']=coverage;path.write_text(json.dumps(d,indent=2));print(json.dumps(coverage));print('VEX products:',len(products))

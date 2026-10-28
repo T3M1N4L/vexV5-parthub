@@ -53,3 +53,13 @@ The initial screen presents centered search and categories; no catalog cards ren
 `PYTHONPATH=<beautifulsoup4 install location> python scripts/scrape-vex.py` imports the requested VEX pages. It uses the public Magento GraphQL US catalog for USD prices, grouped children and custom option SKUs; HTML supplies product images and option mappings. It distinguishes 6P and 9P sprockets, omits the hardware kit/crimper/rack gear/gear kits/general gusset assortment, and limits aluminum angle to 1x1x35. Product 276-7285 is the U-channel, and 276-8659 is AI Vision (the duplicate vision link is imported once).
 
 Source limitations: VEX does not publish a usable option photo for legacy 4-inch wheel 276-1497; its card uses a labeled placeholder. Compression wheel 276-8880 appears on the EU page but is absent from the US response, so its USD price is blank and ordering is disabled. HCU's public product API exposes actual SKUs N-B-100 ($25/100) and N-S-100 ($20/100); these are retained despite the original request expecting no number. HCU's own logo is displayed inverted. VEX's actual favicon is downloaded locally.
+
+## Full-resolution photos and shadow removal
+
+VEX imports now prefer the image viewer's `full` URL over `url`/thumbnail fields and use original catalog images instead of resized cache URLs. `sourceImageUrl` records the fetched source. The 2-inch omni photo is now 1200×1200 (the prior selection was 70×70).
+
+`npm run images:transparent` uses `@imgly/background-removal-node`'s medium segmentation model for white-background product photos, removing cast shadows as well as the white backdrop. Robosource's multi-view technical renders retain the conservative edge matte so small profile views are preserved. Supplier originals remain unchanged. Outputs are content-hashed PNGs under `public/images/cutouts-v2/`, cached across runs; the catalog is updated after processing finishes. Existing supplier transparency is preserved. Review generated cutouts against a dark background after an import.
+
+The image processor is a development-only dependency and is not loaded by the website. `.npmrc` selects ONNX Runtime's supported CPU-only installation mode; no CUDA download is needed. Image processing can take several minutes for a fresh catalog.
+
+A refinement pass preserves small dark fasteners which segmentation can otherwise soften in kit photos. Saved carts refresh only their image URLs from the current catalog, so old cart items receive regenerated photos without changing their saved quantities or prices.
