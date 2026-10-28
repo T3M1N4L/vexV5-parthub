@@ -46,12 +46,12 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
   return (
     <Card size="sm">
       {v.image || p.images[0] ? (
-        <img src={asset(v.image || p.images[0])} alt={p.title} loading="lazy" className="aspect-square w-full object-contain p-4" />
+        <img src={asset(v.image || p.images[0])} alt={p.title} loading="lazy" decoding="async" className="aspect-square w-full object-contain p-4" />
       ) : (
         <Empty className="aspect-square"><EmptyHeader><EmptyMedia variant="icon"><Box /></EmptyMedia><EmptyDescription>No supplier photo</EmptyDescription></EmptyHeader></Empty>
       )}
       <CardHeader>
-        <Button variant="ghost" size="sm" className="w-fit" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
+        <Button variant="ghost" size="sm" className="w-fit px-0" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
           <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className="rounded-none object-contain" src={asset(supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
           {supplier}<ArrowUpRight />
         </Button>
@@ -83,6 +83,20 @@ const total=cart.reduce((s,x)=>s+x.price*x.qty,0),count=cart.reduce((s,x)=>s+x.q
 function download(type){const safe=x=>typeof x==='string'&&/^[=+@\-\t\r]/.test(x)?"'"+x:x;const rows=cart.map(x=>Object.fromEntries(Object.entries({'Part Link':x.url,'Part #':x.sku,'Website':x.supplier||'Whimsy Tech','Qty':x.qty,'Qty Needed':'','Unit Cost':x.price,'Part Name':x.product,'Variant':x.title,'Supplier Variant ID':x.id,'Line Total':Math.round(x.price*x.qty*100)/100}).map(([k,v])=>[k,safe(v)])));const ws=XLSX.utils.json_to_sheet(rows);ws['!cols']=[{wch:60},{wch:24},{wch:18},{wch:8},{wch:14},{wch:12},{wch:45},{wch:30},{wch:14}];const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,'Parts Order');XLSX.writeFile(wb,`8780F-parts-order.${type}`,{bookType:type});}
 const productCategory=p=>/shoulder/i.test(p.title)?'Shoulder screws':p.category;
 const items=data.products.filter(p=>(category==='All parts'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
+  const [visibleCount, setVisibleCount] = useState(24);
+  const loadMoreRef = useRef(null);
+  useEffect(() => setVisibleCount(24), [category, query]);
+  useEffect(() => {
+    if (!loadMoreRef.current || visibleCount >= items.length || typeof IntersectionObserver === 'undefined') return;
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) {
+        observer.disconnect();
+        setVisibleCount(n => n + 24);
+      }
+    }, { rootMargin: '400px' });
+    observer.observe(loadMoreRef.current);
+    return () => observer.disconnect();
+  }, [visibleCount, items.length, category, query]);
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -109,8 +123,9 @@ const items=data.products.filter(p=>(category==='All parts'||productCategory(p)=
               <h1 className="text-2xl font-semibold tracking-tight">{category}</h1>
               {error && <Alert variant="destructive"><AlertDescription>{error}</AlertDescription></Alert>}
               <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {items.map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
+                {items.slice(0, visibleCount).map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
               </div>
+              {visibleCount < items.length && <div ref={loadMoreRef} className="flex justify-center"><Button variant="outline" onClick={() => setVisibleCount(n => n + 24)}>Load more parts</Button></div>}
               {!items.length && !error && <Empty><EmptyHeader><EmptyMedia variant="icon"><Search /></EmptyMedia><EmptyTitle>No parts found</EmptyTitle><EmptyDescription>Try a different search or category.</EmptyDescription></EmptyHeader></Empty>}
             </TabsContent>
           </Tabs>
