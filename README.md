@@ -75,3 +75,5 @@ Compression-wheel listings remain individual cards. Group keys include the suppl
 ## Minimal V5 Parts layout
 
 The page title and brand are V5 Parts, with a monochrome hex-nut SVG favicon. The centered start screen has no divider bars. Its search field stays mounted while native View Transitions move it into the browsing header, preserving typing focus; reduced-motion preferences are respected. Shoulders share the Screws category. Desktop supplier filters live in the side column; mobile category/supplier navigation uses a registry Sheet. The order sheet uses compact flat rows, supplier labels, quantity controls, and trash actions instead of nested cards. The motor family defaults to the 11W motor and its image. AMOLED background, card, popover and sidebar colors are applied through theme tokens.
+
+Compression Wheels has its own navigation category on desktop and mobile. All seven compression-wheel listings appear there individually; general Wheels contains the other wheel types.
