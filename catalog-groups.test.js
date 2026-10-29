@@ -19,8 +19,11 @@ test('groups the remaining size/color families while keeping distinct types and 
  const grouped=groupCatalog(products);
  const expected={'V5 Smart Motor (11W) & Cartridges':4,'V5 Smart Cables & Accessories':4,'Omni-Directional Wheels':4,'Traction Wheels':5,'Aluminum C-Channels':5,'Gussets':8,'High Strength Shafts':4,'High Strength Shaft Adapters':2,'Capped Drive Shafts':2,'Drive Shafts':3};
  for(const [title,count] of Object.entries(expected))expect(grouped.find(p=>p.title===title)?.variants.length,title).toBe(count);
- expect(grouped.some(p=>p.title==='Compression Wheels')).toBe(false);
- expect(grouped.filter(p=>p.supplier==='VEX Robotics'&&/Compression Wheel/i.test(p.title))).toHaveLength(7);
+ const compression=grouped.filter(p=>p.supplier==='VEX Robotics'&&/Compression Wheel/i.test(p.title));
+ expect(compression).toHaveLength(1);
+ expect(compression[0].title).toBe('Compression Wheels');
+ expect(compression[0].category).toBe('Wheels');
+ expect(compression[0].variants).toHaveLength(7);
  const standoffs=grouped.find(p=>p.title==='Aluminum Hex Standoffs');expect(new Set(standoffs.variants.map(v=>v.options[0])).size).toBe(7);
  const spacers=grouped.find(p=>p.title==='Nylon Washers & Spacers');
  expect(spacers.variants.length).toBe(49);

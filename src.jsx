@@ -21,7 +21,7 @@ import './style.css';
 
 const asset = p => p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p;
 const money = n => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n);
-const categories = ['All parts', 'Electronics', 'Metal', 'Wheels', 'Compression Wheels', 'Motion', 'Screws', 'Standoffs', 'Nuts', 'Spacers', 'Pneumatics'];
+const categories = ['All parts', 'Electronics', 'Metal', 'Wheels', 'Motion', 'Screws', 'Standoffs', 'Nuts', 'Spacers', 'Pneumatics'];
 
 function AddToCart({ available, onAdd }) {
   const [added, setAdded] = useState(0);
@@ -93,7 +93,7 @@ const change=(id,n)=>setCart(c=>c.map(x=>x.id===id?{...x,qty:Math.max(0,Math.min
 const add=(p,v)=>{if(cart.some(x=>x.id===v.id&&x.qty>=9999))return false;setCart(c=>c.some(x=>x.id===v.id)?c.map(x=>x.id===v.id?{...x,qty:Math.min(9999,x.qty+1)}:x):[...c,{...v,product:v.productTitle||p.title,url:v.url||p.url,supplier:p.supplier||'Whimsy Tech',qty:1}]);return true;};
 const total=cart.reduce((s,x)=>s+x.price*x.qty,0),count=cart.reduce((s,x)=>s+x.qty,0);
 const [supplier,setSupplier]=useState('All suppliers');
-const productCategory=p=>/compression wheel/i.test(p.title)?'Compression Wheels':/shoulder/i.test(p.title)||p.category==='Shoulder screws'?'Screws':p.category;
+const productCategory=p=>/shoulder/i.test(p.title)||p.category==='Shoulder screws'?'Screws':p.category;
 const items=data.products.filter(p=>(supplier==='All suppliers'||(p.supplier||'Whimsy Tech')===supplier)&&(category==='All parts'||category==='Start'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
   const [visibleCount, setVisibleCount] = useState(24);
   const loadMoreRef = useRef(null);

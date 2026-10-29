@@ -14,6 +14,7 @@ function family(p) {
   if (supplier === 'VEX Robotics') {
     if (/Smart Motor.*Cartridge|Smart Motor.*11W/i.test(p.title)) return ['11w-motor', 'V5 Smart Motor (11W) & Cartridges'];
     if (/^Smart Cable/i.test(p.title)) return ['smart-cables', 'V5 Smart Cables & Accessories'];
+    if (/Compression Wheel/i.test(p.title)) return ['compression-wheels', 'Compression Wheels'];
     if (/Omni-Directional.*Wheel/i.test(p.title)) return ['omni-wheels', 'Omni-Directional Wheels'];
     if (p.category === 'Wheels' && /Wheel/i.test(p.title) && !/Compression|Omni|Tread/i.test(p.title)) return ['traction-wheels', 'Traction Wheels'];
     if (/Aluminum C-Channel/i.test(p.title)) return ['c-channel', 'Aluminum C-Channels'];
