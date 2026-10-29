@@ -26,7 +26,7 @@ The interface now uses actual shadcn (base-nova) Button components installed wit
 
 Robosource import: install `beautifulsoup4` in your Python environment, then run `python scripts/scrape-robosource.py`. Requires curl. It follows all listing pages, deduplicates overlapping categories, validates reference numbers/photos, and preserves Whimsy products. Current coverage is 47 unique products, including 18 shoulder-screw listings; all references and photos were found. Existing Whimsy missing SKU/photo limitations still apply.
 
-Deploy to GitHub Pages with `npm run build -- --base=/vexV5-parthub/` and publish dist contents plus `.nojekyll` to the existing gh-pages branch.
+Deploy to GitHub Pages with `npm run build` and publish dist contents plus `.nojekyll` to the existing gh-pages branch.
 
 ## Catalog scope and transparent photos
 
@@ -77,3 +77,9 @@ Compression-wheel listings remain individual cards. Group keys include the suppl
 The page title and brand are V5 Parts, with a monochrome hex-nut SVG favicon. The centered start screen has no divider bars. Its search field stays mounted while native View Transitions move it into the browsing header, preserving typing focus; reduced-motion preferences are respected. Shoulders share the Screws category. Desktop supplier filters live in the side column; mobile category/supplier navigation uses a registry Sheet. The order sheet uses compact flat rows, supplier labels, quantity controls, and trash actions instead of nested cards. The motor family defaults to the 11W motor and its image. AMOLED background, card, popover and sidebar colors are applied through theme tokens.
 
 Compression Wheels has its own navigation category on desktop and mobile. All seven compression-wheel listings appear there individually; general Wheels contains the other wheel types.
+
+## Custom domain deployment
+
+Production is served from `https://v5parts.t3rm1n4l.dev/`. Build with `npm run build`; Vite explicitly uses `./` as its base so bundled assets, data and photos resolve relative to the document. Do not pass the old repository-path base. `public/CNAME` is copied into the deployment output. Before publishing, read the current GitHub Pages custom-domain setting and preserve its CNAME, including changes made directly on gh-pages. Verify the live HTML, JS, CSS, fonts, catalog, favicon, supplier logos and product images from the custom domain after deployment.
+
+Publish with `python scripts/deploy-pages.py` after building. The deployer reads the current Pages configuration and preserves the user's CNAME before replacing build artifacts. It rejects the old repository-prefixed HTML build.
