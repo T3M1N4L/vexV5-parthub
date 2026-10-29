@@ -10,9 +10,11 @@
 
 /* AMOLED changes only the registry theme tokens. */
 :root { --radius: 0.625rem; }
-.dark { --background: #000; }
+.dark { --background: #000; --card: #000; --popover: #000; --sidebar: #000; --muted: #0c0c0c; --secondary: #141414; --accent: #171717; }
 @layer base {
   * { @apply border-border outline-ring/50; }
   body { @apply bg-background text-foreground; }
   html { @apply font-sans; }
 }
+
+@media (prefers-reduced-motion: reduce) { ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; } }

@@ -32,3 +32,9 @@ test('groups the remaining size/color families while keeping distinct types and 
  expect(grouped.some(p=>p.title==='Black Nylon Hex Standoffs')).toBe(true);
  expect(grouped.some(p=>p.title==='Black High Strength Acetal Spacers')).toBe(true);
 });
+
+test('motor family starts with the 11W motor and its photo',()=>{
+ const family=groupCatalog(products).find(p=>p.title==='V5 Smart Motor (11W) & Cartridges');
+ expect(family.variants[0].sku).toBe('276-4840');
+ expect(family.images[0]).toBe(family.variants[0].image);
+});

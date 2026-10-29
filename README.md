@@ -71,3 +71,7 @@ A refinement pass preserves small dark fasteners which segmentation can otherwis
 Family grouping also covers Whimsy aluminum standoffs and nylon washers/spacers across colors, VEX omni/traction wheels, 11W motors/cartridges, smart cables/accessories, C-channels, gussets, high-strength shafts, shaft adapters, capped shafts and standard drive shafts. Different suppliers, nylon versus aluminum standoffs, acetal versus nylon spacers, and 5.5W versus 11W motors stay distinct. The current 166 imported listings display as 66 family cards without dropping variants.
 
 Compression-wheel listings remain individual cards. Group keys include the supplier identity, and standoffs and spacers remain separate families.
+
+## Minimal V5 Parts layout
+
+The page title and brand are V5 Parts, with a monochrome hex-nut SVG favicon. The centered start screen has no divider bars. Its search field stays mounted while native View Transitions move it into the browsing header, preserving typing focus; reduced-motion preferences are respected. Shoulders share the Screws category. Desktop supplier filters live in the side column; mobile category/supplier navigation uses a registry Sheet. The order sheet uses compact flat rows, supplier labels, quantity controls, and trash actions instead of nested cards. The motor family defaults to the 11W motor and its image. AMOLED background, card, popover and sidebar colors are applied through theme tokens.

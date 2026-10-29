@@ -45,10 +45,12 @@ export function groupCatalog(products) {
   }
   for (const g of groups.values()) {
     g.variants.sort((a, b) => {
+      if(g.title==='V5 Smart Motor (11W) & Cartridges'){if(a.sku==='276-4840')return -1;if(b.sku==='276-4840')return 1;}
       const packA = /variety pack/i.test(a.title), packB = /variety pack/i.test(b.title);
       if (packA !== packB) return packA ? 1 : -1;
       return a.title.localeCompare(b.title, 'en', { numeric: true });
     });
+    g.images=[...new Set(g.variants.map(v=>v.image).filter(Boolean).concat(g.images))];
   }
   return output;
 }
