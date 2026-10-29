@@ -67,3 +67,5 @@ A refinement pass preserves small dark fasteners which segmentation can otherwis
 ## Product families
 
 `catalog-groups.js` groups the imported catalog for display on load: Robosource star-drive and shoulder screws (regular/color-coded families, including variety packs), VEX 6P sprockets, VEX 9P sprockets, and VEX gears/pinions. Whimsy's existing families remain intact. Every variant retains its original ID, SKU, price, image, availability, product name and supplier URL. The selected variant's original product name and URL are used in cart exports. Supplier imports remain raw, so grouping also applies after future catalog refreshes.
+
+Family grouping also covers Whimsy aluminum standoffs and nylon washers/spacers across colors, VEX omni/traction/compression wheels, 11W motors/cartridges, smart cables/accessories, C-channels, gussets, high-strength shafts, shaft adapters, capped shafts and standard drive shafts. Different suppliers, nylon versus aluminum standoffs, acetal versus nylon spacers, and 5.5W versus 11W motors stay distinct. The current 166 imported listings display as 60 family cards without dropping variants.
