@@ -17,10 +17,16 @@ test('families preserve every variant and supplier identity, price, image and or
 
 test('groups the remaining size/color families while keeping distinct types and suppliers separate',()=>{
  const grouped=groupCatalog(products);
- const expected={'V5 Smart Motor (11W) & Cartridges':4,'V5 Smart Cables & Accessories':4,'Omni-Directional Wheels':4,'Traction Wheels':5,'Compression Wheels':7,'Aluminum C-Channels':5,'Gussets':8,'High Strength Shafts':4,'High Strength Shaft Adapters':2,'Capped Drive Shafts':2,'Drive Shafts':3};
+ const expected={'V5 Smart Motor (11W) & Cartridges':4,'V5 Smart Cables & Accessories':4,'Omni-Directional Wheels':4,'Traction Wheels':5,'Aluminum C-Channels':5,'Gussets':8,'High Strength Shafts':4,'High Strength Shaft Adapters':2,'Capped Drive Shafts':2,'Drive Shafts':3};
  for(const [title,count] of Object.entries(expected))expect(grouped.find(p=>p.title===title)?.variants.length,title).toBe(count);
+ expect(grouped.some(p=>p.title==='Compression Wheels')).toBe(false);
+ expect(grouped.filter(p=>p.supplier==='VEX Robotics'&&/Compression Wheel/i.test(p.title))).toHaveLength(7);
  const standoffs=grouped.find(p=>p.title==='Aluminum Hex Standoffs');expect(new Set(standoffs.variants.map(v=>v.options[0])).size).toBe(7);
- expect(grouped.find(p=>p.title==='Nylon Washers & Spacers').variants.length).toBe(49);
+ const spacers=grouped.find(p=>p.title==='Nylon Washers & Spacers');
+ expect(spacers.variants.length).toBe(49);
+ expect(standoffs.category).toBe('Standoffs');expect(spacers.category).toBe('Spacers');
+ expect(standoffs.variants.every(v=>products.find(p=>p.variants.some(x=>x.id===v.id)).category==='Standoffs')).toBe(true);
+ expect(spacers.variants.every(v=>products.find(p=>p.variants.some(x=>x.id===v.id)).category==='Spacers')).toBe(true);
  for(const group of grouped){const suppliers=new Set(group.variants.map(v=>products.find(p=>p.variants.some(x=>x.id===v.id)).supplier||'Whimsy Tech'));expect(suppliers.size).toBe(1);}
  expect(grouped.some(p=>p.title==='Smart Motor (5.5W)')).toBe(true);
  expect(grouped.some(p=>p.title==='Black Nylon Hex Standoffs')).toBe(true);

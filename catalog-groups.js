@@ -16,7 +16,6 @@ function family(p) {
     if (/^Smart Cable/i.test(p.title)) return ['smart-cables', 'V5 Smart Cables & Accessories'];
     if (/Omni-Directional.*Wheel/i.test(p.title)) return ['omni-wheels', 'Omni-Directional Wheels'];
     if (p.category === 'Wheels' && /Wheel/i.test(p.title) && !/Compression|Omni|Tread/i.test(p.title)) return ['traction-wheels', 'Traction Wheels'];
-    if (/Compression Wheel/i.test(p.title)) return ['compression-wheels', 'Compression Wheels'];
     if (/Aluminum C-Channel/i.test(p.title)) return ['c-channel', 'Aluminum C-Channels'];
     if (/Gusset/i.test(p.title)) return ['gussets', 'Gussets'];
     if (/High Strength Shaft Adapter/i.test(p.title)) return ['shaft-adapters', 'High Strength Shaft Adapters'];
