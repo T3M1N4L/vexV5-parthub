@@ -1,3 +1,4 @@
+import {groupCatalog} from './catalog-groups';
 import {OrderPreview} from './order-preview';
 import React, { useEffect, useState, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
@@ -39,8 +40,8 @@ function AddToCart({ available, onAdd }) {
   );
 }
 
-function ProductCard({ product: p, selected, onSelect, onAdd }) {
-  const v = p.variants.find(v => v.id === selected) || p.variants[0];
+function ProductCard({ product: p, selected, onSelect, onAdd, query }) {
+  const v = p.variants.find(v => v.id === selected) || (query && p.variants.find(v => `${v.title} ${v.sku}`.toLowerCase().includes(query.toLowerCase()))) || p.variants[0];
   const supplier = p.supplier || 'Whimsy Tech';
   const options = p.variants.map(v => ({ value: v.id, label: v.title + (!v.available ? ' — sold out' : '') }));
   return (
@@ -51,7 +52,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
         <Empty className="aspect-square"><EmptyHeader><EmptyMedia variant="icon"><Box /></EmptyMedia><EmptyDescription>No supplier photo</EmptyDescription></EmptyHeader></Empty>
       )}
       <CardHeader>
-        <Button variant="ghost" size="sm" className="w-fit px-0" nativeButton={false} render={<a href={p.url} target="_blank" rel="noreferrer" />}>
+        <Button variant="ghost" size="sm" className="w-fit px-0" nativeButton={false} render={<a href={v.url || p.url} target="_blank" rel="noreferrer" />}>
           <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className={`rounded-none object-contain ${supplier==='HCU Tech'?'invert':''}`} src={asset(supplier === 'VEX Robotics' ? '/logos/vex.ico' : supplier === 'HCU Tech' ? '/logos/hcu.png' : supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
           {supplier}<ArrowUpRight />
         </Button>
@@ -75,12 +76,12 @@ function ProductCard({ product: p, selected, onSelect, onAdd }) {
 
 function App() {
 const[data,setData]=useState({products:[],requested:[]}),[query,setQuery]=useState(''),[category,setCategory]=useState('Start'),[cart,setCart]=useState(()=>{try{return JSON.parse(localStorage.getItem('v5-cart')||'[]')}catch{return[]}}),[open,setOpen]=useState(false),[selected,setSelected]=useState({}),[error,setError]=useState('');
-useEffect(()=>{fetch(import.meta.env.BASE_URL+'data/catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(setData).catch(()=>setError('Catalog could not be loaded. Please refresh.'))},[]);
+useEffect(()=>{fetch(import.meta.env.BASE_URL+'data/catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>setData({...d,products:groupCatalog(d.products)})).catch(()=>setError('Catalog could not be loaded. Please refresh.'))},[]);
 // Refresh saved-cart photos when the catalog receives new processed assets.
 useEffect(()=>{if(!data.products.length)return;const images=new Map(data.products.flatMap(p=>p.variants.map(v=>[v.id,v.image])));setCart(c=>c.map(x=>images.has(x.id)?{...x,image:images.get(x.id)}:x));},[data.products]);
 useEffect(()=>{localStorage.setItem('v5-cart',JSON.stringify(cart))},[cart]);
 const change=(id,n)=>setCart(c=>c.map(x=>x.id===id?{...x,qty:Math.max(0,Math.min(9999,n))}:x).filter(x=>x.qty));
-const add=(p,v)=>{if(cart.some(x=>x.id===v.id&&x.qty>=9999))return false;setCart(c=>c.some(x=>x.id===v.id)?c.map(x=>x.id===v.id?{...x,qty:Math.min(9999,x.qty+1)}:x):[...c,{...v,product:p.title,url:p.url,supplier:p.supplier||'Whimsy Tech',qty:1}]);return true;};
+const add=(p,v)=>{if(cart.some(x=>x.id===v.id&&x.qty>=9999))return false;setCart(c=>c.some(x=>x.id===v.id)?c.map(x=>x.id===v.id?{...x,qty:Math.min(9999,x.qty+1)}:x):[...c,{...v,product:v.productTitle||p.title,url:v.url||p.url,supplier:p.supplier||'Whimsy Tech',qty:1}]);return true;};
 const total=cart.reduce((s,x)=>s+x.price*x.qty,0),count=cart.reduce((s,x)=>s+x.qty,0);
 const productCategory=p=>/shoulder/i.test(p.title)?'Shoulder screws':p.category;
 const items=data.products.filter(p=>(category==='All parts'||category==='Start'||productCategory(p)===category)&&`${p.title} ${p.variants.map(v=>v.title+' '+v.sku).join(' ')}`.toLowerCase().includes(query.toLowerCase()));
@@ -125,7 +126,7 @@ const items=data.products.filter(p=>(category==='All parts'||category==='Start'|
               {(category!=='Start'||query)&&<h1 className="text-2xl font-semibold tracking-tight">{category==='Start'?'Search results':category}</h1>}
               {error && <Alert variant="destructive"><AlertDescription>{error}</AlertDescription></Alert>}
               <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {(category==='Start'&&!query?[]:items).slice(0, visibleCount).map(p => <ProductCard key={p.id} product={p} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
+                {(category==='Start'&&!query?[]:items).slice(0, visibleCount).map(p => <ProductCard key={p.id} product={p} query={query} selected={selected[p.id]} onSelect={value => setSelected(s => ({ ...s, [p.id]: value }))} onAdd={add} />)}
               </div>
               {(category!=='Start'||query)&&visibleCount < items.length && <div ref={loadMoreRef} className="flex justify-center"><Button variant="outline" onClick={() => setVisibleCount(n => n + 24)}>Load more parts</Button></div>}
               {!items.length && !error && <Empty><EmptyHeader><EmptyMedia variant="icon"><Search /></EmptyMedia><EmptyTitle>No parts found</EmptyTitle><EmptyDescription>Try a different search or category.</EmptyDescription></EmptyHeader></Empty>}

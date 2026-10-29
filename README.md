@@ -63,3 +63,7 @@ VEX imports now prefer the image viewer's `full` URL over `url`/thumbnail fields
 The image processor is a development-only dependency and is not loaded by the website. `.npmrc` selects ONNX Runtime's supported CPU-only installation mode; no CUDA download is needed. Image processing can take several minutes for a fresh catalog.
 
 A refinement pass preserves small dark fasteners which segmentation can otherwise soften in kit photos. Saved carts refresh only their image URLs from the current catalog, so old cart items receive regenerated photos without changing their saved quantities or prices.
+
+## Product families
+
+`catalog-groups.js` groups the imported catalog for display on load: Robosource star-drive and shoulder screws (regular/color-coded families, including variety packs), VEX 6P sprockets, VEX 9P sprockets, and VEX gears/pinions. Whimsy's existing families remain intact. Every variant retains its original ID, SKU, price, image, availability, product name and supplier URL. The selected variant's original product name and URL are used in cart exports. Supplier imports remain raw, so grouping also applies after future catalog refreshes.
