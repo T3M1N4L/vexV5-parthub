@@ -6678,6 +6678,52 @@
           "image": "/images/cutouts-v2/robo-380-2b03d991eca5.png"
         }
       ]
+    },
+    {
+      "id": "mcmaster-95856A215",
+      "title": "Lightweight 6061 Aluminum Nylon-Insert Locknut, 8-32 Thread Size (25-pack)",
+      "supplier": "McMaster-Carr",
+      "category": "Nuts",
+      "url": "https://www.mcmaster.com/95856A215/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/958/95856A215_df86af10-3d94-4c05-93a1-2e23b166638e@4x_c467d_1778714575.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-95856A215.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-95856A215",
+          "title": "8-32 Thread Size / 25-pack",
+          "sku": "95856A215",
+          "price": 3.91,
+          "packQuantity": 25,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-95856A215.png"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-92510A468",
+      "title": "Aluminum Unthreaded Spacer, 1/4\" OD, 7/8\" Long, for Number 8 Screw Size",
+      "supplier": "McMaster-Carr",
+      "category": "Spacers",
+      "url": "https://www.mcmaster.com/92510A468/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/925/92510A468_0e140b63-6db5-48ff-95da-3faaacc04d65@4x_638059505328554349.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-92510A468.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-92510A468",
+          "title": "1/4\" OD, 7/8\" Long, for Number 8 Screw Size / each",
+          "sku": "92510A468",
+          "price": 0.6,
+          "packQuantity": 1,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-92510A468.png"
+        }
+      ]
     }
   ],
   "vexCoverage": [
@@ -6789,5 +6835,7 @@
       "page": "275-1065",
       "included": 1
     }
-  ]
+  ],
+  "mcmasterUpdatedAt": "2026-11-09T02:04:46Z",
+  "mcmasterSource": "Supplier product pages rendered through https://r.jina.ai/"
 }
