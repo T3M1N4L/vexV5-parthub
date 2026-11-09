@@ -70,16 +70,23 @@ A refinement pass preserves small dark fasteners which segmentation can otherwis
 
 Family grouping also covers Whimsy aluminum standoffs and nylon washers/spacers across colors, VEX omni/traction wheels, 11W motors/cartridges, smart cables/accessories, C-channels, gussets, high-strength shafts, shaft adapters, capped shafts and standard drive shafts. Different suppliers, nylon versus aluminum standoffs, acetal versus nylon spacers, and 5.5W versus 11W motors stay distinct. The current 166 imported listings display as 66 family cards without dropping variants.
 
-Compression-wheel listings remain individual cards. Group keys include the supplier identity, and standoffs and spacers remain separate families.
+Compression wheels form one card with all seven variants in its dropdown. Group keys include the supplier identity, and standoffs and spacers remain separate families.
 
 ## Minimal V5 Parts layout
 
 The page title and brand are V5 Parts, with a monochrome hex-nut SVG favicon. The centered start screen has no divider bars. Its search field stays mounted while native View Transitions move it into the browsing header, preserving typing focus; reduced-motion preferences are respected. Shoulders share the Screws category. Desktop supplier filters live in the side column; mobile category/supplier navigation uses a registry Sheet. The order sheet uses compact flat rows, supplier labels, quantity controls, and trash actions instead of nested cards. The motor family defaults to the 11W motor and its image. AMOLED background, card, popover and sidebar colors are applied through theme tokens.
 
-Compression Wheels has its own navigation category on desktop and mobile. All seven compression-wheel listings appear there individually; general Wheels contains the other wheel types.
+Compression Wheels appears under Wheels with the other wheel families.
 
 ## Custom domain deployment
 
 Production is served from `https://v5parts.t3rm1n4l.dev/`. Build with `npm run build`; Vite explicitly uses `./` as its base so bundled assets, data and photos resolve relative to the document. Do not pass the old repository-path base. `public/CNAME` is copied into the deployment output. Before publishing, read the current GitHub Pages custom-domain setting and preserve its CNAME, including changes made directly on gh-pages. Verify the live HTML, JS, CSS, fonts, catalog, favicon, supplier logos and product images from the custom domain after deployment.
 
 Publish with `python scripts/deploy-pages.py` after building. The deployer reads the current Pages configuration and preserves the user's CNAME before replacing build artifacts. It rejects the old repository-prefixed HTML build.
+
+
+## Robosource standoffs and McMaster
+
+`python scripts/scrape-robosource.py --standoffs-only` refreshes all seven black aluminum standoff sizes without replacing the other Robosource listings. Full imports also include them. They display as a single Robosource family, separate from Whimsy standoffs.
+
+`python scripts/scrape-mcmaster.py` imports 95856A215 (8-32 aluminum nylon-insert locknuts, pack of 25) and 92510A468 (1/4 inch OD × 7/8 inch aluminum spacer for #8 screws, each). It uses Jina's rendered-page proxy because direct product-detail requests return 403. The importer requires a product heading, SKU, price/unit, order control and full-size image before updating the catalog. For saved rendered responses, use `--source-dir <directory>` with files named `<SKU>.md`. Photos and the official 192px favicon are saved locally; the deployed website makes no proxy requests. Prices use the supplier's base order quantity; McMaster may offer volume discounts on its site. Run `npm run images:transparent` after imports, then build and publish normally.

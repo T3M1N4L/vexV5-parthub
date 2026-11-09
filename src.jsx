@@ -54,7 +54,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd, query }) {
       )}
       <CardHeader>
         <Button variant="ghost" size="sm" className="w-fit px-0" nativeButton={false} render={<a href={v.url || p.url} target="_blank" rel="noreferrer" />}>
-          <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className={`rounded-none object-contain ${supplier==='HCU Tech'?'invert':''}`} src={asset(supplier === 'VEX Robotics' ? '/logos/vex.ico' : supplier === 'HCU Tech' ? '/logos/hcu.png' : supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
+          <Avatar size="sm" className="rounded-none after:hidden"><AvatarImage className={`rounded-none object-contain ${supplier==='HCU Tech'?'invert':''}`} src={asset(supplier === 'VEX Robotics' ? '/logos/vex.ico' : supplier === 'HCU Tech' ? '/logos/hcu.png' : supplier === 'Robosource' ? '/logos/robosource-favicon.ico' : supplier === 'McMaster-Carr' ? '/logos/mcmaster-favicon.png' : '/logos/whimsy-favicon.png')} alt="" /><AvatarFallback className="rounded-none bg-transparent">{supplier[0]}</AvatarFallback></Avatar>
           {supplier}<ArrowUpRight />
         </Button>
         <CardTitle>{p.title}</CardTitle>
@@ -76,7 +76,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd, query }) {
 }
 
 function SupplierFilters({supplier,onSupplier}) {
-  return <div className="space-y-1"><p className="mb-3 px-2 text-xs text-muted-foreground">SUPPLIER</p>{['All suppliers','Whimsy Tech','Robosource','VEX Robotics','HCU Tech'].map(s=><Button key={s} variant={supplier===s?'secondary':'ghost'} className="w-full justify-start" onClick={()=>onSupplier(s)}>{s}</Button>)}</div>;
+  return <div className="space-y-1"><p className="mb-3 px-2 text-xs text-muted-foreground">SUPPLIER</p>{['All suppliers','Whimsy Tech','Robosource','VEX Robotics','HCU Tech','McMaster-Carr'].map(s=><Button key={s} variant={supplier===s?'secondary':'ghost'} className="w-full justify-start" onClick={()=>onSupplier(s)}>{s}</Button>)}</div>;
 }
 function MobileBrowse({category,onCategory,supplier,onSupplier}) {
   const [open,setOpen]=useState(false);
