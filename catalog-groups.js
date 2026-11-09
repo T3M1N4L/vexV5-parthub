@@ -6,6 +6,7 @@ function family(p) {
     if (/Nylon (?:Washers & Spacers|Spacers)$/i.test(p.title) && !/Pasta/i.test(p.title)) return ['nylon-spacers', 'Nylon Washers & Spacers'];
   }
   if (supplier === 'Robosource') {
+    if (/^Black Aluminum Standoffs/i.test(p.title)) return ['black-aluminum-standoffs', 'Black Aluminum Standoffs'];
     const color = /^Color Coded /i.test(p.title);
     const title = p.title.replace(/^Color Coded /i, '');
     if (/^Star Drive Screws/i.test(title)) return [color ? 'color-star' : 'star', `${color ? 'Color Coded ' : ''}Star Drive Screws`];

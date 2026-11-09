@@ -41,3 +41,15 @@ test('motor family starts with the 11W motor and its photo',()=>{
  expect(family.variants[0].sku).toBe('276-4840');
  expect(family.images[0]).toBe(family.variants[0].image);
 });
+
+test('Robosource black aluminum standoffs form one separate supplier family with all seven sizes',()=>{
+ const grouped=groupCatalog(products);
+ const standoffs=grouped.find(p=>p.title==='Black Aluminum Standoffs'&&p.supplier==='Robosource');
+ expect(standoffs.category).toBe('Standoffs');
+ expect(standoffs.variants.map(v=>v.sku).sort()).toEqual(['34-30','34-31','34-33','34-34','34-36','34-39','34-41']);
+ for(const v of standoffs.variants){
+  expect(v.price).toBeGreaterThan(0);
+  expect(v.image).toMatch(/^\/images\/cutouts-v2\//);
+  expect(v.url).toMatch(/^https:\/\/www\.robosource\.net\//);
+ }
+});
