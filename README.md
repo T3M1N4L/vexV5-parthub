@@ -95,3 +95,17 @@ Publish with `python scripts/deploy-pages.py` after building. The deployer reads
 ## Fender washers
 
 Whimsy Fender Washer is a single entry under Spacers with all ten supplier variants (including sold-out combinations), local full-size photos, exact prices, and stock status. The supplier publishes no SKUs for these variants; their stable Shopify variant IDs and size/color options are retained. Run `npm run scrape -- --fender-only` to refresh only that product, then `npm run images:transparent`. Full Whimsy imports include it and preserve all other suppliers and their catalog metadata.
+
+
+## McMaster fender-washer alternatives
+
+The Whimsy reference specifies acetal/POM-C, #8 screw clearance, 0.750/1.000/1.500 inch outside diameters and 0.0625/0.125/0.250 inch thicknesses. McMaster's #8 plastic-washer and plastic-spacer listings did not provide exact equivalents for those material/size combinations. Four verified alternatives are grouped separately under Spacers, with material, color, OD, actual thickness range and pack quantity in the dropdown:
+
+| SKU | Material / color | OD | Thickness range | Pack | Base pack price |
+| --- | --- | --- | --- | --- | --- |
+| 90295A638 | Nylon / off-white | 1.500 inch | 0.036–0.065 inch | 10 | $4.73 |
+| 95630A817 | PTFE / white | 1.000 inch | 0.057–0.067 inch | 5 | $10.89 |
+| 95611A226 | PVC / gray | 1.000 inch | 0.053–0.071 inch | 5 | $6.20 |
+| 95630A445 | PTFE / white | 0.750 inch | 0.027–0.035 inch | 10 | $11.15 |
+
+These are labeled alternatives, not exact substitutes. The 0.750 inch option is explicitly labeled thinner. No invented 1/8 or 1/4 inch equivalents or black variants are added. Difference notes appear on the card and initialize export comments. Run `python scripts/scrape-mcmaster.py --washers-only` to refresh just these four; full McMaster imports refresh all six parts. As with the original imports, use `--source-dir` for reviewed `<SKU>.md` rendered responses, then run image processing and build.

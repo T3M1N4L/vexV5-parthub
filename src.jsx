@@ -69,6 +69,7 @@ function ProductCard({ product: p, selected, onSelect, onAdd, query }) {
           </Select>
         )}
         <p className="font-medium tabular-nums">{v.price==null?'Price unavailable':money(v.price)}</p>
+        {v.note&&<p className="text-xs text-muted-foreground">{v.note}</p>}
       </CardContent>
       <CardFooter><AddToCart key={v.id} available={v.available} onAdd={() => onAdd(p, v)} /></CardFooter>
     </Card>

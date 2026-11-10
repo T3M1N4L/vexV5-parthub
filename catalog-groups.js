@@ -1,6 +1,7 @@
 // Present supplier listings as families without changing variant identities.
 function family(p) {
   const supplier = p.supplier || 'Whimsy Tech';
+  if (supplier === 'McMaster-Carr' && p.family === 'plastic-fender-washer-alternatives') return ['plastic-fender-washer-alternatives', '#8 Plastic Fender Washer Alternatives'];
   if (supplier === 'Whimsy Tech') {
     if (/Aluminum Hex Standoffs/i.test(p.title)) return ['aluminum-standoffs', 'Aluminum Hex Standoffs'];
     if (/Nylon (?:Washers & Spacers|Spacers)$/i.test(p.title) && !/Pasta/i.test(p.title)) return ['nylon-spacers', 'Nylon Washers & Spacers'];

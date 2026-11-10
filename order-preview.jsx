@@ -13,7 +13,7 @@ export {createWorkbook} from './order-workbook';
 function saveBlob(bytes,name){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([bytes],{type:'application/zip'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
 export function OrderPreview({cart}){
  const [rows,setRows]=useState([]),[split,setSplit]=useState(false),[shipping,setShipping]=useState({});
- const initialize=()=>{setRows(cart.map(x=>({id:x.id,name:x.product,description:descriptionFor({name:x.product,variant:x.title}),url:x.url,sku:x.sku||'',supplier:x.supplier||'Whimsy Tech',qty:x.qty,price:x.price,comments:''})));setShipping({});};
+ const initialize=()=>{setRows(cart.map(x=>({id:x.id,name:x.product,description:descriptionFor({name:x.product,variant:x.title}),url:x.url,sku:x.sku||'',supplier:x.supplier||'Whimsy Tech',qty:x.qty,price:x.price,comments:x.note||''})));setShipping({});};
  const edit=(id,key,value)=>setRows(rs=>rs.map(r=>r.id===id?{...r,[key]:value}:r));
  const groups=orderGroups(rows,split);
  const valid=rows.length>0&&rows.every(r=>r.description.trim()&&Number.isInteger(Number(r.qty))&&Number(r.qty)>0&&r.price!==''&&Number(r.price)>=0&&Number.isFinite(Number(r.price)))&&groups.every(g=>shipping[g.name]==null||shipping[g.name]===''||(Number.isFinite(Number(shipping[g.name]))&&Number(shipping[g.name])>=0));

@@ -53,3 +53,13 @@ test('Robosource black aluminum standoffs form one separate supplier family with
   expect(v.url).toMatch(/^https:\/\/www\.robosource\.net\//);
  }
 });
+
+test('McMaster washer alternatives retain material, thickness, pack and difference notes separately from Whimsy',()=>{
+ const grouped=groupCatalog(products);
+ const family=grouped.find(p=>p.title==='#8 Plastic Fender Washer Alternatives');
+ expect(family.supplier).toBe('McMaster-Carr');
+ expect(family.category).toBe('Spacers');
+ expect(family.variants.map(v=>v.sku).sort()).toEqual(['90295A638','95611A226','95630A445','95630A817']);
+ for(const v of family.variants){expect(v.note).toMatch(/alternative/i);expect(v.title).toContain('thick');expect(v.title).toContain(`${v.packQuantity}-pack`);expect(v.url).toBe(`https://www.mcmaster.com/${v.sku}/`);}
+ expect(grouped.find(p=>p.title==='Fender Washer').variants).toHaveLength(10);
+});
