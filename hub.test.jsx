@@ -3,7 +3,8 @@ import {test,expect,vi} from 'vitest';
 import {screen,waitFor,fireEvent} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import * as XLSX from 'xlsx';
-vi.mock('xlsx',async()=>{const actual=await vi.importActual('xlsx');return {...actual,writeFile:vi.fn()}});
+import StyledXLSX from 'xlsx-js-style';
+vi.mock('xlsx-js-style',async()=>{const actual=await vi.importActual('xlsx-js-style');return {default:{...actual.default,writeFile:vi.fn()}}});
 test('variant cart persists, quantities calculate, and both exports contain real row data',async()=>{
  // jsdom lacks the browser animation API used by registry ScrollArea.
  Element.prototype.getAnimations=()=>[];
@@ -30,12 +31,12 @@ test('variant cart persists, quantities calculate, and both exports contain real
  await user.clear(priceInput);await user.type(priceInput,'4');
  fireEvent.click(screen.getByText('Export Excel'));
  fireEvent.click(screen.getByText('Export CSV'));
- expect(XLSX.writeFile).toHaveBeenCalledTimes(2);
- const wb=XLSX.writeFile.mock.calls[0][0];
+ expect(StyledXLSX.writeFile).toHaveBeenCalledTimes(2);
+ const wb=StyledXLSX.writeFile.mock.calls[0][0];
  const bytes=XLSX.write(wb,{bookType:'xlsx',type:'array'});
  const read=XLSX.read(bytes,{type:'array'});
- const rows=XLSX.utils.sheet_to_json(read.Sheets['Parts Order'],{range:2});
- expect(rows[0]).toMatchObject({'Part #':'TEST-BLUE','Qty':2,'Unit Cost':4,'Line Total':8,Variant:'Blue / 2 inch'});
+ const rows=XLSX.utils.sheet_to_json(read.Sheets['Parts Order'],{range:0});
+ expect(rows[0]).toMatchObject({'Item #':1,'Part#':'TEST-BLUE','Quantity':2,'Unit Price':4,'Ext Price':8,'Brief Description':'Test screw — Blue / 2 inch'});
  const csv=XLSX.utils.sheet_to_csv(wb.Sheets['Parts Order']);expect(csv).toContain('TEST-BLUE');
  await user.keyboard('{Escape}');
  await user.click(screen.getByLabelText('Delete Test screw'));
@@ -46,5 +47,5 @@ test('variant cart persists, quantities calculate, and both exports contain real
 test('supplier-separated workbook retains links, edited data, and formulas',async()=>{
  const {createWorkbook}=await import('./order-preview');
  const rows=[{name:'Motor',url:'https://www.vexrobotics.com/276-4840.html',sku:'276-4840',supplier:'VEX Robotics',qty:2,needed:'Team',price:49.99,variant:'11W'},{name:'Nut',url:'https://www.whimsytech.net/',sku:'N1',supplier:'Whimsy Tech',qty:3,needed:'',price:7,variant:'Black'}];
- const wb=createWorkbook(rows,true);expect(wb.SheetNames).toEqual(['VEX Robotics','Whimsy Tech']);expect(wb.Sheets['VEX Robotics'].I4.f).toBe('E4*G4');expect(wb.Sheets['VEX Robotics'].B4.l.Target).toBe(rows[0].url);expect(wb.Sheets['Whimsy Tech'].C2.v).toBe(21);
+ const wb=createWorkbook(rows,true);expect(wb.SheetNames).toEqual(['VEX Robotics','Whimsy Tech']);expect(wb.Sheets['VEX Robotics'].F2.f).toBe('D2*E2');expect(wb.Sheets['VEX Robotics'].G2.l.Target).toBe(rows[0].url);expect(wb.Sheets['Whimsy Tech'].F17.v).toBe(21);
 });

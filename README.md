@@ -46,7 +46,7 @@ All controls now come directly from the official shadcn registry (`base-nova`), 
 
 ## Editable spreadsheet export and VEX/HCU catalogs
 
-Order review now opens an editable shadcn Dialog/Table preview before downloads. Part names, links, supplier, reference, quantity, quantity needed, unit price and variant are editable for the export. Quantity × price totals are calculated. Exports follow the original uploaded order sheet's title/header layout, with extra variant, total and source-URL columns. Split mode creates supplier tabs in XLSX or supplier CSVs inside a ZIP. Cart deletion uses an accessible trash-icon button.
+Order review uses an editable shadcn Dialog/Table preview matching the table in `Parts-Equipment_Order.xlsx`: Item #, Part#, Brief Description, Unit Price, Quantity, Ext Price, and Hyperlink; Comments or concerns. Organization headings and instructions are omitted. Selected variants appear in the description. XLSX uses Calibri, a white table with thin black borders, wrapped text, currency formats, 15 numbered rows minimum, clickable links, and formulas for extended prices, subtotal, shipping and total. The preview shows the same columns on a white sheet inside the dark dialog, with editable descriptions, references, prices, quantities, links, comments and per-sheet shipping. Supplier separation still creates XLSX tabs or CSV files inside a ZIP, each with its own numbering and totals. `xlsx-js-style` writes the actual spreadsheet styles; CSV preserves the seven columns and values. Cart deletion uses an accessible trash-icon button.
 
 The initial screen presents centered search and categories; no catalog cards render until searching or selecting a category. Electronics, Metal, Wheels and Motion were added. Existing lazy loading remains.
 
@@ -90,3 +90,8 @@ Publish with `python scripts/deploy-pages.py` after building. The deployer reads
 `python scripts/scrape-robosource.py --standoffs-only` refreshes all seven black aluminum standoff sizes without replacing the other Robosource listings. Full imports also include them. They display as a single Robosource family, separate from Whimsy standoffs.
 
 `python scripts/scrape-mcmaster.py` imports 95856A215 (8-32 aluminum nylon-insert locknuts, pack of 25) and 92510A468 (1/4 inch OD × 7/8 inch aluminum spacer for #8 screws, each). It uses Jina's rendered-page proxy because direct product-detail requests return 403. The importer requires a product heading, SKU, price/unit, order control and full-size image before updating the catalog. For saved rendered responses, use `--source-dir <directory>` with files named `<SKU>.md`. Photos and the official 192px favicon are saved locally; the deployed website makes no proxy requests. Prices use the supplier's base order quantity; McMaster may offer volume discounts on its site. Run `npm run images:transparent` after imports, then build and publish normally.
+
+
+## Fender washers
+
+Whimsy Fender Washer is a single entry under Spacers with all ten supplier variants (including sold-out combinations), local full-size photos, exact prices, and stock status. The supplier publishes no SKUs for these variants; their stable Shopify variant IDs and size/color options are retained. Run `npm run scrape -- --fender-only` to refresh only that product, then `npm run images:transparent`. Full Whimsy imports include it and preserve all other suppliers and their catalog metadata.

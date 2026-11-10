@@ -16,6 +16,7 @@ The generated files in `components/ui/` are used directly without edits. `textar
 | Variant dropdowns | Select |
 | Cart drawer, overlay, focus management, Escape handling | Sheet |
 | Quantity field | Input |
+| Editable spreadsheet preview | Dialog + Table + Input + Textarea + Checkbox |
 | All actions and supplier links | Button |
 | Supplier icons | Avatar |
 | Cart count | Badge |

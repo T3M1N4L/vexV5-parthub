@@ -2,7 +2,8 @@ import fs from 'node:fs/promises';
 const base='https://www.whimsytech.net';
 const patterns=[/t15.*flat.*head/i,/nylock.*001/i,/nylock.*002/i,/alumin.*standoff/i,/spacer/i,/black.*nylon.*standoff/i,/quick.*connect.*(?:t.?fitting|switch)/i];
 const products=[]; let page=1;
-while(!process.argv.includes('--extras-only')){
+const extrasOnly=process.argv.includes('--extras-only')||process.argv.includes('--fender-only');
+while(!extrasOnly){
  const r=await fetch(`${base}/collections/v5rc-compatible/products.json?limit=250&page=${page}`);
  if(!r.ok) throw Error(`Catalog access failed: HTTP ${r.status}; existing catalog preserved`);
  const data=await r.json(); if(!Array.isArray(data.products)) throw Error('Invalid catalog response');
@@ -13,14 +14,16 @@ while(!process.argv.includes('--extras-only')){
  if(data.products.length<250)break;
  if(++page>100)throw Error('Pagination limit; catalog not saved');
 }
-// This product is not consistently listed in the V5RC collection.
-const extraResponse=await fetch(`${base}/products/aluminum-spacers-collars.js`);
+// Explicit products are not consistently listed in the V5RC collection.
+for(const handle of (process.argv.includes('--fender-only')?['fender-washer']:['aluminum-spacers-collars','fender-washer'])){
+const extraResponse=await fetch(`${base}/products/${handle}.js`);
 if(!extraResponse.ok)throw Error(`Extra product fetch failed: ${extraResponse.status}`);
 const extra=await extraResponse.json();
 if(!products.some(p=>p.id===String(extra.id)))products.push({id:String(extra.id),title:extra.title,url:`${base}/products/${extra.handle}`,category:'Spacers',images:extra.images.map(u=>u.startsWith('//')?'https:'+u:u),options:extra.options,variants:extra.variants.map(v=>({id:String(v.id),title:v.title,sku:v.sku||null,price:v.price/100,available:v.available,options:v.options,image:v.featured_image?.src||(extra.images[0]?.startsWith('//')?'https:'+extra.images[0]:extra.images[0])||null}))});
+}
 if(!products.length)throw Error('No matching products; catalog not saved');
 const old=JSON.parse(await fs.readFile('public/data/catalog.json','utf8'));
 await fs.mkdir('public/images',{recursive:true});
 for(const p of products){const urls=[...new Set([...p.images,...p.variants.map(v=>v.image).filter(Boolean)])];const map=new Map();for(let i=0;i<urls.length;i++){const url=urls[i];const r=await fetch(url);if(!r.ok)throw Error(`Image download failed ${r.status}`);const ext=new URL(url).pathname.split('.').pop().replace(/[^a-zA-Z0-9]/g,'')||'jpg';const path=`/images/${p.id}-${i}.${ext}`;await fs.writeFile(`public${path}`,Buffer.from(await r.arrayBuffer()));map.set(url,path);}p.images=p.images.map(u=>map.get(u));p.variants.forEach(v=>v.image=map.get(v.image)||null);}
-await fs.writeFile('public/data/catalog.json',JSON.stringify({updatedAt:new Date().toISOString(),source:base,requested:old.requested,robosourceUpdatedAt:old.robosourceUpdatedAt,robosourceCoverage:old.robosourceCoverage,products:[...products,...old.products.filter(p=>process.argv.includes('--extras-only')?!products.some(n=>n.id===p.id):p.supplier==='Robosource')]},null,2));
+await fs.writeFile('public/data/catalog.json',JSON.stringify({...old,updatedAt:new Date().toISOString(),source:base,products:[...products,...old.products.filter(p=>extrasOnly?!products.some(n=>n.id===p.id):!!p.supplier&&p.supplier!=='Whimsy Tech')]},null,2));
 console.log(`Saved ${products.length} products, ${products.reduce((s,p)=>s+p.variants.length,0)} variants. Missing SKUs: ${products.flatMap(p=>p.variants).filter(v=>!v.sku).length}. Review coverage against requested families.`);
