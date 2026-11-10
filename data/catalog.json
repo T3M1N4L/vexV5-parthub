@@ -6898,6 +6898,138 @@
           "image": "/images/mcmaster-92510A468.png"
         }
       ]
+    },
+    {
+      "id": "mcmaster-90295A638",
+      "title": "Nylon Fender Washer Alternative for #8 Screws — 1.500\" OD, 0.036\" to 0.065\" Thick (10-pack)",
+      "supplier": "McMaster-Carr",
+      "category": "Spacers",
+      "url": "https://www.mcmaster.com/90295A638/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/902/90295A638_f565b4a6-3fbd-4d03-9a46-023a5684b4b7@4x_9maaq_1763400659.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-90295A638.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-90295A638",
+          "title": "Nylon / Off-White / 1.500\" OD / 0.036\" to 0.065\" thick / 10-pack",
+          "sku": "90295A638",
+          "price": 4.73,
+          "packQuantity": 10,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-90295A638.png",
+          "note": "Alternative for #8 screws; material and thickness differ from Whimsy acetal washers."
+        }
+      ],
+      "family": "plastic-fender-washer-alternatives",
+      "specifications": {
+        "Material": "Nylon",
+        "For Screw Size": "No. 8",
+        "ID": "0.188\"",
+        "OD": "1.500\"",
+        "Thickness": "0.036\" to 0.065\"",
+        "Color": "Off-White"
+      }
+    },
+    {
+      "id": "mcmaster-95630A817",
+      "title": "PTFE Fender Washer Alternative for #8 Screws — 1.000\" OD, 0.057\" to 0.067\" Thick (5-pack)",
+      "supplier": "McMaster-Carr",
+      "category": "Spacers",
+      "url": "https://www.mcmaster.com/95630A817/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/956/95630A817_37317e9b-23e5-45a7-9608-01e37d4b2d35@4x_638101016443894383.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-95630A817.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-95630A817",
+          "title": "PTFE / White / 1.000\" OD / 0.057\" to 0.067\" thick / 5-pack",
+          "sku": "95630A817",
+          "price": 10.89,
+          "packQuantity": 5,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-95630A817.png",
+          "note": "Alternative for #8 screws; material and thickness differ from Whimsy acetal washers."
+        }
+      ],
+      "family": "plastic-fender-washer-alternatives",
+      "specifications": {
+        "Material": "PTFE",
+        "For Screw Size": "No. 8",
+        "ID": "0.187\"",
+        "OD": "1.000\"",
+        "Thickness": "0.057\" to 0.067\"",
+        "Color": "White"
+      }
+    },
+    {
+      "id": "mcmaster-95611A226",
+      "title": "PVC Fender Washer Alternative for #8 Screws — 1.000\" OD, 0.053\" to 0.071\" Thick (5-pack)",
+      "supplier": "McMaster-Carr",
+      "category": "Spacers",
+      "url": "https://www.mcmaster.com/95611A226/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/956/95611A226_08b0ac5f-f07a-41b1-8767-c580fcfc65aa@4x_638101106192865324.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-95611A226.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-95611A226",
+          "title": "PVC / Gray / 1.000\" OD / 0.053\" to 0.071\" thick / 5-pack",
+          "sku": "95611A226",
+          "price": 6.2,
+          "packQuantity": 5,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-95611A226.png",
+          "note": "Alternative for #8 screws; material and thickness differ from Whimsy acetal washers."
+        }
+      ],
+      "family": "plastic-fender-washer-alternatives",
+      "specifications": {
+        "Material": "PVC",
+        "For Screw Size": "No. 8",
+        "ID": "0.188\"",
+        "OD": "1.000\"",
+        "Thickness": "0.053\" to 0.071\"",
+        "Color": "Gray"
+      }
+    },
+    {
+      "id": "mcmaster-95630A445",
+      "title": "PTFE Fender Washer Alternative for #8 Screws — 0.750\" OD, 0.027\" to 0.035\" Thick (10-pack)",
+      "supplier": "McMaster-Carr",
+      "category": "Spacers",
+      "url": "https://www.mcmaster.com/95630A445/",
+      "sourceImageUrl": "https://www.mcmaster.com/mvD/Contents/gfx/ImageCache/956/95630A445_cb7c269b-c331-4672-a9da-89daa24277a0@4x_638101012661204934.png?ver=ImageNotFound",
+      "images": [
+        "/images/mcmaster-95630A445.png"
+      ],
+      "variants": [
+        {
+          "id": "mcmaster-95630A445",
+          "title": "PTFE / White / 0.750\" OD / 0.027\" to 0.035\" thick / 10-pack",
+          "sku": "95630A445",
+          "price": 11.15,
+          "packQuantity": 10,
+          "available": true,
+          "options": [],
+          "image": "/images/mcmaster-95630A445.png",
+          "note": "Thinner alternative: 0.027–0.035 inch PTFE, versus Whimsy’s 0.0625 inch acetal. For #8 screws."
+        }
+      ],
+      "family": "plastic-fender-washer-alternatives",
+      "specifications": {
+        "Material": "PTFE",
+        "For Screw Size": "No. 8",
+        "ID": "0.197\"",
+        "OD": "0.750\"",
+        "Thickness": "0.027\" to 0.035\"",
+        "Color": "White"
+      }
     }
   ],
   "vexCoverage": [
@@ -7010,6 +7142,6 @@
       "included": 1
     }
   ],
-  "mcmasterUpdatedAt": "2026-11-09T02:04:46Z",
+  "mcmasterUpdatedAt": "2026-11-10T04:02:47Z",
   "mcmasterSource": "Supplier product pages rendered through https://r.jina.ai/"
 }
